@@ -1,0 +1,40 @@
+{
+  "cSpell.words": [
+    "Ionicons",
+    "Pressable",
+    "a",
+    "alifelived",
+    "appcenter",
+    "automock",
+    "finalised",
+    "gorhom",
+    "howie",
+    "iphonesimulator",
+    "life",
+    "linebreak",
+    "lived",
+    "nent",
+    "passwordreset",
+    "persistor",
+    "reduxjs",
+    "requestpasswordreset",
+    "smoothstreaming",
+    "swiper",
+    "unimodules",
+    "uuidv",
+    "xcodeproj",
+    "xcrun",
+    "xlarge"
+  ],
+  "search.exclude": {
+    "**/node_modules": false,
+    "**/node_modules/**": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -10,7 +10,7 @@ storiesOf('Button', module)
   .addDecorator(getStory => <CenterView children={getStory()} />)
   .add('with text', () => (
     <Button
-      onPress={action('clicked-text')}
+      onPress={action('MAX')}
       children={<Text>{text('Button text', 'Hello Button')}</Text>}
     />
   ))

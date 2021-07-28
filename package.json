@@ -102,5 +102,8 @@
   "eslintIgnore": [
     "node_modules/",
     "lib/"
-  ]
+  ],
+  "dependencies": {
+    "@shopify/restyle": "^1.4.0"
+  }
 }
