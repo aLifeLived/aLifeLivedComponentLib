@@ -7,14 +7,16 @@ import Button from './Button';
 import CenterView from '../centerView/CenterView';
 
 storiesOf('Button', module)
-  .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
+  .addDecorator(getStory => <CenterView children={getStory()} />)
   .add('with text', () => (
-    <Button onPress={action('clicked-text')}>
-      <Text>{text('Button text', 'Hello Button')}</Text>
-    </Button>
+    <Button
+      onPress={action('clicked-text')}
+      children={<Text>{text('Button text', 'Hello Button')}</Text>}
+    />
   ))
   .add('with some emoji', () => (
-    <Button onPress={action('clicked-emoji')}>
-      <Text>😀 😎 👍 💯</Text>
-    </Button>
+    <Button
+      onPress={action('clicked-emoji')}
+      children={<Text>😀 😎 👍 💯</Text>}
+    />
   ));
