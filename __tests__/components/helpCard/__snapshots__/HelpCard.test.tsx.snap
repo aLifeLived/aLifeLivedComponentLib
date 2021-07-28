@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Help card component test  Should render help card correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "margin": 10,
+      "paddingBottom": 10,
+      "paddingTop": 10,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "grey",
+        "fontSize": 10,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    Test title
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "grey",
+        "marginTop": 10,
+      }
+    }
+  >
+    Test sub text
+  </Text>
+</View>
+`;

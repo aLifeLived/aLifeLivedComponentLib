@@ -1,2 +1,4 @@
 import Button from './components/button/Button';
-export { Button };
+import { HelpCard } from './components/helpCard/HelpCard';
+
+export { Button, HelpCard };
