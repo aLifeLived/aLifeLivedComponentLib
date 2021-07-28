@@ -1,17 +1,14 @@
 {
   "name": "@alifelived/react-native-component-lib",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "A component library for a life lived react native",
   "author": {
     "name": "max_ckelly",
     "email": "maxckel@gmail.com"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/aLifeLived/aLifeLivedComponentLib"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/alifelived"
+    "type": "git",
+    "url": "https://github.com/aLifeLived/aLifeLivedComponentLib"
   },
   "scripts": {
     "android": "react-native run-android",
@@ -24,16 +21,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "concurrently": "^6.2.0",
-    "react": "17.0.1",
-    "react-native": "0.64.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
-    "@babel/preset-react": "^7.14.5",
-    "@babel/runtime": "^7.14.8",
-    "@react-native-community/eslint-config": "^3.0.0",
     "@storybook/addon-actions": "^5.3.21",
     "@storybook/addon-knobs": "^5.3.21",
     "@storybook/addon-links": "^5.3.21",
@@ -41,6 +30,14 @@
     "@storybook/addon-ondevice-knobs": "^5.3.25",
     "@storybook/react-native": "^5.3.25",
     "@storybook/react-native-server": "^5.3.23",
+    "concurrently": "^6.2.0",
+    "react": "17.0.1",
+    "react-native": "0.64.2",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/runtime": "^7.14.8",
+    "@react-native-community/eslint-config": "^3.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/jest-native": "^4.0.1",
     "@testing-library/react-hooks": "^7.0.1",

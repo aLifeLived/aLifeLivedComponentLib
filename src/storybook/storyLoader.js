@@ -7,7 +7,7 @@ function loadStories() {
   require('../components/button/Button.stories');
 }
 
-const stories = ['../components/Button/Button.stories'];
+const stories = ['../components/button/Button.stories'];
 
 module.exports = {
   loadStories,
