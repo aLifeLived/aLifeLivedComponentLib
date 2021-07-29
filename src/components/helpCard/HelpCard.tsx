@@ -1,17 +1,17 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-
-// Styles
-import styles from './Styles';
+import { Box } from '../../themes/Box';
+import { Text } from '../../themes/Text';
 
 export const HelpCard: React.FC<{ title: string; subText: string }> = ({
   title,
   subText,
 }) => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.textHeader}>{title}</Text>
-      <Text style={styles.subText}>{subText}</Text>
-    </View>
+    <Box margin="m" borderBottomWidth={1} paddingBottom="s">
+      <Text variant="h3">{title}</Text>
+      <Text variant="caption" marginTop="m">
+        {subText}
+      </Text>
+    </Box>
   );
 };
