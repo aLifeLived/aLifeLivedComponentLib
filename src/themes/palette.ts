@@ -30,7 +30,7 @@ const palette = {
   blue400: '#3297d3',
   blue300: '#5fa8d6',
   blue200: '#8dc0e0',
-  blue100: '#b8d8ec',
+  blue100: '#b8d8c',
 
   grey900: '#292d31', // Primary
   grey800: '#3e4246',
