@@ -7,7 +7,7 @@
     "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
     "strict": true,
     "target": "esnext",
     "module": "commonjs",
