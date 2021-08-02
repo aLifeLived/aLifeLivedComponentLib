@@ -1,6 +1,10 @@
 {
   "name": "@alifelived/react-native-component-lib",
+<<<<<<< HEAD
   "version": "0.0.0-development",
+=======
+  "version": "0.2.0",
+>>>>>>> 1637003 (0.2.0)
   "description": "A component library for a life lived react native",
   "author": {
     "name": "max_ckelly",
