@@ -43,6 +43,8 @@ const palette = {
   grey100: '#eaeaea',
   grey050: '#f4f5f5',
 
+  red: '#f03434',
+
   white: '#ffffff',
   black: '#000000',
 };
@@ -55,6 +57,7 @@ export const ColorThemeLight = {
   primaryMedium: opacity(palette.green200, 0.32),
   primaryHeavy: opacity(palette.green200, 0.64),
   primaryContrast: palette.black,
+  primaryRed: palette.red,
 
   surface: palette.grey050,
   surfaceLight: palette.grey200,
@@ -74,6 +77,7 @@ export const ColorThemeDark = {
   primaryMedium: opacity(palette.green200, 0.32),
   primaryHeavy: opacity(palette.green200, 0.64),
   primaryContrast: palette.black,
+  primaryRed: palette.red,
 
   surface: palette.grey900,
   surfaceLight: palette.grey800,

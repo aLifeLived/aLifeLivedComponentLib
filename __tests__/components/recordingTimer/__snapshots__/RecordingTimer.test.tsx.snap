@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components >> Recording timer Buffering state Should successfully render recording timer in buffering state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Buffering...
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Components >> Recording timer Loading state Should successfully render recording timer in loading state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Loading please wait...
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Components >> Recording timer Playing state Should successfully render recording timer in playing state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      forwardedRef={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#f03434",
+              "borderRadius": 8,
+              "display": "flex",
+              "height": 10,
+              "marginRight": 8,
+              "width": 10,
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Audio Playing
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Components >> Recording timer Ready state Should successfully render recording timer in ready state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Ready
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Components >> Recording timer Recording state Should successfully render recording timer in recording state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      forwardedRef={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#f03434",
+              "borderRadius": 8,
+              "display": "flex",
+              "height": 10,
+              "marginRight": 8,
+              "width": 10,
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Recording
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Components >> Recording timer Stopped state Should successfully render recording timer in stopped state 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    0:00
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+      ]
+    }
+  >
+    <View
+      forwardedRef={[Function]}
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#f03434",
+              "borderRadius": 8,
+              "display": "flex",
+              "height": 10,
+              "marginRight": 8,
+              "width": 10,
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "display": "flex",
+            "fontSize": 16,
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Audio playing
+    </Text>
+  </View>
+</View>
+`;
