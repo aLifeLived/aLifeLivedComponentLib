@@ -10,10 +10,10 @@
     "type": "git",
     "url": "https://github.com/aLifeLived/aLifeLivedComponentLib"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "android": "react-native run-android",
