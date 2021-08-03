@@ -21,6 +21,8 @@
     "node_modules",
     "babel.config.js",
     "metro.config.js",
-    "__tests__/**/*"
+    "__tests__/**/*",
+    "./src/storybook/storyLoader.js",
+    "./src/storybook/index.ts"
   ]
 }
