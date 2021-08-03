@@ -16,11 +16,5 @@
     "skipLibCheck": true
   },
   "include": ["src/**/*", "__mocks__/**/*", "e2e/**/*"],
-  "exclude": [
-    "node_modules",
-    "babel.config.js",
-    "metro.config.js",
-    "jest.config.js",
-    "__tests__/**/*"
-  ]
+  "exclude": ["node_modules", "__tests__/**/*", "./jest/jestSetup.ts"]
 }

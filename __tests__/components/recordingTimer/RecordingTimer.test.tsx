@@ -3,7 +3,6 @@ import { render } from '../../../jest/renderUtil';
 
 // Component
 import { RecordingTimer } from '../../../src/components/recordingTimer/RecordingTimer';
-
 const setup = (timerSeconds: string, isRecording: boolean, status: string) => {
   const utils = render(
     <RecordingTimer
