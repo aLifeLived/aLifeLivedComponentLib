@@ -7,7 +7,7 @@
     "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
     "strict": true,
     "target": "esnext",
     "module": "commonjs",
@@ -16,5 +16,11 @@
     "skipLibCheck": true
   },
   "include": ["src/**/*", "__mocks__/**/*", "e2e/**/*"],
-  "exclude": ["node_modules", "__tests__/**/*", "./jest/jestSetup.ts"]
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "__tests__/**/*"
+  ]
 }

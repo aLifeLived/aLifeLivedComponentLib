@@ -15,7 +15,9 @@
     "ios": "react-native run-ios",
     "start": "concurrently --kill-others \"npm run storybook\" \"react-native start\"",
     "test": "jest",
-    "lint": "eslint .",
+    "lint": "npm run lint:eslint && npm run lint:types",
+    "lint:eslint": "eslint src/ --ext .js,.ts,.tsx",
+    "lint:types": "tsc",
     "prestorybook": "rnstl",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
@@ -43,6 +45,7 @@
     "@types/jest": "^26.0.24",
     "@types/react": "^17.0.15",
     "@types/react-native": "^0.64.12",
+    "@types/react-test-renderer": "^17.0.1",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
     "babel-jest": "^27.0.6",
@@ -98,8 +101,17 @@
     "targets": [
       "commonjs",
       "module",
-      "typescript"
-    ]
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ],
+    "main": "lib/commonjs/index.js",
+    "module": "lib/module/index.js",
+    "react-native": "src/index.ts",
+    "types": "lib/typescript/index.d.ts"
   },
   "eslintIgnore": [
     "node_modules/",

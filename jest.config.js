@@ -2,9 +2,11 @@ module.exports = {
   rootDir: './',
   preset: 'react-native',
   testEnvironment: 'node',
-  setupFilesAfterEnv: ['<rootDir>/__mocks__/globalMock.js'],
+  testMatch: ['<rootDir>/__tests__/**/*.test.{js,jsx,ts,tsx}'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transformIgnorePatterns: ['node_modules/(?!@react-native|react-native)'],
   testPathIgnorePatterns: ['/ios/', '/android/'],
-  watchPathIgnorePatterns: ['<rootDir>/node_modules'],
+  watchPathIgnorePatterns: ['./node_modules'],
+  setupFiles: ['./jest/jestSetup.ts'],
+  setupFilesAfterEnv: ['./jest/jestAfterSetup.ts'],
 };
