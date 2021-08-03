@@ -1,6 +1,6 @@
 import { createTheme as _createTheme } from '@shopify/restyle';
 import { ColorThemeLight, ColorThemeDark } from './palette';
-import { textVariants } from './Text';
+import { textVariants } from './text/Text';
 
 export type Theme = ReturnType<typeof createTheme>;
 export const createTheme = (theme: 'light' | 'dark') =>
