@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/aLifeLived/aLifeLivedComponentLib"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -21,7 +26,27 @@
     "prestorybook": "rnstl",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "prepare": "bob build"
+    "build": "tsc"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test",
+      "pre-commit": "npm run lint"
+    }
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./src",
+        "./packages"
+      ],
+      "pattern": "**/*.stories.tsx",
+      "outputFile": "./src/storybook/storyLoader.js"
+    }
+  },
+  "dependencies": {
+    "@shopify/restyle": "^1.4.0",
+    "react-native-animatable": "^1.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
@@ -67,59 +92,5 @@
     "ts-jest": "^27.0.4",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test",
-      "pre-commit": "npm run lint"
-    }
-  },
-  "config": {
-    "react-native-storybook-loader": {
-      "searchDir": [
-        "./src",
-        "./packages"
-      ],
-      "pattern": "**/*.stories.tsx",
-      "outputFile": "./src/storybook/storyLoader.js"
-    }
-  },
-  "main": "lib/commonjs/index.js",
-  "react-native": "src/index.ts",
-  "module": "lib/module/index.js",
-  "types": "lib/typescript/src/index.d.ts",
-  "files": [
-    "src",
-    "lib",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
-  ],
-  "react-native-builder-bob": {
-    "source": "src",
-    "output": "lib",
-    "types": "lib/typescript/index.d.ts",
-    "files": [
-      "lib/",
-      "src/"
-    ],
-    "targets": [
-      "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
-    ]
-  },
-  "eslintIgnore": [
-    "node_modules/",
-    "lib/"
-  ],
-  "dependencies": {
-    "@shopify/restyle": "^1.4.0",
-    "react-native-animatable": "^1.3.3"
   }
 }

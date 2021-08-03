@@ -7,14 +7,16 @@
     "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
-    "noEmit": true,
+    "noEmit": false,
     "strict": true,
     "target": "esnext",
     "module": "commonjs",
     "checkJs": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "declaration": true
+    "declaration": true,
+    "outDir": "lib",
+    "sourceMap": true
   },
   "include": ["src/**/*", "__mocks__/**/*", "e2e/**/*"],
   "exclude": ["node_modules", "__tests__/**/*", "./jest/jestSetup.ts"]
