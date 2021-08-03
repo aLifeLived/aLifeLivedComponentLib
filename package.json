@@ -107,7 +107,11 @@
           "project": "tsconfig.build.json"
         }
       ]
-    ]
+    ],
+    "main": "lib/typescript/index.ts",
+    "module": "lib/module/index.ts",
+    "react-native": "src/index.ts",
+    "types": "lib/typescript/index.d.ts"
   },
   "eslintIgnore": [
     "node_modules/",
