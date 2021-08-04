@@ -44,7 +44,6 @@ const palette = {
   grey050: '#f4f5f5',
 
   red: '#f03434',
-
   white: '#ffffff',
   black: '#000000',
 };
