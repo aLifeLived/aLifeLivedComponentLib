@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '../../themes/Box';
-import { Text } from '../../themes/Text';
+import { Text } from '../../themes/text/Text';
 
 export const HelpCard: React.FC<{ title: string; subText: string }> = ({
   title,

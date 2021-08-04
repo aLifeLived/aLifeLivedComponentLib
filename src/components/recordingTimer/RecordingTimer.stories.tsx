@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 
 // Component
 import { RecordingTimer } from './RecordingTimer';
-import CenterView from '../centerView/CenterView';
+import { CenterView } from '../centerView/CenterView';
 
 storiesOf('Recording timer', module)
   .addDecorator(Story => <CenterView children={Story()} />)

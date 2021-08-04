@@ -5,7 +5,7 @@ import * as Animatable from 'react-native-animatable';
 
 // Components
 import { Box } from '../../themes/Box';
-import { Text } from '../../themes/Text';
+import { Text } from '../../themes/text/Text';
 
 interface RecordingTimerProps {
   timerSeconds: string;
