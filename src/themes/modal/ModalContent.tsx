@@ -13,11 +13,11 @@ export const ModalContent: React.FC<ModalHeaderProps> = ({
 }) => {
   return (
     <Box m="m" paddingBottom="s" alignContent="center" alignItems="center">
-      <Text variant="h2" fontWeight="bold">
+      <Text variant="h2" fontWeight="bold" textAlign="center" color="surface">
         {header}
       </Text>
       {description && (
-        <Text variant="body" marginTop="m">
+        <Text variant="body" marginTop="m" textAlign="center" color="surface">
           {description}
         </Text>
       )}

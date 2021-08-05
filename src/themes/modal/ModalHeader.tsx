@@ -11,7 +11,7 @@ export const ModalHeader: React.FC<ModalHeaderProps> = ({ onHeaderPress }) => {
   return (
     <Box m="s" alignContent="flex-start" alignItems="flex-start">
       <SystemPressable onPress={() => onHeaderPress()}>
-        <Text variant="h3" fontWeight="bold">
+        <Text variant="h3" fontWeight="bold" color="surface">
           X
         </Text>
       </SystemPressable>

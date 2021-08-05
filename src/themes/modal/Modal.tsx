@@ -13,7 +13,7 @@ export const Modal = ({ onClose, isVisible = false, children }: Props) => {
   return isVisible ? (
     <TouchableWithoutFeedback onPress={() => onClose()}>
       <Box flex={1} width="100%" justifyContent="center">
-        <Box backgroundColor="primaryHeavy" margin="s" borderRadius="medium">
+        <Box backgroundColor="contrastHigh" margin="s" borderRadius="medium">
           {children}
         </Box>
       </Box>
