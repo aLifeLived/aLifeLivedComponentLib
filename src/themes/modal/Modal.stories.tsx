@@ -11,24 +11,80 @@ import { ModalContent } from './ModalContent';
 
 storiesOf('Modal', module)
   .addDecorator(Story => Story())
-  .add('Modal with header only', () => (
-    <Modal onPress={action('Modal action fired')}>
-      <ModalHeader header="This is testing the modal" />
-      <ModalContent header="Test content" />
+  .add('Default', () => (
+    <Modal onClose={action('Modal action fired')} isVisible={true}>
+      <ModalHeader onHeaderPress={action('Header button pressed')} />
+      <ModalContent
+        header="Test content"
+        description="This is the description of the test modal"
+      />
       <ModalFooter>
         <Button
-          title="Test button one"
+          title="Signup"
           onPress={action('Fire on press for button one')}
-          width="50%"
+          width="40%"
           backgroundColor="primary"
           color="primary"
           marginRight="s"
         />
         <Button
-          title="Test button two"
+          title="Login"
           onPress={action('Fire on press for button one')}
-          width="50%"
-          marginLeft="s"
+          width="40%"
+          backgroundColor="primary"
+          color="primary"
+          marginRight="s"
+        />
+      </ModalFooter>
+    </Modal>
+  ))
+  .add('With one cta button', () => (
+    <Modal onClose={action('Modal action fired')} isVisible={true}>
+      <ModalHeader onHeaderPress={action('Header button pressed')} />
+      <ModalContent
+        header="Test content"
+        description="This is the description of the test modal"
+      />
+      <ModalFooter>
+        <Button
+          title="Signup"
+          onPress={action('Fire on press for button one')}
+          width="40%"
+          backgroundColor="primary"
+          color="primary"
+          marginRight="s"
+        />
+      </ModalFooter>
+    </Modal>
+  ))
+  .add('With header and content only', () => (
+    <Modal onClose={action('Modal action fired')} isVisible={true}>
+      <ModalHeader onHeaderPress={action('Header button pressed')} />
+      <ModalContent
+        header="Test content"
+        description="This is the description of the test modal"
+      />
+    </Modal>
+  ))
+  .add('With footer only', () => (
+    <Modal onClose={action('Modal action fired')} isVisible={true}>
+      <ModalHeader onHeaderPress={action('Header button pressed')} />
+      <ModalFooter>
+        <Button
+          title="Signup"
+          onPress={action('Fire on press for button one')}
+          width="40%"
+          backgroundColor="primary"
+          color="primary"
+          marginRight="s"
+        />
+        <Button
+          title="Login"
+          onPress={action('Fire on press for button one')}
+          width="40%"
+          backgroundColor="primary"
+          color="primary"
+          marginRight="s"
         />
       </ModalFooter>
     </Modal>

@@ -7,13 +7,7 @@ type ModalHeaderProps = {
 
 export const ModalFooter: React.FC<ModalHeaderProps> = props => {
   return (
-    <Box
-      margin="m"
-      flexDirection="row"
-      alignContent="center"
-      alignItems="center"
-      alignSelf="center"
-    >
+    <Box margin="m" flexDirection="row" alignSelf="center" flexWrap="wrap">
       {props.children}
     </Box>
   );
