@@ -18,7 +18,7 @@ const palette = {
   green500: '#34BAA7',
   green400: '#42C6B6',
   green300: '#60D2C5',
-  green200: '#8DE0D6', // Primary
+  green200: '#0FCFA6', // Primary
   green100: '#BAEBE6',
   green050: '#E3F7F6',
 
@@ -32,7 +32,7 @@ const palette = {
   blue200: '#8dc0e0',
   blue100: '#b8d8c',
 
-  grey900: '#292d31', // Primary
+  grey900: '#252424', // Primary
   grey800: '#3e4246',
   grey700: '#54575a',
   grey600: '#696c6f',
@@ -44,7 +44,6 @@ const palette = {
   grey050: '#f4f5f5',
 
   red: '#f03434',
-
   white: '#ffffff',
   black: '#000000',
 };
