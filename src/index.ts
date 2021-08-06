@@ -6,6 +6,5 @@ import { SignupModal } from './components/signupModal/SignupModal';
 
 // UI
 import { Box } from './themes/Box';
-import { Text } from './themes/text/Text';
 
-export { HelpCard, ThemeProvider, Box, Text, RecordingTimer, SignupModal };
+export { HelpCard, ThemeProvider, Box, RecordingTimer, SignupModal };
