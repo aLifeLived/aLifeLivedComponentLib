@@ -19,6 +19,7 @@ export const Modal = ({ onClose, isVisible = false, children }: Props) => {
         position="absolute"
         bottom={0}
         top={0}
+        zIndex="foregroundTop"
       >
         <Box backgroundColor="contrastHigh" margin="s" borderRadius="medium">
           {children}
