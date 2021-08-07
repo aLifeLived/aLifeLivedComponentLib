@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component >> signupModal Modal is NOT visible not render modal 1`] = `null`;
+
+exports[`component >> signupModal Modal is visible Should render signup modal correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+        "zIndex": 100,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#252424",
+          "borderRadius": 8,
+          "display": "flex",
+          "margin": 8,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "flex-start",
+            "alignItems": "flex-start",
+            "display": "flex",
+            "margin": 8,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          X
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "display": "flex",
+            "margin": 16,
+            "paddingBottom": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#f4f5f5",
+              "display": "flex",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "lineHeight": 30,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Welcome!
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#f4f5f5",
+              "display": "flex",
+              "fontSize": 16,
+              "lineHeight": 20,
+              "marginTop": 16,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        To access all of A Life Lived please login or signup
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "margin": 16,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#0FCFA6",
+            "borderRadius": 8,
+            "marginRight": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Signup
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#0FCFA6",
+            "borderRadius": 8,
+            "marginLeft": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "50%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
