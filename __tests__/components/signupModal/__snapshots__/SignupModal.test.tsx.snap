@@ -115,7 +115,7 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
           ]
         }
       >
-        Welcome!
+        Welcome! 👋
       </Text>
       <Text
         style={

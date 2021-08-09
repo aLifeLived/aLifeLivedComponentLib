@@ -24,7 +24,7 @@ export const SignupModal: React.FC<SignupModalProps> = ({
     <Modal onClose={() => onClose()} isVisible={isVisible}>
       <ModalHeader onHeaderPress={() => onClose()} />
       <ModalContent
-        header="Welcome!"
+        header="Welcome! 👋"
         description="To access all of A Life Lived please login or signup"
       />
       <ModalFooter>
