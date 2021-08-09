@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> Modal Render modal as visible with children Should render modal correctly with children 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "bottom": 0,
+        "display": "flex",
+        "flex": 1,
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": 0,
+        "width": "100%",
+        "zIndex": 100,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#252424",
+          "borderRadius": 8,
+          "display": "flex",
+          "margin": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "display": "flex",
+          },
+        ]
+      }
+    >
+      This is the children of the modal
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`themes >> Modal Should not render modal Should NOT render modal 1`] = `null`;
