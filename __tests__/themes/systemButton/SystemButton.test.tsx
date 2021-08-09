@@ -19,7 +19,7 @@ const setup = () => {
 
 describe('themes >> systemButton', () => {
   describe('Render system button', () => {
-    test('Should render modal system correctly with children', () => {
+    test('Should render system button correctly with children', () => {
       const { toJSON } = setup();
       expect(toJSON()).toMatchSnapshot();
     });

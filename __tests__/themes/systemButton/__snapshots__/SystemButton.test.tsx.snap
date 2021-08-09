@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`themes >> systemButton Render system button Should render modal system correctly with children 1`] = `
+exports[`themes >> systemButton Render system button Should render system button correctly with children 1`] = `
 <View
   accessible={true}
   focusable={false}
