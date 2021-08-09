@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> Modal Content Render modal content with NO description  Should render modal correctly with ONLY header 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "display": "flex",
+        "margin": 16,
+        "paddingBottom": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#f4f5f5",
+          "display": "flex",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "lineHeight": 30,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    This is the modal content
+  </Text>
+</View>
+`;
+
+exports[`themes >> Modal Content Render modal content with header and description Should render modal correctly with header and description 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "display": "flex",
+        "margin": 16,
+        "paddingBottom": 8,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#f4f5f5",
+          "display": "flex",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "lineHeight": 30,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    This is the modal content
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#f4f5f5",
+          "display": "flex",
+          "fontSize": 16,
+          "lineHeight": 20,
+          "marginTop": 16,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    This is the description of the modal content
+  </Text>
+</View>
+`;

@@ -7,7 +7,6 @@ import { NoCtaModal } from '../../../src/components/noCtaModal/NoCtaModal';
 const mockOnClose = jest.fn();
 
 const setup = (isVisible = true) => {
-  // Screen
   const utils = render(
     <NoCtaModal
       isVisible={isVisible}

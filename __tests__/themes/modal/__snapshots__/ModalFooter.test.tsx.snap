@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> ModalFooter Render modal footer Should render modal footer correctly with children 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "margin": 16,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "display": "flex",
+        },
+      ]
+    }
+  >
+    Modal Footer!
+  </Text>
+</View>
+`;
