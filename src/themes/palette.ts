@@ -43,6 +43,7 @@ const palette = {
   grey100: '#eaeaea',
   grey050: '#f4f5f5',
 
+  seeThrew: 'rgba(0,0,0,.5)',
   red: '#f03434',
   white: '#ffffff',
   black: '#000000',
@@ -61,6 +62,7 @@ export const ColorThemeLight = {
   surface: palette.grey050,
   surfaceLight: palette.grey200,
   surfaceHeavy: palette.grey300,
+  surfaceVisible: palette.seeThrew,
 
   contrastHighest: palette.black,
   contrastHigh: palette.grey900,
@@ -78,6 +80,7 @@ export const ColorThemeDark = {
   primaryContrast: palette.black,
   primaryRed: palette.red,
 
+  surfaceVisible: palette.seeThrew,
   surface: palette.grey900,
   surfaceLight: palette.grey800,
   surfaceHeavy: palette.grey700,
