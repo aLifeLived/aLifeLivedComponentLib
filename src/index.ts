@@ -4,6 +4,7 @@ import { ThemeProvider } from './themes/ThemeProvider';
 import { RecordingTimer } from './components/recordingTimer/RecordingTimer';
 import { SignupModal } from './components/signupModal/SignupModal';
 import { NoCtaModal } from './components/noCtaModal/NoCtaModal';
+import { EditAndDeleteBottomSheet } from './components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet';
 
 // UI
 import { Box } from './themes/Box';
@@ -17,4 +18,5 @@ export {
   RecordingTimer,
   SignupModal,
   NoCtaModal,
+  EditAndDeleteBottomSheet,
 };
