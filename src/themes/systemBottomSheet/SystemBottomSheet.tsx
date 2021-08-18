@@ -7,11 +7,13 @@ import { AnimatedBox } from '../../themes/animatedBox/AnimatedBox';
 
 type BottomSheetType = {
   isVisible: boolean;
+  onClose: () => void;
   children: React.ReactNode;
 };
 
 export const SystemBottomSheet: React.FC<BottomSheetType> = ({
   isVisible,
+  onClose,
   children,
 }) => {
   const animatedValue = new Animated.Value(isVisible ? 1 : 0);
@@ -33,14 +35,6 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
       outputRange: [0, 1],
       extrapolate: 'clamp',
     }),
-  };
-
-  const handleClose = () => {
-    Animated.timing(animation, {
-      toValue: 0,
-      duration: 200,
-      useNativeDriver: true,
-    }).start();
   };
 
   const slideUp = {
@@ -82,9 +76,10 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
           {children}
           <Button
             title="Close"
-            onPress={() => handleClose()}
+            onPress={() => onClose()}
             backgroundColor="surface"
             marginTop="l"
+            marginBottom="m"
           />
         </Box>
       </AnimatedBox>
