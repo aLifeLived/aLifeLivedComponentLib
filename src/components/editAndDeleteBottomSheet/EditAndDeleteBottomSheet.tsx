@@ -12,7 +12,7 @@ type EditAndDeleteBottomSheetTypes = {
 export const EditAndDeleteBottomSheet: React.FC<EditAndDeleteBottomSheetTypes> =
   ({ isVisible, onRemoveStoryPress, onEditStoryPress, onClose }) => {
     return (
-      <SystemBottomSheet isVisible={isVisible} onClose={onClose}>
+      <SystemBottomSheet isVisible={isVisible} onClose={() => onClose()}>
         <Button
           title="Edit story"
           onPress={() => onEditStoryPress()}
