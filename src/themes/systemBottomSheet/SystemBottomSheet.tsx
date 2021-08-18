@@ -25,6 +25,7 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
       top={0}
       justifyContent="flex-end"
       backgroundColor="surfaceVisible"
+      zIndex="foregroundTop"
     >
       <Box
         justifyContent="flex-end"

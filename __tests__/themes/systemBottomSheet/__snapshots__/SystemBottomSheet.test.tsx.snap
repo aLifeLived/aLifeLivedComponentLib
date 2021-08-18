@@ -15,6 +15,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
         "position": "absolute",
         "right": 0,
         "top": 0,
+        "zIndex": 100,
       },
     ]
   }
@@ -92,6 +93,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
         "position": "absolute",
         "right": 0,
         "top": 0,
+        "zIndex": 100,
       },
     ]
   }
