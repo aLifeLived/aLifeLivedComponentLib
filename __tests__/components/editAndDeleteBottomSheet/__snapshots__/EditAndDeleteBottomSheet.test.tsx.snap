@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components >> EditAndDeleteBottomSheet Bottom sheet should not be visible Should match snapshot 1`] = `null`;
+
+exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should render bottom sheet correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00000000",
+        "bottom": 0,
+        "display": "flex",
+        "justifyContent": "flex-end",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,.5)",
+        "bottom": 0,
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "borderTopLeftRadius": 16,
+            "borderTopRightRadius": 16,
+            "display": "flex",
+            "flex": 1,
+            "justifyContent": "flex-end",
+            "paddingBottom": 8,
+            "paddingTop": 24,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#0FCFA6",
+            "borderRadius": 8,
+            "marginBottom": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Edit story
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#f03434",
+            "borderRadius": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Remove story
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#f4f5f5",
+            "borderRadius": 8,
+            "marginTop": 24,
+            "opacity": 1,
+            "padding": 16,
+            "width": "90%",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "display": "flex",
+                "fontSize": 16,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          Close
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
