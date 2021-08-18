@@ -1,29 +1,49 @@
 import React from 'react';
 import { SystemBottomSheet } from '../../../src/themes/systemBottomSheet/SystemBottomSheet';
-import { render } from '../../../jest/renderUtil';
+import { fireEvent, render } from '../../../jest/renderUtil';
 import { Text } from '../../../src/themes/text/Text';
 
+const mockOnClose = jest.fn();
+
 describe('themes >> systemBottomSheet', () => {
+  beforeEach(() => mockOnClose.mockClear());
   describe('Should render systemBottomSheet box with no children', () => {
     test('Render snapshot correctly', () => {
       const { toJSON } = render(
-        <SystemBottomSheet isVisible={true}>{}</SystemBottomSheet>
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
       );
       expect(toJSON()).toMatchSnapshot();
     });
 
     test('Should find close button', () => {
       const { getByText } = render(
-        <SystemBottomSheet isVisible={true}>{}</SystemBottomSheet>
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
       );
       expect(getByText('Close')).not.toBeNull();
+    });
+
+    test('Should fire onClose()', () => {
+      const { getByText } = render(
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
+      );
+
+      fireEvent.press(getByText('Close'));
+      expect(mockOnClose).toBeCalledTimes(1);
     });
   });
 
   describe('Should NOT render systemBottomSheet', () => {
     test('Should not render bottom sheet', () => {
       const { toJSON } = render(
-        <SystemBottomSheet isVisible={false}>{}</SystemBottomSheet>
+        <SystemBottomSheet isVisible={false} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
       );
       expect(toJSON()).toMatchSnapshot();
     });
@@ -32,7 +52,7 @@ describe('themes >> systemBottomSheet', () => {
   describe('Should render systemBottomSheet with children', () => {
     test('Should render bottom sheet with text', () => {
       const { toJSON } = render(
-        <SystemBottomSheet isVisible={true}>
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
           <Text>Hi there</Text>
         </SystemBottomSheet>
       );
@@ -41,7 +61,7 @@ describe('themes >> systemBottomSheet', () => {
 
     test('Should find text', () => {
       const { getByText } = render(
-        <SystemBottomSheet isVisible={true}>
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
           <Text>Hi there</Text>
         </SystemBottomSheet>
       );
@@ -50,9 +70,22 @@ describe('themes >> systemBottomSheet', () => {
 
     test('Should find close button', () => {
       const { getByText } = render(
-        <SystemBottomSheet isVisible={true}>{}</SystemBottomSheet>
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
       );
       expect(getByText('Close')).not.toBeNull();
+    });
+
+    test('Should fire onClose() with children', () => {
+      const { getByText } = render(
+        <SystemBottomSheet isVisible={true} onClose={mockOnClose}>
+          {}
+        </SystemBottomSheet>
+      );
+
+      fireEvent.press(getByText('Close'));
+      expect(mockOnClose).toBeCalledTimes(1);
     });
   });
 });
