@@ -143,6 +143,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
           Object {
             "backgroundColor": "#f4f5f5",
             "borderRadius": 8,
+            "marginBottom": 16,
             "marginTop": 24,
             "opacity": 1,
             "padding": 16,
