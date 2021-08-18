@@ -68,6 +68,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
           Object {
             "backgroundColor": "#f4f5f5",
             "borderRadius": 8,
+            "marginBottom": 16,
             "marginTop": 24,
             "opacity": 1,
             "padding": 16,
@@ -174,6 +175,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
           Object {
             "backgroundColor": "#f4f5f5",
             "borderRadius": 8,
+            "marginBottom": 16,
             "marginTop": 24,
             "opacity": 1,
             "padding": 16,

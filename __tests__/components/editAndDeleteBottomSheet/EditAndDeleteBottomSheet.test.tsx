@@ -4,12 +4,14 @@ import { EditAndDeleteBottomSheet } from '../../../src/components/editAndDeleteB
 
 const mockRemoveStoryPress = jest.fn();
 const mockEditStoryPress = jest.fn();
+const mockOnClose = jest.fn();
 
 describe('components >> EditAndDeleteBottomSheet', () => {
   describe('Bottom sheet visible', () => {
     test('Should render bottom sheet correctly', () => {
       const { toJSON } = render(
         <EditAndDeleteBottomSheet
+          onClose={mockOnClose}
           isVisible={true}
           onRemoveStoryPress={mockRemoveStoryPress}
           onEditStoryPress={mockEditStoryPress}
@@ -21,6 +23,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
     test('Should get button titles', () => {
       const { getByText } = render(
         <EditAndDeleteBottomSheet
+          onClose={mockOnClose}
           isVisible={true}
           onRemoveStoryPress={mockRemoveStoryPress}
           onEditStoryPress={mockEditStoryPress}
@@ -33,6 +36,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
     test('Should fire onRemoveStoryPress()', () => {
       const { getByText } = render(
         <EditAndDeleteBottomSheet
+          onClose={mockOnClose}
           isVisible={true}
           onRemoveStoryPress={mockRemoveStoryPress}
           onEditStoryPress={mockEditStoryPress}
@@ -46,6 +50,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
     test('Should fire onEditStoryPress()', () => {
       const { getByText } = render(
         <EditAndDeleteBottomSheet
+          onClose={mockOnClose}
           isVisible={true}
           onRemoveStoryPress={mockRemoveStoryPress}
           onEditStoryPress={mockEditStoryPress}
@@ -61,6 +66,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
     test('Should match snapshot', () => {
       const { toJSON } = render(
         <EditAndDeleteBottomSheet
+          onClose={mockOnClose}
           isVisible={false}
           onRemoveStoryPress={mockRemoveStoryPress}
           onEditStoryPress={mockEditStoryPress}
