@@ -10,6 +10,7 @@ storiesOf('Bottom sheet', module)
   .add('Edit and delete bottom sheet', () => (
     <EditAndDeleteBottomSheet
       isVisible={true}
+      onClose={action('On close press')}
       onRemoveStoryPress={action('Remove story press')}
       onEditStoryPress={action('Edit story press')}
     />
