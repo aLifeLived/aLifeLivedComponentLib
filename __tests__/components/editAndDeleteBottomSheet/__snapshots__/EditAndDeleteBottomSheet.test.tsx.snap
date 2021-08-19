@@ -49,7 +49,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#0FCFA6",
+          "backgroundColor": "#f4f5f5",
           "borderRadius": 8,
           "marginBottom": 8,
           "opacity": 1,
@@ -87,7 +87,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#f03434",
+          "backgroundColor": "#f4f5f5",
           "borderRadius": 8,
           "opacity": 1,
           "padding": 16,
@@ -99,7 +99,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#f03434",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "600",
@@ -109,7 +109,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
           ]
         }
       >
-        Remove story
+        Delete story
       </Text>
     </View>
     <View

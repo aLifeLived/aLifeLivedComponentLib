@@ -10,12 +10,14 @@ interface IButtonProps {
   onPress: () => void;
   isDisabled?: boolean;
   variant?: 'cta';
+  color?: string;
 }
 
 export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
   title,
   onPress,
   isDisabled,
+  color,
   ...rest
 }) => {
   return (
@@ -28,7 +30,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
       disabled={isDisabled}
       {...rest}
     >
-      <Text variant="default" fontWeight="600" textAlign="center">
+      <Text variant="default" fontWeight="600" textAlign="center" color={color}>
         {title}
       </Text>
     </SystemButton>
