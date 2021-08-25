@@ -14,12 +14,9 @@ import { CenterView } from '../centerView/CenterView';
 storiesOf('Button', module)
   .addDecorator(Story => <CenterView>{Story()}</CenterView>)
   .add('Default button', () => (
-    <>
-      <FontAwesome icon={BrandIcons.youtube} />
-      <Button
-        title="Test button"
-        onPress={action('Button on press fired')}
-        width="50%"
-      />
-    </>
+    <Button
+      title="Test button"
+      onPress={action('Button on press fired')}
+      width="50%"
+    />
   ));
