@@ -32,21 +32,58 @@ exports[`themes >> ModalHeader Render modal header Should render modal header co
       ]
     }
   >
-    <Text
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight={16}
+      bbWidth={16}
+      fill="#f4f5f5"
+      focusable={false}
+      height={16}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      secondaryFill={null}
+      secondaryOpacity={0.4}
       style={
         Array [
           Object {
-            "color": "#f4f5f5",
-            "display": "flex",
-            "fontSize": 16,
-            "fontWeight": "bold",
-            "lineHeight": 24,
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {},
+          Object {
+            "flex": 0,
+            "height": 16,
+            "width": 16,
           },
         ]
       }
+      testID="modal-close-icon"
+      vbHeight={512}
+      vbWidth={352}
+      width={16}
     >
-      X
-    </Text>
+      <RNSVGGroup
+        fill={4294243829}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          fill={4294243829}
+          fillOpacity={1}
+          propList={
+            Array [
+              "fill",
+              "fillOpacity",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
   </View>
 </View>
 `;
