@@ -37,8 +37,8 @@ describe('component >> noCtaModal', () => {
     });
 
     test('Should fire modal close', () => {
-      const { getByText } = setup();
-      fireEvent.press(getByText('X'));
+      const { getByTestId } = setup();
+      fireEvent.press(getByTestId('modal-close-icon'));
       expect(mockOnClose).toBeCalledTimes(1);
     });
   });
