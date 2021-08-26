@@ -13,9 +13,11 @@ import {
 } from '@shopify/restyle';
 import { FontAwesomeIcon, Props } from '@fortawesome/react-native-fontawesome';
 import { Theme } from '../theme';
+import { ViewProps } from 'react-native';
 
 export type StyledIconProps = TextProps<Theme> &
   Props &
+  ViewProps &
   SpacingProps<Theme> &
   BorderProps<Theme> &
   BackgroundColorProps<Theme> &
