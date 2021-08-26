@@ -1,11 +1,6 @@
 import React from 'react';
 
 import { storiesOf } from '@storybook/react-native';
-import FontAwesome, {
-  SolidIcons,
-  RegularIcons,
-  BrandIcons,
-} from 'react-native-fontawesome';
 // Component
 import { Button } from './Button';
 import { action } from '@storybook/addon-actions';

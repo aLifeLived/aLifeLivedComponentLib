@@ -1,0 +1,48 @@
+import {
+  faCheckSquare,
+  faCoffee,
+  faHome,
+  faChevronLeft,
+  faMicrophone,
+  faMicrophoneAlt,
+  faAssistiveListeningSystems,
+  faUser,
+  faPlay,
+  faPause,
+  faTimes,
+  faSearch,
+  faExclamationCircle,
+  faCheckCircle,
+  faChevronDown,
+  faChevronRight,
+  faPlusCircle,
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faBookmark,
+  faHeart,
+  faClock,
+} from '@fortawesome/free-regular-svg-icons';
+
+export const iconList = {
+  faCheckSquare,
+  faCoffee,
+  faHome,
+  faChevronLeft,
+  faMicrophone,
+  faMicrophoneAlt,
+  faAssistiveListeningSystems,
+  faUser,
+  faClock,
+  faPlay,
+  faPause,
+  faTimes,
+  faHeart,
+  faSearch,
+  faBookmark,
+  faExclamationCircle,
+  faCheckCircle,
+  faChevronDown,
+  faChevronRight,
+  faPlusCircle,
+};
+export type Icons = keyof typeof iconList;
