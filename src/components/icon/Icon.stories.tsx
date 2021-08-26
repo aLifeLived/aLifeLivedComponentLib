@@ -32,6 +32,6 @@ storiesOf('Icon', module)
       <Icon icon="search" margin="s" />
       <Icon icon="exclamation-circle" margin="s" color="primaryRed" />
       <Icon icon="check-circle" margin="s" color="primary" />
-      <Icon icon="plus-circle" margin="s" />
+      <Icon icon="plus-circle" margin="s" color="primary" />
     </>
   ));

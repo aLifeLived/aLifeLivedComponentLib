@@ -16,14 +16,20 @@ import {
   faChevronDown,
   faChevronRight,
   faPlusCircle,
-} from '@fortawesome/free-solid-svg-icons';
-import {
   faBookmark,
   faHeart,
   faClock,
+} from '@fortawesome/free-solid-svg-icons';
+import {
+  faBookmark as farBookmark,
+  faHeart as farHeart,
+  faClock as farClock,
 } from '@fortawesome/free-regular-svg-icons';
 
 export const iconList = {
+  farBookmark,
+  farHeart,
+  farClock,
   faCheckSquare,
   faCoffee,
   faHome,
