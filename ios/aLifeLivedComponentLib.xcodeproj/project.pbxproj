@@ -12,10 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4C67C289B43B86DB62E25CED /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94710474169B82DB1171209E /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C673095C69DC498F880A55D9 /* libPods-aLifeLivedComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E458F21404759A66CB91B6D /* libPods-aLifeLivedComponentLib.a */; };
 		6EA54FD910B2465BA3DDFC32 /* FontAwesome5BrandsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E936B4F2CC0441F19345A7BE /* FontAwesome5BrandsRegular.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		943305EB330D4127956158B6 /* FontAwesome5FreeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71C7C9FBE1B541D287CA79E8 /* FontAwesome5FreeRegular.ttf */; };
+		C673095C69DC498F880A55D9 /* libPods-aLifeLivedComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E458F21404759A66CB91B6D /* libPods-aLifeLivedComponentLib.a */; };
 		C8F8BD8963BF45A7A4C36EAA /* FontAwesome5FreeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF9EFA70BEF42428EDC5B20 /* FontAwesome5FreeSolid.ttf */; };
 /* End PBXBuildFile section */
 
@@ -41,15 +41,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = aLifeLivedComponentLib/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = aLifeLivedComponentLib/main.m; sourceTree = "<group>"; };
 		2E458F21404759A66CB91B6D /* libPods-aLifeLivedComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aLifeLivedComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C7C9FBE1B541D287CA79E8 /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeRegular.ttf; path = ../src/assets/icons/FontAwesome5FreeRegular.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = aLifeLivedComponentLib/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		924F5761040C808D7B73ED37 /* Pods-aLifeLivedComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aLifeLivedComponentLib.release.xcconfig"; path = "Target Support Files/Pods-aLifeLivedComponentLib/Pods-aLifeLivedComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 		94710474169B82DB1171209E /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF34FD04E0EE908353D50369 /* Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.debug.xcconfig"; path = "Target Support Files/Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests/Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E936B4F2CC0441F19345A7BE /* FontAwesome5BrandsRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5BrandsRegular.ttf; path = ../src/assets/icons/FontAwesome5BrandsRegular.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F1CE842B312FD6601DDF666E /* Pods-aLifeLivedComponentLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aLifeLivedComponentLib.debug.xcconfig"; path = "Target Support Files/Pods-aLifeLivedComponentLib/Pods-aLifeLivedComponentLib.debug.xcconfig"; sourceTree = "<group>"; };
-		E936B4F2CC0441F19345A7BE /* FontAwesome5BrandsRegular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5BrandsRegular.ttf"; path = "../src/assets/icons/FontAwesome5BrandsRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71C7C9FBE1B541D287CA79E8 /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5FreeRegular.ttf"; path = "../src/assets/icons/FontAwesome5FreeRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FAF9EFA70BEF42428EDC5B20 /* FontAwesome5FreeSolid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5FreeSolid.ttf"; path = "../src/assets/icons/FontAwesome5FreeSolid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAF9EFA70BEF42428EDC5B20 /* FontAwesome5FreeSolid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeSolid.ttf; path = ../src/assets/icons/FontAwesome5FreeSolid.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,15 +157,15 @@
 			sourceTree = "<group>";
 		};
 		D4ED9889F70B4095A8AFDFAD /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				E936B4F2CC0441F19345A7BE /* FontAwesome5BrandsRegular.ttf */,
 				71C7C9FBE1B541D287CA79E8 /* FontAwesome5FreeRegular.ttf */,
 				FAF9EFA70BEF42428EDC5B20 /* FontAwesome5FreeSolid.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
