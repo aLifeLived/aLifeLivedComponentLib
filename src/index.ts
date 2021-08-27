@@ -1,3 +1,5 @@
+import { library } from '@fortawesome/fontawesome-svg-core';
+
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
 import { ThemeProvider } from './themes/ThemeProvider';
@@ -10,6 +12,9 @@ import { Icon } from './components/icon/Icon';
 // UI
 import { Box } from './themes/Box';
 import { Text } from './themes/text/Text';
+import { iconList } from './themes/systemIcon/IconList';
+
+library.add(iconList);
 
 export {
   Icon,
