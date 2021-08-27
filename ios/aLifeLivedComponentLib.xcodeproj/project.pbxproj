@@ -114,7 +114,6 @@
 				CF34FD04E0EE908353D50369 /* Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.debug.xcconfig */,
 				0309C7FE10AC06BE9776CE99 /* Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +133,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				39A11DD191B7B3501D8C610A /* Pods */,
+				D4ED9889F70B4095A8AFDFAD /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +147,13 @@
 				00E356EE1AD99517003FC87E /* aLifeLivedComponentLibTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D4ED9889F70B4095A8AFDFAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

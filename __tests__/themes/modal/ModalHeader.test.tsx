@@ -22,8 +22,8 @@ describe('themes >> ModalHeader', () => {
     });
 
     test('Should fire onHeaderPress()', () => {
-      const { getByText } = setup();
-      fireEvent.press(getByText('X'));
+      const { getByTestId } = setup();
+      fireEvent.press(getByTestId('modal-close-icon'));
       expect(mockOnHeaderPress).toBeCalledTimes(1);
     });
   });

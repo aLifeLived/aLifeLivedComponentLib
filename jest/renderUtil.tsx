@@ -1,6 +1,10 @@
 import React from 'react';
 import { ThemeProvider } from '../src/themes/ThemeProvider';
 import { render as rtlRender } from '@testing-library/react-native';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { iconList } from '../src/themes/systemIcon/IconList';
+
+library.add(iconList);
 
 function render(ui, { ...renderOptions } = {}) {
   function Wrapper({ children }) {
