@@ -1,6 +1,7 @@
 import { createTheme as _createTheme } from '@shopify/restyle';
 import { ColorThemeLight, ColorThemeDark } from './palette';
 import { textVariants } from './text/Text';
+import { imageVariants } from './systemImage/SystemImage';
 
 export type Theme = ReturnType<typeof createTheme>;
 export const createTheme = (theme: 'light' | 'dark') =>
@@ -23,6 +24,7 @@ export const createTheme = (theme: 'light' | 'dark') =>
       xlarge: 24,
     },
     textVariants,
+    imageVariants,
     zIndices: {
       foregroundTop: 100,
       foregroundMiddle: 90,
