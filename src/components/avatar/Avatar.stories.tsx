@@ -3,7 +3,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react-native';
 // Component
 import { Avatar } from './Avatar';
-import { action } from '@storybook/addon-actions';
 import { CenterView } from '../centerView/CenterView';
 
 storiesOf('Avatar', module)
