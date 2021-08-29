@@ -20,6 +20,7 @@ import { Theme } from '../theme';
 export const imageVariants = {
   square: {},
   default: {
+    borderRadius: 30,
     fontSize: 16,
     lineHeight: 24,
     color: 'contrastHighest',
