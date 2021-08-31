@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react-native';
+
 // Component
 import { Icon } from './Icon';
 import { Box } from '../../themes/Box';
@@ -33,5 +34,40 @@ storiesOf('Icon', module)
       <Icon icon="exclamation-circle" margin="s" color="primaryRed" />
       <Icon icon="check-circle" margin="s" color="primary" />
       <Icon icon="plus-circle" margin="s" color="primary" />
+    </>
+  ))
+  .add('Pressable icons', () => (
+    <>
+      <Icon icon="play" margin="s" onPress={action('Play icon pressed')} />
+      <Icon icon="pause" margin="s" onPress={action('Pause icon pressed')} />
+      <Icon icon="times" margin="s" onPress={action('Times icon pressed')} />
+      <Icon
+        icon={['far', 'heart']}
+        margin="s"
+        color="primaryRed"
+        onPress={action('Heart icon pressed')}
+      />
+      <Icon
+        icon={['fas', 'heart']}
+        margin="s"
+        color="primaryRed"
+        onPress={action('Heart icon pressed')}
+      />
+      <Icon
+        icon={['far', 'bookmark']}
+        margin="s"
+        onPress={action('Bookmark icon pressed')}
+      />
+      <Icon
+        icon={['fas', 'bookmark']}
+        margin="s"
+        onPress={action('Bookmark icon pressed')}
+      />
+      <Icon
+        icon="plus-circle"
+        margin="s"
+        color="primary"
+        onPress={action('Plus icon pressed')}
+      />
     </>
   ));
