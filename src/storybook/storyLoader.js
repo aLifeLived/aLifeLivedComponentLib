@@ -4,6 +4,7 @@
 // https://github.com/elderfo/react-native-storybook-loader.git
 
 function loadStories() {
+  require('../components/avatar/Avatar.stories');
   require('../components/button/Button.stories');
   require('../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories');
   require('../components/helpCard/HelpCard.stories');
@@ -17,6 +18,7 @@ function loadStories() {
 }
 
 const stories = [
+  '../components/avatar/Avatar.stories',
   '../components/button/Button.stories',
   '../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories',
   '../components/helpCard/HelpCard.stories',
