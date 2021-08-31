@@ -31,7 +31,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
   hasUserLikedStory,
 }) => {
   return (
-    <SystemButton onPress={onPress}>
+    <SystemButton onPress={() => onPress()}>
       <Box
         flexDirection="row"
         alignContent="center"
@@ -43,25 +43,29 @@ export const StoryCard: React.FC<StoryCardProps> = ({
         paddingBottom="s"
         marginBottom="m"
       >
-        <Box>
-          <Box width="90%">
+        <Box width="90%">
+          <Box>
             <Text variant="h3" fontWeight="bold" numberOfLines={1}>
               {story.title}
             </Text>
           </Box>
           <Box flexDirection="row" alignItems="center" marginTop="s">
-            <Icon
-              icon={[hasUserLikedStory ? 'fas' : 'far', 'heart']}
-              color="primaryRed"
-              onPress={onLikePress}
-            />
-            <Text variant="body" marginLeft="s" marginRight="s">
-              {story.likes}
-            </Text>
-            <Icon icon={['far', 'clock']} color="primaryContrast" />
-            <Text variant="body" marginLeft="s">
-              {story.duration}
-            </Text>
+            <Box flexDirection="row" alignItems="center" width="20%">
+              <Icon
+                icon={[hasUserLikedStory ? 'fas' : 'far', 'heart']}
+                color="primaryRed"
+                onPress={onLikePress}
+              />
+              <Text variant="body" marginLeft="s">
+                {story.likes}
+              </Text>
+            </Box>
+            <Box flexDirection="row" alignItems="center" marginLeft="s">
+              <Icon icon={['far', 'clock']} color="primaryContrast" />
+              <Text variant="body" marginLeft="s">
+                {story.duration}
+              </Text>
+            </Box>
           </Box>
         </Box>
         <Icon

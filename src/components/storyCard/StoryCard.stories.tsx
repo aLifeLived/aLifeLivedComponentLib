@@ -9,21 +9,21 @@ const storyData = [
   {
     id: 'test-story-one',
     title: 'Test title',
-    duration: '20:00',
-    likes: 10,
+    duration: '25:00',
+    likes: 0,
   },
   {
     id: 'test-story-two',
-    title: 'Test title',
-    duration: '20:00',
-    likes: 10,
+    title: 'This is a longer test title hey there',
+    duration: '01:00',
+    likes: 1500,
   },
   {
     id: 'test-story-three',
     title:
-      'This is a long title story, so we can see how it looks with a really long title! The more I type the I hope it mess up the story card design',
-    duration: '20:00',
-    likes: 10,
+      'This is a long title story, lets make this one go for ages! Hello there. I have the high ground',
+    duration: '60:00',
+    likes: 15,
   },
 ];
 
