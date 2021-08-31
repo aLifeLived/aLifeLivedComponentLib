@@ -14,20 +14,25 @@ import {
   VariantProps,
 } from '@shopify/restyle';
 import React from 'react';
-import { Image, ImageProps } from 'react-native';
+import FastImage, { FastImageProps } from 'react-native-fast-image';
 import { Theme } from '../theme';
 
 export const imageVariants = {
-  square: {},
-  default: {
-    borderRadius: 30,
-    fontSize: 16,
-    lineHeight: 24,
-    color: 'contrastHighest',
+  squareAvatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 'medium',
+    border: 'red',
+    borderWidth: 1,
+  },
+  roundAvatar: {
+    width: 50,
+    height: 50,
+    borderRadius: 'xXXlarge',
   },
 };
 
-export type StyledImageProps = ImageProps &
+export type StyledImageProps = FastImageProps &
   SpacingProps<Theme> &
   LayoutProps<Theme> &
   BorderProps<Theme> &
@@ -46,5 +51,5 @@ export const SystemImage = createRestyleComponent<StyledImageProps, Theme>(
     color,
     createVariant({ themeKey: 'imageVariants' }),
   ],
-  Image
+  FastImage
 );

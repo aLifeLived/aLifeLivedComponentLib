@@ -23,6 +23,8 @@ export const createTheme = (theme: 'light' | 'dark') =>
       medium: 8,
       large: 16,
       xlarge: 24,
+      xXlarge: 48,
+      xXXlarge: 96,
     },
     textVariants,
     imageVariants,
