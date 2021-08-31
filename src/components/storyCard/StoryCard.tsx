@@ -19,6 +19,9 @@ type StoryCardProps = {
     title: string;
     likes: number;
     duration: string;
+    interviewer: {
+      username: string;
+    };
   };
 };
 
@@ -41,16 +44,24 @@ export const StoryCard: React.FC<StoryCardProps> = ({
         justifyContent="space-between"
         borderBottomWidth={0.5}
         paddingBottom="s"
-        marginBottom="m"
+        marginBottom="l"
+        marginTop="s"
       >
-        <Box width="90%">
+        <Box width="80%">
           <Box>
-            <Text variant="h3" fontWeight="bold" numberOfLines={1}>
+            <Text variant="default" fontWeight="bold" numberOfLines={1}>
               {story.title}
             </Text>
           </Box>
+
           <Box flexDirection="row" alignItems="center" marginTop="s">
-            <Box flexDirection="row" alignItems="center" width="20%">
+            <Box flexDirection="row" alignItems="center" width="25%">
+              <Icon icon={['far', 'clock']} color="primaryContrast" />
+              <Text variant="body" marginLeft="s">
+                {story.duration}
+              </Text>
+            </Box>
+            <Box flexDirection="row" alignItems="center" marginLeft="s">
               <Icon
                 icon={[hasUserLikedStory ? 'fas' : 'far', 'heart']}
                 color="primaryRed"
@@ -60,20 +71,32 @@ export const StoryCard: React.FC<StoryCardProps> = ({
                 {story.likes}
               </Text>
             </Box>
-            <Box flexDirection="row" alignItems="center" marginLeft="s">
-              <Icon icon={['far', 'clock']} color="primaryContrast" />
-              <Text variant="body" marginLeft="s">
-                {story.duration}
-              </Text>
-            </Box>
+          </Box>
+
+          <Box
+            backgroundColor="primary"
+            alignSelf="flex-start"
+            marginTop="s"
+            padding="xs"
+            borderRadius="medium"
+            paddingLeft="s"
+            paddingRight="s"
+          >
+            <Text variant="caption" color="contrastHighest">
+              Children
+            </Text>
           </Box>
         </Box>
-        <Icon
-          icon={[hasUserBookmarkedStory ? 'fas' : 'far', 'bookmark']}
-          marginLeft="m"
-          color="primaryContrast"
-          onPress={onBookmarkPress}
-        />
+
+        <Box flexDirection="row" alignItems="center" marginLeft="s">
+          <Icon icon={'user'} color="primaryContrast" />
+          <Icon
+            icon={[hasUserBookmarkedStory ? 'fas' : 'far', 'bookmark']}
+            marginLeft="m"
+            color="primaryContrast"
+            onPress={onBookmarkPress}
+          />
+        </Box>
       </Box>
     </SystemButton>
   );

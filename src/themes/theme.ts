@@ -7,6 +7,7 @@ export const createTheme = (theme: 'light' | 'dark') =>
   _createTheme({
     colors: theme === 'light' ? ColorThemeLight : ColorThemeDark,
     spacing: {
+      xs: 2,
       s: 8,
       m: 16,
       l: 24,
