@@ -4,6 +4,7 @@ import React from 'react';
 import { Box } from '../../themes/Box';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { Text } from '../../themes/text/Text';
+import { Avatar } from '../avatar/Avatar';
 
 // Types
 import { Icon } from '../icon/Icon';
@@ -19,9 +20,8 @@ type StoryCardProps = {
     title: string;
     likes: number;
     duration: string;
-    interviewer: {
-      username: string;
-    };
+    avatar: string;
+    topic: string;
   };
 };
 
@@ -66,6 +66,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
                 icon={[hasUserLikedStory ? 'fas' : 'far', 'heart']}
                 color="primaryRed"
                 onPress={onLikePress}
+                testID="story-card-heart-icon"
               />
               <Text variant="body" marginLeft="s">
                 {story.likes}
@@ -82,18 +83,28 @@ export const StoryCard: React.FC<StoryCardProps> = ({
             paddingLeft="s"
             paddingRight="s"
           >
-            <Text variant="caption" color="contrastHighest">
-              Children
+            <Text variant="caption" color="contrastHighest" numberOfLines={1}>
+              {story.topic}
             </Text>
           </Box>
         </Box>
 
         <Box flexDirection="row" alignItems="center" marginLeft="s">
-          <Icon icon={'user'} color="primaryContrast" />
+          <Avatar
+            source={{ uri: story.avatar, priority: 'normal' }}
+            variant="roundAvatar"
+            width={30}
+            height={30}
+            iconBorderRadius="xXXlarge"
+            iconSize={20}
+            iconWidth={30}
+            iconHeight={30}
+          />
           <Icon
             icon={[hasUserBookmarkedStory ? 'fas' : 'far', 'bookmark']}
             marginLeft="m"
             color="primaryContrast"
+            testID="story-card-bookmark-icon"
             onPress={onBookmarkPress}
           />
         </Box>

@@ -11,18 +11,16 @@ const storyData = [
     title: 'Test title',
     duration: '25:00',
     likes: 0,
-    interviewer: {
-      username: 'test user name',
-    },
+    avatar: 'https://picsum.photos/id/237/200/300',
+    topic: 'Ancestry',
   },
   {
     id: 'test-story-two',
     title: 'This is a longer test title hey there',
     duration: '01:00',
     likes: 1500,
-    interviewer: {
-      username: 'test user name',
-    },
+    avatar: 'https://picsum.photos/id/237/200/300',
+    topic: 'Children',
   },
   {
     id: 'test-story-three',
@@ -30,9 +28,9 @@ const storyData = [
       'This is a long title story, lets make this one go for ages! Hello there. I have the high ground. Hello there again',
     duration: '60:00',
     likes: 15,
-    interviewer: {
-      username: 'test user a long user name see how it goes',
-    },
+    avatar: '',
+    topic:
+      'Test a really really really long topic title that is so long it breaks',
   },
 ];
 
