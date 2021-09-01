@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components >> avatar  Round avatar Should render icon correctly when no source 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 96,
+        "borderWidth": 1,
+        "display": "flex",
+        "height": 50,
+        "justifyContent": "center",
+        "padding": 16,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={30}
+    bbWidth={30}
+    fill="#000"
+    focusable={false}
+    height={30}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {},
+        Object {
+          "flex": 0,
+          "height": 30,
+          "width": 30,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={30}
+  >
+    <RNSVGGroup
+      fill={4278190080}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+        fill={4278190080}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components >> avatar  Round avatar Should render round avatar correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Array [
+        Object {
+          "borderRadius": 96,
+          "height": 50,
+          "width": 50,
+        },
+      ],
+    ]
+  }
+>
+  <FastImageView
+    resizeMode="center"
+    source={
+      Object {
+        "priority": "normal",
+        "uri": "https://picsum.photos/id/237/200/300",
+      }
+    }
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`components >> avatar  Square avatar Should render icon correctly when no source 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "display": "flex",
+        "height": 50,
+        "justifyContent": "center",
+        "padding": 16,
+        "width": 50,
+      },
+    ]
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={30}
+    bbWidth={30}
+    fill="#000"
+    focusable={false}
+    height={30}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    secondaryFill={null}
+    secondaryOpacity={0.4}
+    size={30}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        Object {},
+        Object {
+          "flex": 0,
+          "height": 30,
+          "width": 30,
+        },
+      ]
+    }
+    vbHeight={512}
+    vbWidth={448}
+    width={30}
+  >
+    <RNSVGGroup
+      fill={4278190080}
+      propList={
+        Array [
+          "fill",
+        ]
+      }
+    >
+      <RNSVGPath
+        d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+        fill={4278190080}
+        fillOpacity={1}
+        propList={
+          Array [
+            "fill",
+            "fillOpacity",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`components >> avatar  Square avatar Should render square avatar correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Array [
+        Object {
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "height": 50,
+          "width": 50,
+        },
+      ],
+    ]
+  }
+>
+  <FastImageView
+    resizeMode="center"
+    source={
+      Object {
+        "priority": "normal",
+        "uri": "https://picsum.photos/id/237/200/300",
+      }
+    }
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;
