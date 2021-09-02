@@ -18,7 +18,7 @@ export const Icon: React.FC<IconProps & StyledIconProps> = ({
   ...rest
 }) => {
   return onPress ? (
-    <SystemButton onPress={() => onPress()}>
+    <SystemButton onPress={() => onPress()} zIndex="foregroundTop">
       <SystemIcon icon={icon} color={color} {...rest} />
     </SystemButton>
   ) : (

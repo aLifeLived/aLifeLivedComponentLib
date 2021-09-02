@@ -3,6 +3,7 @@ import {
   BackgroundColorProps,
   border,
   BorderProps,
+  BoxProps,
   color,
   ColorProps,
   createRestyleComponent,
@@ -17,6 +18,7 @@ import { Theme } from '../theme';
 
 export type StyledOpacityProps = TouchableOpacityProps &
   SpacingProps<Theme> &
+  BoxProps<Theme> &
   LayoutProps<Theme> &
   BorderProps<Theme> &
   BackgroundColorProps<Theme> &
