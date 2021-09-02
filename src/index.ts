@@ -8,6 +8,7 @@ import { SignupModal } from './components/signupModal/SignupModal';
 import { NoCtaModal } from './components/noCtaModal/NoCtaModal';
 import { EditAndDeleteBottomSheet } from './components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet';
 import { Icon } from './components/icon/Icon';
+import { StoryCard } from './components/storyCard/StoryCard';
 
 // UI
 import { Box } from './themes/Box';
@@ -17,6 +18,7 @@ import { iconList } from './themes/systemIcon/IconList';
 library.add(iconList);
 
 export {
+  StoryCard,
   Icon,
   HelpCard,
   ThemeProvider,
