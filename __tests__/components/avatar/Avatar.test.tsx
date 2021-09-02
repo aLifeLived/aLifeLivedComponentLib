@@ -1,5 +1,5 @@
 import React from 'react';
-import { Priority, ResizeMode } from 'react-native-fast-image';
+import { Priority } from 'react-native-fast-image';
 import { render } from './../../../jest/renderUtil';
 
 // Component
@@ -12,15 +12,20 @@ const setup = (
   },
   variant: 'roundAvatar' | 'squareAvatar',
   iconBorderRadius?: 'medium' | 'xXXlarge',
-  resizeMode?: ResizeMode
+  iconHeight = 50,
+  iconWidth = 50,
+  iconSize = 30
 ) => {
   // Screen
   const utils = render(
     <Avatar
       source={source}
-      resizeMode={resizeMode}
+      resizeMode="center"
       variant={variant}
       iconBorderRadius={iconBorderRadius}
+      iconHeight={iconHeight}
+      iconWidth={iconWidth}
+      iconSize={iconSize}
     />
   );
 

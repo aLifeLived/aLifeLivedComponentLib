@@ -10,6 +10,9 @@ import { Icon } from '../icon/Icon';
 type AvatarProps = {
   iconBorderRadius?: 'xXXlarge' | 'medium';
   resizeMode?: ResizeMode;
+  iconWidth?: number;
+  iconHeight?: number;
+  iconSize?: number;
   source: {
     uri: string;
     priority: Priority;
@@ -18,22 +21,25 @@ type AvatarProps = {
 
 export const Avatar: React.FC<AvatarProps & StyledImageProps> = ({
   source,
-  resizeMode = 'center',
+  resizeMode = 'cover',
   variant,
   iconBorderRadius,
+  iconWidth,
+  iconHeight,
+  iconSize,
   ...rest
 }) => {
   return !source.uri ? (
     <Box
       borderWidth={1}
       padding="m"
-      width={50}
-      height={50}
+      width={iconWidth}
+      height={iconHeight}
       borderRadius={iconBorderRadius}
       alignItems="center"
       justifyContent="center"
     >
-      <Icon icon="user" size={30} />
+      <Icon icon="user" size={iconSize} />
     </Box>
   ) : (
     <SystemImage
