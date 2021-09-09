@@ -15,13 +15,17 @@ import { Avatar } from './components/avatar/Avatar';
 import { Box } from './themes/Box';
 import { Text } from './themes/text/Text';
 import { iconList } from './themes/systemIcon/IconList';
+import { BlurLayout } from './themes/systemBlurLayout/SystemBlurLayout';
+import { useTheme } from './themes/hooks/useTheme';
 
 library.add(iconList);
 
 export {
   StoryCard,
   Avatar,
+  useTheme,
   Icon,
+  BlurLayout,
   HelpCard,
   ThemeProvider,
   Box,
