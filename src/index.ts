@@ -9,6 +9,7 @@ import { NoCtaModal } from './components/noCtaModal/NoCtaModal';
 import { EditAndDeleteBottomSheet } from './components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet';
 import { Icon } from './components/icon/Icon';
 import { StoryCard } from './components/storyCard/StoryCard';
+import { Avatar } from './components/avatar/Avatar';
 
 // UI
 import { Box } from './themes/Box';
@@ -19,6 +20,7 @@ library.add(iconList);
 
 export {
   StoryCard,
+  Avatar,
   Icon,
   HelpCard,
   ThemeProvider,
