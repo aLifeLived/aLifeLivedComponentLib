@@ -10,6 +10,7 @@ import { EditAndDeleteBottomSheet } from './components/editAndDeleteBottomSheet/
 import { Icon } from './components/icon/Icon';
 import { StoryCard } from './components/storyCard/StoryCard';
 import { Avatar } from './components/avatar/Avatar';
+import { MiniPlayer } from './components/miniPlayer/MiniPlayer';
 
 // UI
 import { Box } from './themes/Box';
@@ -25,6 +26,7 @@ export {
   Avatar,
   useTheme,
   Icon,
+  MiniPlayer,
   BlurLayout,
   HelpCard,
   ThemeProvider,
