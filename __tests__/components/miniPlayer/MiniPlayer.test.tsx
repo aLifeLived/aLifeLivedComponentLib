@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent } from './../../../jest/renderUtil';
 
 // Component
-import { MiniPlayer } from '../../../src/components/miniplayer/MiniPlayer';
+import { MiniPlayer } from '../../../src/components/miniPlayer/MiniPlayer';
 
 const mockOnAudioPause = jest.fn();
 const mockOnAudioPlay = jest.fn();
