@@ -63,6 +63,7 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             variant="squareAvatar"
             height={40}
             width={40}
+            iconBorderRadius="medium"
           />
           <Box width="90%" marginLeft="s">
             <Text color="surface" fontWeight="bold" numberOfLines={1}>
