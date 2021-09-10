@@ -11,12 +11,21 @@ import { Text } from '../../themes/text/Text';
 import { BlurLayout } from '../../themes/systemBlurLayout/SystemBlurLayout';
 import { useTheme } from '../../themes/hooks/useTheme';
 
+type PlayerStateType =
+  | 'loading'
+  | 'ready'
+  | 'buffering'
+  | 'playing'
+  | 'paused'
+  | 'idle'
+  | 'recording';
+
 type MiniPlayerTypes = {
   isDisabled: boolean;
   title: string;
   username: string;
   avatar: string;
-  playerState: 'idle' | 'playing' | 'paused';
+  playerState: PlayerStateType;
   onAudioPause: () => void;
   onAudioPlay: () => void;
   onMiniPlayerPress: () => void | null;
@@ -64,6 +73,7 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             height={40}
             width={40}
             iconBorderRadius="medium"
+            testID="miniPlayer-avatar"
           />
           <Box width="90%" marginLeft="s">
             <Text color="surface" fontWeight="bold" numberOfLines={1}>

@@ -1,0 +1,1403 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should render component correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 40,
+                "width": 40,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "normal",
+              "uri": "https://picsum.photos/id/237/200/300",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="miniPlayer-avatar"
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render component correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 40,
+                "width": 40,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "normal",
+              "uri": "https://picsum.photos/id/237/200/300",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="miniPlayer-avatar"
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`component >> miniPlayer Mini player NOT PLAYING Should render component correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 40,
+                "width": 40,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "normal",
+              "uri": "https://picsum.photos/id/237/200/300",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="miniPlayer-avatar"
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`component >> miniPlayer Mini player PLAYING Should render component correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "overflow": "hidden",
+            },
+            Array [
+              Object {
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "height": 40,
+                "width": 40,
+              },
+            ],
+          ]
+        }
+      >
+        <FastImageView
+          resizeMode="cover"
+          source={
+            Object {
+              "priority": "normal",
+              "uri": "https://picsum.photos/id/237/200/300",
+            }
+          }
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          testID="miniPlayer-avatar"
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`component >> miniPlayer Mini player with NO profile image while NOT PLAYING Should render component correctly NOT PLAYING 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 40,
+              "justifyContent": "center",
+              "padding": 16,
+              "width": 40,
+            },
+          ]
+        }
+        testID="miniPlayer-avatar"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={16}
+          bbWidth={16}
+          fill="#000"
+          focusable={false}
+          height={16}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          secondaryFill={null}
+          secondaryOpacity={0.4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {},
+              Object {
+                "flex": 0,
+                "height": 16,
+                "width": 16,
+              },
+            ]
+          }
+          vbHeight={512}
+          vbWidth={448}
+          width={16}
+        >
+          <RNSVGGroup
+            fill={4278190080}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+              fill={4278190080}
+              fillOpacity={1}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`component >> miniPlayer Mini player with NO profile image while PLAYING Should render component correctly NOT PLAYING 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 8,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+          "marginLeft": 8,
+          "marginRight": 8,
+          "padding": 8,
+        },
+      ]
+    }
+  >
+    <BlurView
+      blurAmount={1}
+      blurType="dark"
+      bottom={0}
+      left={0}
+      position="absolute"
+      reducedTransparencyFallbackColor="#252424"
+      right={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Array [
+            Object {
+              "borderRadius": 8,
+            },
+          ],
+        ]
+      }
+      top={0}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "width": "70%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "display": "flex",
+              "height": 40,
+              "justifyContent": "center",
+              "padding": 16,
+              "width": 40,
+            },
+          ]
+        }
+        testID="miniPlayer-avatar"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={16}
+          bbWidth={16}
+          fill="#000"
+          focusable={false}
+          height={16}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          secondaryFill={null}
+          secondaryOpacity={0.4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {},
+              Object {
+                "flex": 0,
+                "height": 16,
+                "width": 16,
+              },
+            ]
+          }
+          vbHeight={512}
+          vbWidth={448}
+          width={16}
+        >
+          <RNSVGGroup
+            fill={4278190080}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+              fill={4278190080}
+              fillOpacity={1}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 8,
+              "width": "90%",
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#f4f5f5",
+                "display": "flex",
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          This is a test story title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#d4d5d6",
+                "display": "flex",
+                "fontSize": 14,
+                "lineHeight": 18,
+                "marginTop": 8,
+              },
+            ]
+          }
+        >
+          test_username
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginRight": 8,
+          "opacity": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={25}
+        bbWidth={25}
+        fill="#f4f5f5"
+        focusable={false}
+        height={25}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={25}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 25,
+              "width": 25,
+            },
+          ]
+        }
+        testID="play-icon"
+        vbHeight={512}
+        vbWidth={448}
+        width={25}
+      >
+        <RNSVGGroup
+          fill={4294243829}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z"
+            fill={4294243829}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</View>
+`;
