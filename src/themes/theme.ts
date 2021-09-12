@@ -13,6 +13,8 @@ export const createTheme = (theme: 'light' | 'dark') =>
       m: 16,
       l: 24,
       xl: 40,
+      xxl: 60,
+      bottomNavBar: 160,
     },
     breakpoints: {
       phone: 0,
