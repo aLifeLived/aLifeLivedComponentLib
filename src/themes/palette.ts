@@ -59,10 +59,11 @@ export const ColorThemeLight = {
   primaryContrast: palette.black,
   primaryRed: palette.red,
 
-  surface: palette.grey050,
-  surfaceLight: palette.grey200,
-  surfaceHeavy: palette.grey300,
   surfaceVisible: palette.seeThrew,
+  surfaceLightest: palette.white,
+  surfaceLight: palette.grey200,
+  surface: palette.grey050,
+  surfaceHeavy: palette.grey300,
 
   contrastHighest: palette.black,
   contrastHigh: palette.grey900,
@@ -81,8 +82,9 @@ export const ColorThemeDark = {
   primaryRed: palette.red,
 
   surfaceVisible: palette.seeThrew,
-  surface: palette.grey900,
+  surfaceLightest: palette.white,
   surfaceLight: palette.grey800,
+  surface: palette.grey900,
   surfaceHeavy: palette.grey700,
 
   contrastHighest: palette.white,

@@ -30,6 +30,10 @@ export const imageVariants = {
     height: 50,
     borderRadius: 'xXXlarge',
   },
+  noBorderRadiusAvatar: {
+    width: 50,
+    height: 50,
+  },
 };
 
 export type StyledImageProps = FastImageProps &

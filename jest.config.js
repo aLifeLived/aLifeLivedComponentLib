@@ -1,6 +1,6 @@
 module.exports = {
   rootDir: './',
-  preset: 'react-native',
+  preset: 'jest-expo',
   testEnvironment: 'node',
   testMatch: ['<rootDir>/__tests__/**/*.test.{js,jsx,ts,tsx}'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],

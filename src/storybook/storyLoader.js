@@ -9,6 +9,7 @@ function loadStories() {
   require('../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories');
   require('../components/helpCard/HelpCard.stories');
   require('../components/icon/Icon.stories');
+  require('../components/miniPlayer/MiniPlayer.stories');
   require('../components/noCtaModal/NoCtaModal.stories');
   require('../components/recordingTimer/RecordingTimer.stories');
   require('../components/signupModal/SignupModal.stories');
@@ -24,6 +25,7 @@ const stories = [
   '../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories',
   '../components/helpCard/HelpCard.stories',
   '../components/icon/Icon.stories',
+  '../components/miniPlayer/MiniPlayer.stories',
   '../components/noCtaModal/NoCtaModal.stories',
   '../components/recordingTimer/RecordingTimer.stories',
   '../components/signupModal/SignupModal.stories',

@@ -38,6 +38,7 @@ export const Avatar: React.FC<AvatarProps & StyledImageProps> = ({
       borderRadius={iconBorderRadius}
       alignItems="center"
       justifyContent="center"
+      {...rest}
     >
       <Icon icon="user" size={iconSize} />
     </Box>
