@@ -1,7 +1,7 @@
 import React from 'react';
 
 // UI
-import {} from '../../themes/box/Box';
+import { Box } from '../../themes/box/Box';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { Text } from '../../themes/text/Text';
 import { Avatar } from '../avatar/Avatar';
