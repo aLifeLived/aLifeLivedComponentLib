@@ -33,6 +33,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           "paddingBottom": 8,
           "width": "90%",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -43,6 +46,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             "display": "flex",
             "width": "80%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -52,6 +58,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             Object {
               "display": "flex",
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -81,6 +90,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
               "flexDirection": "row",
               "marginTop": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -93,6 +105,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
                 "flexDirection": "row",
                 "width": "25%",
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -172,6 +187,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
                 "flexDirection": "row",
                 "marginLeft": 8,
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -274,6 +292,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
               "paddingLeft": 8,
               "paddingRight": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -303,6 +324,9 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             "flexDirection": "row",
             "marginLeft": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -450,6 +474,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           "paddingBottom": 8,
           "width": "90%",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -460,6 +487,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             "display": "flex",
             "width": "80%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -469,6 +499,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             Object {
               "display": "flex",
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -498,6 +531,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
               "flexDirection": "row",
               "marginTop": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -510,6 +546,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
                 "flexDirection": "row",
                 "width": "25%",
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -589,6 +628,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
                 "flexDirection": "row",
                 "marginLeft": 8,
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -691,6 +733,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
               "paddingLeft": 8,
               "paddingRight": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -720,6 +765,9 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             "flexDirection": "row",
             "marginLeft": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -867,6 +915,9 @@ exports[`components >> story card  Story card with NO profile image and render i
           "paddingBottom": 8,
           "width": "90%",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -877,6 +928,9 @@ exports[`components >> story card  Story card with NO profile image and render i
             "display": "flex",
             "width": "80%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -886,6 +940,9 @@ exports[`components >> story card  Story card with NO profile image and render i
             Object {
               "display": "flex",
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -915,6 +972,9 @@ exports[`components >> story card  Story card with NO profile image and render i
               "flexDirection": "row",
               "marginTop": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -927,6 +987,9 @@ exports[`components >> story card  Story card with NO profile image and render i
                 "flexDirection": "row",
                 "width": "25%",
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -1006,6 +1069,9 @@ exports[`components >> story card  Story card with NO profile image and render i
                 "flexDirection": "row",
                 "marginLeft": 8,
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -1108,6 +1174,9 @@ exports[`components >> story card  Story card with NO profile image and render i
               "paddingLeft": 8,
               "paddingRight": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1137,6 +1206,9 @@ exports[`components >> story card  Story card with NO profile image and render i
             "flexDirection": "row",
             "marginLeft": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -1153,6 +1225,9 @@ exports[`components >> story card  Story card with NO profile image and render i
               "padding": 16,
               "width": 30,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1318,6 +1393,9 @@ exports[`components >> story card  Story card with profile image Should render s
           "paddingBottom": 8,
           "width": "90%",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -1328,6 +1406,9 @@ exports[`components >> story card  Story card with profile image Should render s
             "display": "flex",
             "width": "80%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -1337,6 +1418,9 @@ exports[`components >> story card  Story card with profile image Should render s
             Object {
               "display": "flex",
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1366,6 +1450,9 @@ exports[`components >> story card  Story card with profile image Should render s
               "flexDirection": "row",
               "marginTop": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1378,6 +1465,9 @@ exports[`components >> story card  Story card with profile image Should render s
                 "flexDirection": "row",
                 "width": "25%",
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -1457,6 +1547,9 @@ exports[`components >> story card  Story card with profile image Should render s
                 "flexDirection": "row",
                 "marginLeft": 8,
               },
+              Array [
+                Object {},
+              ],
             ]
           }
         >
@@ -1559,6 +1652,9 @@ exports[`components >> story card  Story card with profile image Should render s
               "paddingLeft": 8,
               "paddingRight": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1588,6 +1684,9 @@ exports[`components >> story card  Story card with profile image Should render s
             "flexDirection": "row",
             "marginLeft": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >

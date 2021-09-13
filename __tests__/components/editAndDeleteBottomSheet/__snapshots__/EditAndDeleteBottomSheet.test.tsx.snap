@@ -17,6 +17,9 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
         "top": 0,
         "zIndex": 100,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -34,6 +37,9 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
           "paddingBottom": 8,
           "paddingTop": 24,
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >

@@ -66,6 +66,9 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -113,6 +116,9 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -288,6 +294,9 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -335,6 +344,9 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -510,6 +522,9 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -557,6 +572,9 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -732,6 +750,9 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -779,6 +800,9 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -954,6 +978,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -970,6 +997,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
               "padding": 16,
               "width": 40,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
         testID="miniPlayer-avatar"
@@ -1033,6 +1063,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
@@ -1208,6 +1241,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
             "flexDirection": "row",
             "width": "75%",
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -1224,6 +1260,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
               "padding": 16,
               "width": 40,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
         testID="miniPlayer-avatar"
@@ -1287,6 +1326,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
               "display": "flex",
               "marginLeft": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
