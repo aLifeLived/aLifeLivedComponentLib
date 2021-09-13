@@ -48,7 +48,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
             {description}
           </Text>
           <Box flexDirection="row" marginTop="s" alignItems="center">
-            <Icon icon={['far', 'clock']} />
+            <Icon icon={['far', 'clock']} testID="clock-icon" />
             <Text color="primary" variant="caption" marginLeft="s">
               {duration} mins
             </Text>
@@ -61,6 +61,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
             color="primary"
             marginRight="m"
             size={20}
+            testID="checked-icon"
           />
         )}
       </Box>
