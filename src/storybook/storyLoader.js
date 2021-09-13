@@ -14,6 +14,7 @@ function loadStories() {
   require('../components/recordingTimer/RecordingTimer.stories');
   require('../components/signupModal/SignupModal.stories');
   require('../components/storyCard/StoryCard.stories');
+  require('../components/topicCard/TopicCard.stories');
   require('../themes/modal/Modal.stories');
   require('../themes/systemBottomSheet/SystemBottomSheet.stories');
   require('../themes/text/Text.stories');
@@ -30,6 +31,7 @@ const stories = [
   '../components/recordingTimer/RecordingTimer.stories',
   '../components/signupModal/SignupModal.stories',
   '../components/storyCard/StoryCard.stories',
+  '../components/topicCard/TopicCard.stories',
   '../themes/modal/Modal.stories',
   '../themes/systemBottomSheet/SystemBottomSheet.stories',
   '../themes/text/Text.stories',
