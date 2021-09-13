@@ -44,15 +44,15 @@ export const TopicCard: React.FC<TopicCardProps> = ({
           >
             {title}
           </Text>
+          <Text marginTop="s" variant="caption" numberOfLines={1}>
+            {description}
+          </Text>
           <Box flexDirection="row" marginTop="s" alignItems="center">
             <Icon icon={['far', 'clock']} />
             <Text color="primary" variant="caption" marginLeft="s">
               {duration} mins
             </Text>
           </Box>
-          <Text marginTop="s" variant="caption" numberOfLines={1}>
-            {description}
-          </Text>
         </Box>
 
         {hasUserCompleted && (
