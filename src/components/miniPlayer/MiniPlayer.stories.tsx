@@ -7,7 +7,7 @@ import { text, boolean, select } from '@storybook/addon-knobs';
 import { MiniPlayer } from './MiniPlayer';
 
 // UI
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 
 storiesOf('MiniPlayer', module)
   .addDecorator(Story => (

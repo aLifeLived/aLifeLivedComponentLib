@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react-native';
 
 // Component
 import { Avatar } from './Avatar';
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 
 storiesOf('Avatar', module)
   .addDecorator(Story => (

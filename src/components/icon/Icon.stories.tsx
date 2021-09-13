@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react-native';
 
 // Component
 import { Icon } from './Icon';
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 
 storiesOf('Icon', module)
   .addDecorator(Story => (

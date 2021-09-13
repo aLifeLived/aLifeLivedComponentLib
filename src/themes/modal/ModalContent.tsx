@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '../Box';
+import { Box } from '../box/Box';
 import { Text } from '../text/Text';
 
 type ModalHeaderProps = {

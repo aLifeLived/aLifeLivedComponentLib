@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '../../themes/Box';
+import { Box } from '../box/Box';
 import { Button } from '../../components/button/Button';
 
 type BottomSheetType = {

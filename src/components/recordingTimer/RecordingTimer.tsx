@@ -4,7 +4,7 @@ import React from 'react';
 import * as Animatable from 'react-native-animatable';
 
 // Components
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 import { Text } from '../../themes/text/Text';
 
 interface RecordingTimerProps {

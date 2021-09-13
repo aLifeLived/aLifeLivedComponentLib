@@ -13,7 +13,7 @@ import { Avatar } from './components/avatar/Avatar';
 import { MiniPlayer } from './components/miniPlayer/MiniPlayer';
 
 // UI
-import { Box } from './themes/Box';
+import { Box } from './themes/box/Box';
 import { Text } from './themes/text/Text';
 import { iconList } from './themes/systemIcon/IconList';
 import { BlurLayout } from './themes/systemBlurLayout/SystemBlurLayout';
