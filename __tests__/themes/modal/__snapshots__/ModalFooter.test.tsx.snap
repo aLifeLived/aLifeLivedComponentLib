@@ -10,6 +10,9 @@ exports[`themes >> ModalFooter Render modal footer Should render modal footer co
         "flexDirection": "row",
         "margin": 16,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >

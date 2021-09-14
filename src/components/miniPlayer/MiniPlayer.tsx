@@ -5,7 +5,7 @@ import { Avatar } from '../avatar/Avatar';
 import { Icon } from '../icon/Icon';
 
 // UI
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { BlurLayout } from '../../themes/systemBlurLayout/SystemBlurLayout';
 import { Text } from '../../themes/text/Text';

@@ -11,6 +11,9 @@ exports[`themes >> Modal Content Render modal content with NO description  Shoul
         "margin": 16,
         "paddingBottom": 8,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -44,6 +47,9 @@ exports[`themes >> Modal Content Render modal content with header and descriptio
         "margin": 16,
         "paddingBottom": 8,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >

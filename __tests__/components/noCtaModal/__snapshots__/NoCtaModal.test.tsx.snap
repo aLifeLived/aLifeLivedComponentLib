@@ -16,6 +16,9 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
         "width": "100%",
         "zIndex": 100,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -37,6 +40,9 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
           "display": "flex",
           "margin": 8,
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -49,6 +55,9 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
             "display": "flex",
             "margin": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >
@@ -135,6 +144,9 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
             "margin": 16,
             "paddingBottom": 8,
           },
+          Array [
+            Object {},
+          ],
         ]
       }
     >

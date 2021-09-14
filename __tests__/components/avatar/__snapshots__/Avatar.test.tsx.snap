@@ -14,6 +14,9 @@ exports[`components >> avatar  Round avatar Should render icon correctly when no
         "padding": 16,
         "width": 50,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -124,6 +127,9 @@ exports[`components >> avatar  Square avatar Should render icon correctly when n
         "padding": 16,
         "width": 50,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >

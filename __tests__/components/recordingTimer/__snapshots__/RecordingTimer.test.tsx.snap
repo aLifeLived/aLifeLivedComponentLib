@@ -7,6 +7,9 @@ exports[`Components >> Recording timer Buffering state Should successfully rende
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -30,6 +33,9 @@ exports[`Components >> Recording timer Buffering state Should successfully rende
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -59,6 +65,9 @@ exports[`Components >> Recording timer Loading state Should successfully render 
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -82,6 +91,9 @@ exports[`Components >> Recording timer Loading state Should successfully render 
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -111,6 +123,9 @@ exports[`Components >> Recording timer Playing state Should successfully render 
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -134,6 +149,9 @@ exports[`Components >> Recording timer Playing state Should successfully render 
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -156,6 +174,9 @@ exports[`Components >> Recording timer Playing state Should successfully render 
               "marginRight": 8,
               "width": 10,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       />
@@ -186,6 +207,9 @@ exports[`Components >> Recording timer Ready state Should successfully render re
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -209,6 +233,9 @@ exports[`Components >> Recording timer Ready state Should successfully render re
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -238,6 +265,9 @@ exports[`Components >> Recording timer Recording state Should successfully rende
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -261,6 +291,9 @@ exports[`Components >> Recording timer Recording state Should successfully rende
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -283,6 +316,9 @@ exports[`Components >> Recording timer Recording state Should successfully rende
               "marginRight": 8,
               "width": 10,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       />
@@ -313,6 +349,9 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
       Object {
         "display": "flex",
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -336,6 +375,9 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
           "display": "flex",
           "flexDirection": "row",
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >
@@ -358,6 +400,9 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
               "marginRight": 8,
               "width": 10,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       />

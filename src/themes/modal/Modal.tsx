@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableWithoutFeedback } from 'react-native';
 // Components
-import { Box } from '../Box';
+import { Box } from '../box/Box';
 
 type Props = {
   onClose: () => void;

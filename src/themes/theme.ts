@@ -28,6 +28,22 @@ export const createTheme = (theme: 'light' | 'dark') =>
       xXlarge: 48,
       xXXlarge: 96,
     },
+    shadows: {
+      md: {
+        shadowColor: 'primaryContrast',
+        shadowOpacity: 0.05,
+        shadowOffset: { width: 0, height: 4 },
+        shadowRadius: 10,
+        elevation: 2,
+      },
+      mdHeavy: {
+        shadowColor: 'primaryContrast',
+        shadowOpacity: 0.2,
+        shadowOffset: { width: 40, height: 40 },
+        shadowRadius: 10,
+        elevation: 4,
+      },
+    },
     textVariants,
     imageVariants,
     zIndices: {

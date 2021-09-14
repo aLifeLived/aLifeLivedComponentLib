@@ -24,6 +24,7 @@ import {
   faBookmark as farBookmark,
   faHeart as farHeart,
   faClock as farClock,
+  faCircle,
 } from '@fortawesome/free-regular-svg-icons';
 
 export const iconList = {
@@ -50,5 +51,6 @@ export const iconList = {
   faChevronDown,
   faChevronRight,
   faPlusCircle,
+  faCircle,
 };
 export type Icons = keyof typeof iconList;

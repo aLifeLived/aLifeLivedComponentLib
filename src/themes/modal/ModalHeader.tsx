@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '../../components/icon/Icon';
-import { Box } from '../Box';
+import { Box } from '../box/Box';
 import { SystemPressable } from '../systemPressable/SystemPressable';
 
 type ModalHeaderProps = {

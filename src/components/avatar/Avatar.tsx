@@ -1,6 +1,6 @@
 import React from 'react';
 import FastImage, { Priority, ResizeMode } from 'react-native-fast-image';
-import { Box } from '../../themes/Box';
+import { Box } from '../../themes/box/Box';
 import {
   StyledImageProps,
   SystemImage,

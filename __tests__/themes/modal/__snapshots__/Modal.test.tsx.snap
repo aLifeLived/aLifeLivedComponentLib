@@ -14,6 +14,9 @@ exports[`themes >> Modal Render modal as visible with children Should render mod
         "width": "100%",
         "zIndex": 100,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
@@ -35,6 +38,9 @@ exports[`themes >> Modal Render modal as visible with children Should render mod
           "display": "flex",
           "margin": 8,
         },
+        Array [
+          Object {},
+        ],
       ]
     }
   >

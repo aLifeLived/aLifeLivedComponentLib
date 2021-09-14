@@ -10,6 +10,9 @@ exports[`Help card component test  Should render help card correctly 1`] = `
         "margin": 16,
         "paddingBottom": 8,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >

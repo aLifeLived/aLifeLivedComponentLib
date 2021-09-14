@@ -10,6 +10,9 @@ exports[`themes >> ModalHeader Render modal header Should render modal header co
         "display": "flex",
         "margin": 8,
       },
+      Array [
+        Object {},
+      ],
     ]
   }
 >
