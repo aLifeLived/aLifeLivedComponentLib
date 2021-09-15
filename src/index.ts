@@ -11,6 +11,7 @@ import { Icon } from './components/icon/Icon';
 import { StoryCard } from './components/storyCard/StoryCard';
 import { Avatar } from './components/avatar/Avatar';
 import { MiniPlayer } from './components/miniPlayer/MiniPlayer';
+import { TopicCard } from './components/topicCard/TopicCard';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -33,6 +34,7 @@ export {
   Box,
   Text,
   RecordingTimer,
+  TopicCard,
   SignupModal,
   NoCtaModal,
   EditAndDeleteBottomSheet,
