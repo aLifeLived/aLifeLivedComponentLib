@@ -14,14 +14,14 @@ storiesOf('Topic card', module)
         onPress={action('On press fired')}
         title="Test title"
         description="This is a test description"
-        duration="90"
+        duration={90}
         hasUserCompleted={false}
       />
       <TopicCard
         onPress={action('On press fired')}
         title="This is a really really long title, here it will break the topic card, if it gets any longer it may break the topic card!!"
         description="This is a really really really long test description to break the topic card"
-        duration="25"
+        duration={25}
         hasUserCompleted={true}
       />
     </Box>
