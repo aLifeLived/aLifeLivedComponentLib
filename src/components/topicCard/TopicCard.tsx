@@ -8,7 +8,7 @@ type TopicCardProps = {
   title: string;
   hasUserCompleted: boolean;
   description: string;
-  duration: string;
+  duration: number;
   onPress: () => void;
 };
 
