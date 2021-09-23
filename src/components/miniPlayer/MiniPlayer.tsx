@@ -63,7 +63,11 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             </Text>
           </Box>
         </Box>
-        <SystemButton marginRight="s" onPress={() => mediaControlAction()}>
+        <SystemButton
+          disabled={isDisabled}
+          marginRight="s"
+          onPress={() => mediaControlAction()}
+        >
           <Icon
             icon={mediaControlIcon}
             size={25}
