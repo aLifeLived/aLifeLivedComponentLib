@@ -164,11 +164,11 @@ describe('component >> miniPlayer', () => {
       expect(getByTestId('miniPlayer-avatar')).not.toBeNull();
     });
 
-    test('Should fire onAudioPause() action', () => {
+    test('Should NOT fire onAudioPause() action', () => {
       const { getByTestId } = setup(isDisabled, playerState, mockOnAudioPause);
       fireEvent.press(getByTestId('mediaControl-icon'));
       expect(mockOnAudioPlay).toBeCalledTimes(0);
-      expect(mockOnAudioPause).toBeCalledTimes(1);
+      expect(mockOnAudioPause).toBeCalledTimes(0);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
     });
 
@@ -208,10 +208,10 @@ describe('component >> miniPlayer', () => {
       expect(getByTestId('miniPlayer-avatar')).not.toBeNull();
     });
 
-    test('Should fire onAudioPlayAction() action', () => {
+    test('Should NOT fire onAudioPlayAction() action', () => {
       const { getByTestId } = setup(isDisabled, playerState, mockOnAudioPlay);
       fireEvent.press(getByTestId('mediaControl-icon'));
-      expect(mockOnAudioPlay).toBeCalledTimes(1);
+      expect(mockOnAudioPlay).toBeCalledTimes(0);
       expect(mockOnAudioPause).toBeCalledTimes(0);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
     });
