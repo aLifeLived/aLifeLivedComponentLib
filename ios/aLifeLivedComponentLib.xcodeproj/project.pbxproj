@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4C67C289B43B86DB62E25CED /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94710474169B82DB1171209E /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a */; };
+		58449C6526FC793700C266A3 /* neededSwitfFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58449C6426FC793700C266A3 /* neededSwitfFile.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C673095C69DC498F880A55D9 /* libPods-aLifeLivedComponentLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E458F21404759A66CB91B6D /* libPods-aLifeLivedComponentLib.a */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = aLifeLivedComponentLib/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = aLifeLivedComponentLib/main.m; sourceTree = "<group>"; };
 		2E458F21404759A66CB91B6D /* libPods-aLifeLivedComponentLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aLifeLivedComponentLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58449C6326FC793600C266A3 /* aLifeLivedComponentLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aLifeLivedComponentLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		58449C6426FC793700C266A3 /* neededSwitfFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neededSwitfFile.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = aLifeLivedComponentLib/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		924F5761040C808D7B73ED37 /* Pods-aLifeLivedComponentLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aLifeLivedComponentLib.release.xcconfig"; path = "Target Support Files/Pods-aLifeLivedComponentLib/Pods-aLifeLivedComponentLib.release.xcconfig"; sourceTree = "<group>"; };
 		94710474169B82DB1171209E /* libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				58449C6426FC793700C266A3 /* neededSwitfFile.swift */,
+				58449C6326FC793600C266A3 /* aLifeLivedComponentLib-Bridging-Header.h */,
 			);
 			name = aLifeLivedComponentLib;
 			sourceTree = "<group>";
@@ -215,7 +220,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -419,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				58449C6526FC793700C266A3 /* neededSwitfFile.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF34FD04E0EE908353D50369 /* Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -465,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0309C7FE10AC06BE9776CE99 /* Pods-aLifeLivedComponentLib-aLifeLivedComponentLibTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = aLifeLivedComponentLibTests/Info.plist;
@@ -505,6 +513,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = aLifeLivedComponentLib;
+				SWIFT_OBJC_BRIDGING_HEADER = "aLifeLivedComponentLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -530,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = aLifeLivedComponentLib;
+				SWIFT_OBJC_BRIDGING_HEADER = "aLifeLivedComponentLib-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
