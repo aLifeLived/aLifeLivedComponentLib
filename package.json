@@ -61,6 +61,7 @@
     "react-native-svg": "^12.1.1"
   },
   "devDependencies": {
+    "@alifelived/types": "0.0.6",
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
     "@babel/preset-react": "^7.14.5",

@@ -21,13 +21,15 @@ storiesOf('MiniPlayer', module)
       title={text('Title', 'This is an story title')}
       username={text('Username', 'test_username')}
       avatar={text('Avatar', 'https://picsum.photos/id/237/200/300')}
-      playerState={select(
-        'Player state',
-        { idle: 'idle', paused: 'paused', playing: 'playing' },
-        'idle'
-      )}
-      onAudioPause={action('On audio pause action')}
-      onAudioPlay={action('On audio play action')}
+      mediaControlAction={action('On audio pause action')}
       onMiniPlayerPress={action('MiniPlayer pressed')}
+      mediaControlIcon={select(
+        'Media Control Icon',
+        {
+          paused: 'pause',
+          playing: 'play',
+        },
+        'pause'
+      )}
     />
   ));

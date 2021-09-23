@@ -13,7 +13,8 @@ let avatar = 'https://picsum.photos/id/237/200/300';
 
 const setup = (
   isDisabled: boolean,
-  playerState: 'idle' | 'playing' | 'paused'
+  mediaControlIcon: 'play' | 'pause',
+  mediaControlAction = mockOnAudioPlay
 ) => {
   const utils = render(
     <MiniPlayer
@@ -21,9 +22,8 @@ const setup = (
       title={title}
       username={username}
       avatar={avatar}
-      playerState={playerState}
-      onAudioPause={mockOnAudioPause}
-      onAudioPlay={mockOnAudioPlay}
+      mediaControlIcon={mediaControlIcon}
+      mediaControlAction={mediaControlAction}
       onMiniPlayerPress={mockOnMiniPlayerPress}
     />
   );
@@ -36,24 +36,22 @@ const setup = (
 describe('component >> miniPlayer', () => {
   describe('Mini player with NO profile image while NOT PLAYING', () => {
     beforeEach(() => (avatar = ''));
-    const playerState = 'idle';
     test('Should render component correctly NOT PLAYING', () => {
-      avatar = '';
-      const { toJSON } = setup(false, playerState);
+      const { toJSON } = setup(false, 'play', mockOnAudioPlay);
       expect(toJSON()).toMatchSnapshot();
     });
   });
 
   describe('Mini player with NO profile image while PLAYING', () => {
     beforeEach(() => (avatar = ''));
-    const playerState = 'playing';
     test('Should render component correctly NOT PLAYING', () => {
-      const { toJSON } = setup(false, playerState);
+      const { toJSON } = setup(false, 'pause', mockOnAudioPause);
       expect(toJSON()).toMatchSnapshot();
     });
   });
 
   describe('Mini player NOT PLAYING', () => {
+    const mediaControlIcon = 'play';
     beforeEach(
       () => (
         (avatar = 'https://picsum.photos/id/237/200/300'),
@@ -62,33 +60,33 @@ describe('component >> miniPlayer', () => {
         mockOnMiniPlayerPress.mockClear()
       )
     );
-    const playerState = 'idle';
+
     test('Should render component correctly', () => {
-      const { toJSON } = setup(false, playerState);
+      const { toJSON } = setup(false, mediaControlIcon, mockOnAudioPlay);
       expect(toJSON()).toMatchSnapshot();
     });
 
     test('Should find title and username', () => {
-      const { getByText } = setup(false, playerState);
+      const { getByText } = setup(false, mediaControlIcon, mockOnAudioPlay);
       expect(getByText(title)).not.toBeNull();
       expect(getByText(username)).not.toBeNull();
     });
 
     test('Should find avatar id', () => {
-      const { getByTestId } = setup(false, playerState);
+      const { getByTestId } = setup(false, mediaControlIcon, mockOnAudioPlay);
       expect(getByTestId('miniPlayer-avatar')).not.toBeNull();
     });
 
     test('Should fire onAudioPlay() action', () => {
-      const { getByTestId } = setup(false, playerState);
-      fireEvent.press(getByTestId('play-icon'));
+      const { getByTestId } = setup(false, mediaControlIcon, mockOnAudioPlay);
+      fireEvent.press(getByTestId('mediaControl-icon'));
       expect(mockOnAudioPlay).toBeCalledTimes(1);
       expect(mockOnAudioPause).toBeCalledTimes(0);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
     });
 
     test('Should fire onMiniPlayerPress() action', () => {
-      const { getByText } = setup(false, playerState);
+      const { getByText } = setup(false, mediaControlIcon, mockOnAudioPlay);
       fireEvent.press(getByText(title));
       expect(mockOnAudioPlay).toBeCalledTimes(0);
       expect(mockOnAudioPause).toBeCalledTimes(0);
@@ -105,33 +103,33 @@ describe('component >> miniPlayer', () => {
         mockOnMiniPlayerPress.mockClear()
       )
     );
-    const playerState = 'playing';
+    const playerState = 'pause';
     test('Should render component correctly', () => {
-      const { toJSON } = setup(false, playerState);
+      const { toJSON } = setup(false, playerState, mockOnAudioPause);
       expect(toJSON()).toMatchSnapshot();
     });
 
     test('Should find title and username', () => {
-      const { getByText } = setup(false, playerState);
+      const { getByText } = setup(false, playerState, mockOnAudioPause);
       expect(getByText(title)).not.toBeNull();
       expect(getByText(username)).not.toBeNull();
     });
 
     test('Should find avatar id', () => {
-      const { getByTestId } = setup(false, playerState);
+      const { getByTestId } = setup(false, playerState, mockOnAudioPause);
       expect(getByTestId('miniPlayer-avatar')).not.toBeNull();
     });
 
     test('Should fire onAudioPause() action', () => {
-      const { getByTestId } = setup(false, playerState);
-      fireEvent.press(getByTestId('play-icon'));
+      const { getByTestId } = setup(false, playerState, mockOnAudioPause);
+      fireEvent.press(getByTestId('mediaControl-icon'));
       expect(mockOnAudioPlay).toBeCalledTimes(0);
       expect(mockOnAudioPause).toBeCalledTimes(1);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
     });
 
     test('Should fire onMiniPlayerPress() action', () => {
-      const { getByText } = setup(false, playerState);
+      const { getByText } = setup(false, playerState, mockOnAudioPause);
       fireEvent.press(getByText(title));
       expect(mockOnAudioPlay).toBeCalledTimes(0);
       expect(mockOnAudioPause).toBeCalledTimes(0);
@@ -148,7 +146,7 @@ describe('component >> miniPlayer', () => {
         mockOnMiniPlayerPress.mockClear()
       )
     );
-    const playerState = 'playing';
+    const playerState = 'pause';
     const isDisabled = true;
     test('Should render component correctly', () => {
       const { toJSON } = setup(isDisabled, playerState);
@@ -167,8 +165,8 @@ describe('component >> miniPlayer', () => {
     });
 
     test('Should fire onAudioPause() action', () => {
-      const { getByTestId } = setup(isDisabled, playerState);
-      fireEvent.press(getByTestId('play-icon'));
+      const { getByTestId } = setup(isDisabled, playerState, mockOnAudioPause);
+      fireEvent.press(getByTestId('mediaControl-icon'));
       expect(mockOnAudioPlay).toBeCalledTimes(0);
       expect(mockOnAudioPause).toBeCalledTimes(1);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
@@ -192,7 +190,7 @@ describe('component >> miniPlayer', () => {
         mockOnMiniPlayerPress.mockClear()
       )
     );
-    const playerState = 'idle';
+    const playerState = 'play';
     const isDisabled = true;
     test('Should render component correctly', () => {
       const { toJSON } = setup(isDisabled, playerState);
@@ -211,8 +209,8 @@ describe('component >> miniPlayer', () => {
     });
 
     test('Should fire onAudioPlayAction() action', () => {
-      const { getByTestId } = setup(isDisabled, playerState);
-      fireEvent.press(getByTestId('play-icon'));
+      const { getByTestId } = setup(isDisabled, playerState, mockOnAudioPlay);
+      fireEvent.press(getByTestId('mediaControl-icon'));
       expect(mockOnAudioPlay).toBeCalledTimes(1);
       expect(mockOnAudioPause).toBeCalledTimes(0);
       expect(mockOnMiniPlayerPress).toBeCalledTimes(0);
