@@ -197,7 +197,7 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}
@@ -425,7 +425,7 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}
@@ -653,7 +653,7 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}
@@ -881,7 +881,7 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}
@@ -1144,7 +1144,7 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}
@@ -1407,7 +1407,7 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
             },
           ]
         }
-        testID="play-icon"
+        testID="mediaControl-icon"
         vbHeight={512}
         vbWidth={448}
         width={25}

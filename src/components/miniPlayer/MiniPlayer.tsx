@@ -10,23 +10,13 @@ import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { BlurLayout } from '../../themes/systemBlurLayout/SystemBlurLayout';
 import { Text } from '../../themes/text/Text';
 
-type PlayerStateType =
-  | 'loading'
-  | 'ready'
-  | 'buffering'
-  | 'playing'
-  | 'paused'
-  | 'idle'
-  | 'recording';
-
 type MiniPlayerTypes = {
   isDisabled: boolean;
   title: string;
   username: string;
   avatar: string;
-  playerState: PlayerStateType;
-  onAudioPause: () => void;
-  onAudioPlay: () => void;
+  mediaControlIcon: 'play' | 'pause';
+  mediaControlAction: () => void;
   onMiniPlayerPress: () => void | null;
 };
 
@@ -35,10 +25,9 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
   title,
   username,
   avatar,
-  playerState,
-  onAudioPause,
-  onAudioPlay,
+  mediaControlIcon,
   onMiniPlayerPress,
+  mediaControlAction,
 }) => {
   return (
     <SystemButton disabled={isDisabled} onPress={() => onMiniPlayerPress()}>
@@ -74,17 +63,12 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             </Text>
           </Box>
         </Box>
-        <SystemButton
-          marginRight="s"
-          onPress={() =>
-            playerState === 'playing' ? onAudioPause() : onAudioPlay()
-          }
-        >
+        <SystemButton marginRight="s" onPress={() => mediaControlAction()}>
           <Icon
-            icon={playerState === 'playing' ? 'pause' : 'play'}
+            icon={mediaControlIcon}
             size={25}
             color="surface"
-            testID="play-icon"
+            testID="mediaControl-icon"
           />
         </SystemButton>
       </BlurLayout>
