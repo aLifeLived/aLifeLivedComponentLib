@@ -6,6 +6,7 @@
 function loadStories() {
   require('../components/avatar/Avatar.stories');
   require('../components/button/Button.stories');
+  require('../components/draftStoryCard/DraftStoryCard.stories');
   require('../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories');
   require('../components/helpCard/HelpCard.stories');
   require('../components/icon/Icon.stories');
@@ -23,6 +24,7 @@ function loadStories() {
 const stories = [
   '../components/avatar/Avatar.stories',
   '../components/button/Button.stories',
+  '../components/draftStoryCard/DraftStoryCard.stories',
   '../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories',
   '../components/helpCard/HelpCard.stories',
   '../components/icon/Icon.stories',
