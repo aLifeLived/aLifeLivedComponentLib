@@ -13,6 +13,7 @@ import { Avatar } from './components/avatar/Avatar';
 import { MiniPlayer } from './components/miniPlayer/MiniPlayer';
 import { TopicCard } from './components/topicCard/TopicCard';
 import { DraftStoryCard } from './components/draftStoryCard/DraftStoryCard';
+import { ThemeCard } from './components/themeCard/ThemeCard';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -40,4 +41,5 @@ export {
   NoCtaModal,
   EditAndDeleteBottomSheet,
   DraftStoryCard,
+  ThemeCard,
 };
