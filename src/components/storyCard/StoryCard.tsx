@@ -40,12 +40,15 @@ export const StoryCard: React.FC<StoryCardProps> = ({
         alignContent="center"
         alignItems="center"
         alignSelf="center"
-        width="90%"
         justifyContent="space-between"
-        borderBottomWidth={0.5}
         paddingBottom="s"
         marginBottom="l"
+        backgroundColor="surfaceLightest"
         marginTop="s"
+        padding="s"
+        borderRadius="medium"
+        borderWidth={0.5}
+        boxShadow="md"
       >
         <Box width="80%">
           <Box>
