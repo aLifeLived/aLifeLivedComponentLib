@@ -6,7 +6,7 @@ import { SystemImage } from '../../themes/systemImage/SystemImage';
 
 type ThemeCardProps = {
   title: string;
-  imageUrl: string;
+  imageUrl?: string;
   subText: string;
   onPress: () => void;
 };
@@ -23,21 +23,21 @@ export const ThemeCard: React.FC<ThemeCardProps> = ({
       borderWidth={1}
       borderRadius="medium"
       backgroundColor="surfaceLightest"
-      width="100%"
     >
       <Box boxShadow="md" flexDirection="row">
-        <SystemImage
-          source={{ uri: imageUrl, priority: 'high' }}
-          resizeMode="cover"
-          width={60}
-          height={60}
-          borderTopLeftRadius="medium"
-          borderBottomLeftRadius="medium"
-        />
+        {imageUrl ? (
+          <SystemImage
+            source={{ uri: imageUrl, priority: 'high' }}
+            resizeMode="cover"
+            width={70}
+            height={70}
+            borderTopLeftRadius="medium"
+            borderBottomLeftRadius="medium"
+          />
+        ) : null}
         <Box
-          paddingLeft="s"
+          padding="s"
           justifyContent="center"
-          paddingRight="s"
           borderTopRightRadius="medium"
           borderBottomRightRadius="medium"
           width="80%"
