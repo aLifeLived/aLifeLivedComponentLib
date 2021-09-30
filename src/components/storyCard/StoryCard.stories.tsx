@@ -53,7 +53,7 @@ storiesOf('Story card', module)
     </Box>
   ))
   .add('Liked and bookmarked story card', () => (
-    <>
+    <Box flex={1} backgroundColor="surface" padding="s">
       {storyData.map(story => (
         <StoryCard
           key={story.id}
@@ -65,5 +65,5 @@ storiesOf('Story card', module)
           onLikePress={action('Heart pressed')}
         />
       ))}
-    </>
+    </Box>
   ));
