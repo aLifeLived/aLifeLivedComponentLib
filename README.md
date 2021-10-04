@@ -1,3 +1,3 @@
 ## NOTE
 
-- When submitting commits ensure you use semantic prefix e.g `feat:`, `fix`
+- This package is all the components for the A Life Lived application
