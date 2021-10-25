@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components >> user card  UserCard with profile image Should render user card correctly with profile image 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Array [
+            Object {
+              "borderRadius": 96,
+              "height": 50,
+              "width": 50,
+            },
+          ],
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="cover"
+        source={
+          Object {
+            "priority": "high",
+            "uri": "https://picsum.photos/id/237/200/300",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "marginLeft": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        testUsername
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#54575a",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        John
+         
+        Smith
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> user card  UserCard without profile image Should render user card correctly with no profile image 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderRadius": 96,
+            "borderWidth": 1,
+            "display": "flex",
+            "height": 50,
+            "justifyContent": "center",
+            "padding": 16,
+            "width": 50,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={16}
+        bbWidth={16}
+        fill="#000"
+        focusable={false}
+        height={16}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {},
+            Object {
+              "flex": 0,
+              "height": 16,
+              "width": 16,
+            },
+          ]
+        }
+        vbHeight={512}
+        vbWidth={448}
+        width={16}
+      >
+        <RNSVGGroup
+          fill={4278190080}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        >
+          <RNSVGPath
+            d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+            fill={4278190080}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "marginLeft": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+            },
+          ]
+        }
+      >
+        testUsername
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#54575a",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+            },
+          ]
+        }
+      >
+        John
+         
+        Smith
+      </Text>
+    </View>
+  </View>
+</View>
+`;
