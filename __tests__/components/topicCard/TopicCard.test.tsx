@@ -14,7 +14,7 @@ const setup = (hasUserCompleted = false) => {
       title={defaultTitle}
       hasUserCompleted={hasUserCompleted}
       description={description}
-      duration="25"
+      duration={25}
       onPress={onPress}
     />
   );
