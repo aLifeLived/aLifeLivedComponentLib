@@ -7,3 +7,4 @@
 1. `npm install`
 2. `cd ios && pod install`
 3. `cd ..`
+4. First build app on xCode - This will build a component lib app with storyBook
