@@ -13,7 +13,6 @@ import {
   SpacingProps,
   VariantProps,
 } from '@shopify/restyle';
-import React from 'react';
 import { TextInput, TextInputProps } from 'react-native';
 import { Theme } from '../theme';
 
@@ -21,7 +20,6 @@ export const inputVariants = {
   default: {
     borderWidth: 1,
     borderRadius: 'small',
-    backgroundColor: 'surfaceLightest',
     paddingTop: 's',
     paddingBottom: 's',
     paddingLeft: 's',
@@ -31,7 +29,6 @@ export const inputVariants = {
     borderRadius: 'small',
     paddingTop: 's',
     paddingBottom: 's',
-    paddingLeft: 's',
   },
 };
 
@@ -41,7 +38,7 @@ export type StyledInputProps = TextInputProps &
   BorderProps<Theme> &
   BackgroundColorProps<Theme> &
   ColorProps<Theme> &
-  VariantProps<Theme, 'inputVariants'> & { children?: React.ReactNode };
+  VariantProps<Theme, 'inputVariants'>;
 
 export const SystemInput = createRestyleComponent<StyledInputProps, Theme>(
   [
