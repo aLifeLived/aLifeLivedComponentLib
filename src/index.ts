@@ -15,6 +15,7 @@ import { TopicCard } from './components/topicCard/TopicCard';
 import { UserCard } from './components/userCard/UserCard';
 import { DraftStoryCard } from './components/draftStoryCard/DraftStoryCard';
 import { ThemeCard } from './components/themeCard/ThemeCard';
+import { Input } from './components/input/Input';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -31,6 +32,7 @@ export {
   UserCard,
   SystemFlatList,
   Avatar,
+  Input,
   useTheme,
   Icon,
   MiniPlayer,
