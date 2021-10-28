@@ -17,6 +17,7 @@ import { DraftStoryCard } from './components/draftStoryCard/DraftStoryCard';
 import { ThemeCard } from './components/themeCard/ThemeCard';
 import { Selector } from './components/selector/Selector';
 import { Button } from './components/button/Button';
+import { Input } from './components/input/Input';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -35,6 +36,7 @@ export {
   UserCard,
   SystemFlatList,
   Avatar,
+  Input,
   useTheme,
   Icon,
   MiniPlayer,

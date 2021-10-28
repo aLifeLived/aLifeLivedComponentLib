@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component >> Input Given input has variant of default Given input has NO label Should render input with label correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onPressIn={[MockFunction]}
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingTop": 8,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`component >> Input Given input has variant of default Given input has label Should render input with label correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#54575a",
+          "display": "flex",
+          "fontSize": 14,
+          "lineHeight": 18,
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    This is a test label
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onPressIn={[MockFunction]}
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingTop": 8,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`component >> Input Given input has variant underline Given input has NO label Should render input with label correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onPressIn={[MockFunction]}
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomWidth": 1,
+          "borderRadius": 4,
+          "paddingBottom": 8,
+          "paddingTop": 8,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`component >> Input Given input has variant underline Given input has label Should render input with label correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 4,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#54575a",
+          "display": "flex",
+          "fontSize": 14,
+          "lineHeight": 18,
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    This is a test label
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onPressIn={[MockFunction]}
+    placeholder="Test placeholder"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "borderBottomWidth": 1,
+          "borderRadius": 4,
+          "paddingBottom": 8,
+          "paddingTop": 8,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
