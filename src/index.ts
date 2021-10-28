@@ -16,6 +16,7 @@ import { UserCard } from './components/userCard/UserCard';
 import { DraftStoryCard } from './components/draftStoryCard/DraftStoryCard';
 import { ThemeCard } from './components/themeCard/ThemeCard';
 import { Selector } from './components/selector/Selector';
+import { Button } from './components/button/Button';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -29,6 +30,7 @@ library.add(iconList);
 
 export {
   StoryCard,
+  Button,
   Selector,
   UserCard,
   SystemFlatList,
