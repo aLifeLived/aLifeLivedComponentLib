@@ -1,3 +1,7 @@
+src/storybook
+src/**/*.stories.tsx
+src/**/*.stories.js
+
 # OSX
 #
 .DS_Store
