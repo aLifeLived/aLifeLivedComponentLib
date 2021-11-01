@@ -26,7 +26,6 @@ export const inputVariants = {
   },
   underline: {
     borderBottomWidth: 1,
-    borderRadius: 'small',
     paddingTop: 's',
     paddingBottom: 's',
   },

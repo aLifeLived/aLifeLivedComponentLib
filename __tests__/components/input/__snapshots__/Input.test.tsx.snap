@@ -132,7 +132,6 @@ exports[`component >> Input Given input has variant underline Given input has NO
       Array [
         Object {
           "borderBottomWidth": 1,
-          "borderRadius": 4,
           "paddingBottom": 8,
           "paddingTop": 8,
         },
@@ -189,7 +188,6 @@ exports[`component >> Input Given input has variant underline Given input has la
       Array [
         Object {
           "borderBottomWidth": 1,
-          "borderRadius": 4,
           "paddingBottom": 8,
           "paddingTop": 8,
         },
