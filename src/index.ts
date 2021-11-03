@@ -18,6 +18,7 @@ import { ThemeCard } from './components/themeCard/ThemeCard';
 import { Selector } from './components/selector/Selector';
 import { Button } from './components/button/Button';
 import { Input } from './components/input/Input';
+import { UserCardSkeleton } from './components/userCard/UserCardSkeleton';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -32,6 +33,7 @@ library.add(iconList);
 
 export {
   StoryCard,
+  UserCardSkeleton,
   Button,
   Selector,
   UserCard,

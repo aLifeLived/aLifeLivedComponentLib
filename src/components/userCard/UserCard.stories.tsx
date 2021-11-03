@@ -4,6 +4,7 @@ import { action } from '@storybook/addon-actions';
 
 // Component
 import { UserCard } from './UserCard';
+import { UserCardSkeleton } from './UserCardSkeleton';
 import { Box } from '../../themes/box/Box';
 import { SystemFlatList } from '../../themes/systemFlatList/SystemFlatList';
 
@@ -63,5 +64,10 @@ storiesOf('User card', module)
           </Box>
         )}
       />
+    </Box>
+  ))
+  .add('User card loading', () => (
+    <Box margin="m">
+      <UserCardSkeleton />
     </Box>
   ));

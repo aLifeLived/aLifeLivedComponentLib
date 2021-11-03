@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Components
-import { Box } from '../box/Box';
-import { SkeletonElement } from './SkeletonElement';
-import { SystemAnimatableBox } from '../systemAnimatableBox/SystemAnimatableBox';
+import { Box } from '../../themes/box/Box';
+import { SkeletonElement } from '../../themes/loadingSkeletons/SkeletonElement';
+import { SystemAnimatableBox } from '../../themes/systemAnimatableBox/SystemAnimatableBox';
 
 export const UserCardSkeleton = () => {
   return (
