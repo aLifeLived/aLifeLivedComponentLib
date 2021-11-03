@@ -16,7 +16,7 @@ export const UserCard: React.FC<UserCardProps> = ({
   onPress,
 }) => {
   return (
-    <SystemButton onPress={() => onPress()}>
+    <SystemButton onPress={() => onPress()} width="100%">
       <Box flexDirection="row" alignItems="center">
         <Avatar
           iconBorderRadius="xXXlarge"

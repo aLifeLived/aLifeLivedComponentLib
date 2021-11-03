@@ -14,6 +14,7 @@ exports[`components >> user card  UserCard with profile image Should render user
   style={
     Object {
       "opacity": 1,
+      "width": "100%",
     }
   }
 >
@@ -115,6 +116,7 @@ exports[`components >> user card  UserCard without profile image Should render u
   style={
     Object {
       "opacity": 1,
+      "width": "100%",
     }
   }
 >
