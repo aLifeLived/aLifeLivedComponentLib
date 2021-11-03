@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> systemAnimatableBox >> SystemAnimatableBox Should match snapshot 1`] = `
+<View
+  forwardedRef={[Function]}
+  style={Object {}}
+/>
+`;
