@@ -25,7 +25,6 @@ export const skeletonElementsVariants = {
   title: {
     width: '50%',
     height: 20,
-    marginBottom: 'm',
     backgroundColor: 'contrastFaint',
   },
   avatar: {

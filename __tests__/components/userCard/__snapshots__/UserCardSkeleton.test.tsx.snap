@@ -5,7 +5,6 @@ exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should m
   forwardedRef={[Function]}
   style={
     Object {
-      "alignContent": "center",
       "alignItems": "center",
       "flexDirection": "row",
       "opacity": 1,
@@ -38,7 +37,6 @@ exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should m
       Array [
         Object {
           "display": "flex",
-          "flexDirection": "column",
           "marginLeft": 8,
           "width": "100%",
         },
@@ -60,27 +58,7 @@ exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should m
               Object {
                 "backgroundColor": "#eaeaea",
                 "height": 20,
-                "marginBottom": 16,
                 "width": "50%",
-              },
-            ],
-          ],
-        ]
-      }
-    />
-    <View
-      style={
-        Array [
-          Object {
-            "display": "flex",
-          },
-          Array [
-            Object {},
-            Array [
-              Object {
-                "backgroundColor": "#eaeaea",
-                "height": 10,
-                "width": "70%",
               },
             ],
           ],

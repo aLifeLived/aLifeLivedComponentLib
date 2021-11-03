@@ -80,7 +80,6 @@ exports[`themes >> Loading Skeleton >> Skeleton Element Given skeleton element h
           Object {
             "backgroundColor": "#eaeaea",
             "height": 20,
-            "marginBottom": 16,
             "width": "50%",
           },
         ],

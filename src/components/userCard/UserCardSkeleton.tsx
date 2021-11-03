@@ -9,16 +9,14 @@ export const UserCardSkeleton = () => {
   return (
     <SystemAnimatableBox
       flexDirection="row"
-      alignContent="center"
-      alignItems="center"
       animation="flash"
       iterationCount="infinite"
+      alignItems="center"
       useNativeDriver={true}
     >
       <SkeletonElement variant="avatar" />
-      <Box flexDirection="column" width="100%" marginLeft="s">
+      <Box width="100%" marginLeft="s">
         <SkeletonElement variant="title" />
-        <SkeletonElement variant="text" />
       </Box>
     </SystemAnimatableBox>
   );
