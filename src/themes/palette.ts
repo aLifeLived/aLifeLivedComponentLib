@@ -70,6 +70,7 @@ export const ColorThemeLight = {
   contrastMedium: palette.grey800,
   contrastLow: palette.grey700,
   contrastLowest: palette.grey600,
+  contrastFaint: palette.grey100,
   transparent: '#00000000',
 };
 
@@ -92,5 +93,6 @@ export const ColorThemeDark = {
   contrastMedium: palette.grey200,
   contrastLow: palette.grey300,
   contrastLowest: palette.grey400,
+  contrastFaint: palette.grey100,
   transparent: '#00000000',
 };
