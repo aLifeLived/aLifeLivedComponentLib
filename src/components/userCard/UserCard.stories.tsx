@@ -11,31 +11,23 @@ import { SystemFlatList } from '../../themes/systemFlatList/SystemFlatList';
 const data = [
   {
     id: '1',
-    username: 'johnSmith',
+    username: 'johnSmithWithAReallyReallyLongNameSoLOng',
     imageUrl: 'https://picsum.photos/id/237/200/300',
-    firstName: 'Alex',
-    lastName: 'Smith',
   },
   {
     id: '2',
     username: 'johnSmith',
     imageUrl: '',
-    firstName: 'Andy',
-    lastName: 'Smith',
   },
   {
     id: '3',
     username: 'johnSmith',
     imageUrl: 'https://picsum.photos/id/237/200/300',
-    firstName: 'James',
-    lastName: 'Smith',
   },
   {
     id: '4',
     username: 'johnSmith',
     imageUrl: '',
-    firstName: 'Hunter',
-    lastName: 'Smith',
   },
 ];
 
@@ -57,8 +49,6 @@ storiesOf('User card', module)
             <UserCard
               onPress={action('On press fired')}
               username={item.username}
-              firstName={item.firstName}
-              lastName={item.lastName}
               avatarUrl={item.imageUrl}
             />
           </Box>

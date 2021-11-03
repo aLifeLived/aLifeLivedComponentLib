@@ -6,16 +6,12 @@ import { Text } from '../../themes/text/Text';
 
 type UserCardProps = {
   username: string;
-  firstName: string;
-  lastName: string;
   avatarUrl: string;
   onPress: () => void;
 };
 
 export const UserCard: React.FC<UserCardProps> = ({
   username,
-  firstName,
-  lastName,
   avatarUrl,
   onPress,
 }) => {
@@ -29,12 +25,9 @@ export const UserCard: React.FC<UserCardProps> = ({
           source={{ uri: avatarUrl, priority: 'high' }}
           variant="roundAvatar"
         />
-        <Box marginLeft="s">
-          <Text variant="h3" fontWeight="bold">
+        <Box marginLeft="s" width="80%">
+          <Text variant="h3" fontWeight="bold" numberOfLines={1}>
             {username}
-          </Text>
-          <Text variant="caption">
-            {firstName} {lastName}
           </Text>
         </Box>
       </Box>
