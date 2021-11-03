@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '../../../jest/renderUtil';
 
 // Component
-import { UserCardSkeleton } from '../../../src/themes/loadingSkeletons/UserCardSkeleton';
+import { UserCardSkeleton } from '../../../src/components/userCard/UserCardSkeleton';
 
 const setup = () => {
   const utils = render(<UserCardSkeleton />);
