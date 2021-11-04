@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should match snapshot 1`] = `
+<View
+  forwardedRef={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "display": "flex",
+        },
+        Array [
+          Object {},
+          Array [
+            Object {
+              "borderColor": "#eaeaea",
+              "borderRadius": 48,
+              "borderWidth": 1,
+              "height": 50,
+              "width": 50,
+            },
+          ],
+        ],
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "display": "flex",
+          "marginLeft": 8,
+          "width": "100%",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+          },
+          Array [
+            Object {},
+            Array [
+              Object {
+                "backgroundColor": "#eaeaea",
+                "height": 20,
+                "width": "50%",
+              },
+            ],
+          ],
+        ]
+      }
+    />
+  </View>
+</View>
+`;

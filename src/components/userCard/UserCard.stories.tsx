@@ -4,37 +4,34 @@ import { action } from '@storybook/addon-actions';
 
 // Component
 import { UserCard } from './UserCard';
+import { UserCardSkeleton } from './UserCardSkeleton';
 import { Box } from '../../themes/box/Box';
 import { SystemFlatList } from '../../themes/systemFlatList/SystemFlatList';
 
 const data = [
   {
-    id: '1',
-    username: 'johnSmith',
-    imageUrl: 'https://picsum.photos/id/237/200/300',
-    firstName: 'Alex',
-    lastName: 'Smith',
+    id: '5f92cdce0cf217478ba93163',
+    username: 'johnSmithWithAReallyReallyLongNameSoLOng',
+    avatarImageMediaAsset: {
+      url: 'https://picsum.photos/id/237/200/300',
+    },
   },
   {
-    id: '2',
+    id: '5f92cdce0cf217478ba93263',
     username: 'johnSmith',
-    imageUrl: '',
-    firstName: 'Andy',
-    lastName: 'Smith',
+    avatarImageMediaAsset: null,
   },
   {
-    id: '3',
+    id: '5f92cdce0cf217478ba93663',
     username: 'johnSmith',
-    imageUrl: 'https://picsum.photos/id/237/200/300',
-    firstName: 'James',
-    lastName: 'Smith',
+    avatarImageMediaAsset: {
+      url: 'https://picsum.photos/id/237/200/300',
+    },
   },
   {
-    id: '4',
+    id: '5f92cdce0cf217478ba93561',
     username: 'johnSmith',
-    imageUrl: '',
-    firstName: 'Hunter',
-    lastName: 'Smith',
+    avatarImageMediaAsset: null,
   },
 ];
 
@@ -56,12 +53,15 @@ storiesOf('User card', module)
             <UserCard
               onPress={action('On press fired')}
               username={item.username}
-              firstName={item.firstName}
-              lastName={item.lastName}
-              avatarUrl={item.imageUrl}
+              avatarUrl={item.avatarImageMediaAsset?.url}
             />
           </Box>
         )}
       />
+    </Box>
+  ))
+  .add('User card loading', () => (
+    <Box margin="m">
+      <UserCardSkeleton />
     </Box>
   ));

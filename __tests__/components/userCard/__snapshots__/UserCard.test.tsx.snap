@@ -14,6 +14,7 @@ exports[`components >> user card  UserCard with profile image Should render user
   style={
     Object {
       "opacity": 1,
+      "width": "100%",
     }
   }
 >
@@ -72,6 +73,7 @@ exports[`components >> user card  UserCard with profile image Should render user
           Object {
             "display": "flex",
             "marginLeft": 8,
+            "width": "80%",
           },
           Array [
             Object {},
@@ -80,6 +82,7 @@ exports[`components >> user card  UserCard with profile image Should render user
       }
     >
       <Text
+        numberOfLines={1}
         style={
           Array [
             Object {
@@ -93,22 +96,6 @@ exports[`components >> user card  UserCard with profile image Should render user
         }
       >
         testUsername
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#54575a",
-              "display": "flex",
-              "fontSize": 14,
-              "lineHeight": 18,
-            },
-          ]
-        }
-      >
-        John
-         
-        Smith
       </Text>
     </View>
   </View>
@@ -129,6 +116,7 @@ exports[`components >> user card  UserCard without profile image Should render u
   style={
     Object {
       "opacity": 1,
+      "width": "100%",
     }
   }
 >
@@ -223,6 +211,7 @@ exports[`components >> user card  UserCard without profile image Should render u
           Object {
             "display": "flex",
             "marginLeft": 8,
+            "width": "80%",
           },
           Array [
             Object {},
@@ -231,6 +220,7 @@ exports[`components >> user card  UserCard without profile image Should render u
       }
     >
       <Text
+        numberOfLines={1}
         style={
           Array [
             Object {
@@ -244,22 +234,6 @@ exports[`components >> user card  UserCard without profile image Should render u
         }
       >
         testUsername
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#54575a",
-              "display": "flex",
-              "fontSize": 14,
-              "lineHeight": 18,
-            },
-          ]
-        }
-      >
-        John
-         
-        Smith
       </Text>
     </View>
   </View>

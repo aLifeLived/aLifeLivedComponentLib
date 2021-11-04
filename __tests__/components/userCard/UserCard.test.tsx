@@ -5,19 +5,11 @@ import { render, fireEvent } from './../../../jest/renderUtil';
 import { UserCard } from '../../../src/components/userCard/UserCard';
 
 const onPress = jest.fn();
-const firstName = 'John';
-const lastName = 'Smith';
 const username = 'testUsername';
 let avatarUrl = '';
 const setup = () => {
   const utils = render(
-    <UserCard
-      username={username}
-      firstName={firstName}
-      lastName={lastName}
-      avatarUrl={avatarUrl}
-      onPress={onPress}
-    />
+    <UserCard username={username} avatarUrl={avatarUrl} onPress={onPress} />
   );
 
   return {
@@ -39,11 +31,6 @@ describe('components >> user card ', () => {
       expect(getByText(username)).toBeDefined();
     });
 
-    test('Should find first name and last name', () => {
-      const { getByText } = setup();
-      expect(getByText(`${firstName} ${lastName}`)).toBeDefined();
-    });
-
     test('Should fire on press action', () => {
       const { getByText } = setup();
       fireEvent.press(getByText(username));
@@ -61,11 +48,6 @@ describe('components >> user card ', () => {
     test('Should find username', () => {
       const { getByText } = setup();
       expect(getByText(username)).toBeDefined();
-    });
-
-    test('Should find first name and last name', () => {
-      const { getByText } = setup();
-      expect(getByText(`${firstName} ${lastName}`)).toBeDefined();
     });
 
     test('Should fire on press action', () => {
