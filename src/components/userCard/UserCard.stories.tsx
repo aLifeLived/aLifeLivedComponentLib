@@ -19,7 +19,7 @@ const data = [
   {
     id: '5f92cdce0cf217478ba93263',
     username: 'johnSmith',
-    avatarImageMediaAsset: undefined,
+    avatarImageMediaAsset: null,
   },
   {
     id: '5f92cdce0cf217478ba93663',
@@ -31,9 +31,7 @@ const data = [
   {
     id: '5f92cdce0cf217478ba93561',
     username: 'johnSmith',
-    avatarImageMediaAsset: {
-      url: '',
-    },
+    avatarImageMediaAsset: null,
   },
 ];
 
