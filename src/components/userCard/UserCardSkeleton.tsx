@@ -5,7 +5,11 @@ import { Box } from '../../themes/box/Box';
 import { SkeletonElement } from '../../themes/loadingSkeletons/SkeletonElement';
 import { SystemAnimatableBox } from '../../themes/systemAnimatableBox/SystemAnimatableBox';
 
-export const UserCardSkeleton = () => {
+type UserCardSkeleton = {
+  testID?: string;
+};
+
+export const UserCardSkeleton: React.FC<UserCardSkeleton> = ({ testID }) => {
   return (
     <SystemAnimatableBox
       flexDirection="row"
@@ -15,7 +19,7 @@ export const UserCardSkeleton = () => {
       useNativeDriver={true}
     >
       <SkeletonElement variant="avatar" />
-      <Box width="100%" marginLeft="s">
+      <Box width="100%" marginLeft="s" testID={testID}>
         <SkeletonElement variant="title" />
       </Box>
     </SystemAnimatableBox>
