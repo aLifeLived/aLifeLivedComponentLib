@@ -12,22 +12,28 @@ const data = [
   {
     id: '1',
     username: 'johnSmithWithAReallyReallyLongNameSoLOng',
-    imageUrl: 'https://picsum.photos/id/237/200/300',
+    avatarImageMediaAsset: {
+      url: 'https://picsum.photos/id/237/200/300',
+    },
   },
   {
     id: '2',
     username: 'johnSmith',
-    imageUrl: '',
+    avatarImageMediaAsset: undefined,
   },
   {
     id: '3',
     username: 'johnSmith',
-    imageUrl: 'https://picsum.photos/id/237/200/300',
+    avatarImageMediaAsset: {
+      url: 'https://picsum.photos/id/237/200/300',
+    },
   },
   {
     id: '4',
     username: 'johnSmith',
-    imageUrl: '',
+    avatarImageMediaAsset: {
+      url: '',
+    },
   },
 ];
 
@@ -49,7 +55,7 @@ storiesOf('User card', module)
             <UserCard
               onPress={action('On press fired')}
               username={item.username}
-              avatarUrl={item.imageUrl}
+              avatarUrl={item.avatarImageMediaAsset?.url}
             />
           </Box>
         )}
