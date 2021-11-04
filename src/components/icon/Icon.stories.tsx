@@ -25,6 +25,7 @@ storiesOf('Icon', module)
       <Icon icon="play" margin="s" />
       <Icon icon="pause" margin="s" />
       <Icon icon="user" margin="s" />
+      <Icon icon="users" margin="s" />
       <Icon icon="times" margin="s" />
       <Icon icon={['far', 'heart']} margin="s" color="primaryRed" />
       <Icon icon={['fas', 'heart']} margin="s" color="primaryRed" />
@@ -34,6 +35,8 @@ storiesOf('Icon', module)
       <Icon icon="exclamation-circle" margin="s" color="primaryRed" />
       <Icon icon="check-circle" margin="s" color="primary" />
       <Icon icon="plus-circle" margin="s" color="primary" />
+      <Icon icon="eye" margin="s" color="primary" />
+      <Icon icon="eye-slash" margin="s" color="primary" />
     </>
   ))
   .add('Pressable icons', () => (

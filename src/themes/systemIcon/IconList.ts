@@ -21,6 +21,7 @@ import {
   faClock,
   faEyeSlash,
   faEye,
+  faUsers,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faBookmark as farBookmark,
@@ -31,6 +32,7 @@ import {
 
 export const iconList = {
   farBookmark,
+  faUsers,
   farHeart,
   farClock,
   faCheckSquare,
