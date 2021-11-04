@@ -35,7 +35,7 @@ exports[`components >> theme card  Given there is a image the component still re
               "height": 4,
               "width": 0,
             },
-            "shadowOpacity": 0.05,
+            "shadowOpacity": 0.1,
             "shadowRadius": 10,
           },
         ],

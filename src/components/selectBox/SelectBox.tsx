@@ -32,6 +32,7 @@ export const SelectBox: React.FC<SelectBoxType> = ({
         borderColor="contrastHighest"
         borderRadius="medium"
         backgroundColor={isSelected ? 'primary' : 'surface'}
+        boxShadow="md"
       >
         <Box margin="s">{children}</Box>
         <Box margin="s" alignContent="center" width="80%" flexWrap="nowrap">

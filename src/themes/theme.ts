@@ -33,7 +33,7 @@ export const createTheme = (theme: 'light' | 'dark') =>
     shadows: {
       md: {
         shadowColor: 'primaryContrast',
-        shadowOpacity: 0.05,
+        shadowOpacity: 0.1,
         shadowOffset: { width: 0, height: 4 },
         shadowRadius: 10,
         elevation: 2,

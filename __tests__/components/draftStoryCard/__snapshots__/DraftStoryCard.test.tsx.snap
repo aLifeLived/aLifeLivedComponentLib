@@ -40,7 +40,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
               "height": 4,
               "width": 0,
             },
-            "shadowOpacity": 0.05,
+            "shadowOpacity": 0.1,
             "shadowRadius": 10,
           },
         ],
