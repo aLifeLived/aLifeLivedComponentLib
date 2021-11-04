@@ -19,6 +19,8 @@ import {
   faBookmark,
   faHeart,
   faClock,
+  faEyeSlash,
+  faEye,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faBookmark as farBookmark,
@@ -52,5 +54,7 @@ export const iconList = {
   faChevronRight,
   faPlusCircle,
   faCircle,
+  faEyeSlash,
+  faEye,
 };
 export type Icons = keyof typeof iconList;

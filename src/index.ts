@@ -19,6 +19,7 @@ import { Selector } from './components/selector/Selector';
 import { Button } from './components/button/Button';
 import { Input } from './components/input/Input';
 import { UserCardSkeleton } from './components/userCard/UserCardSkeleton';
+import { SelectBox } from './components/selectBox/SelectBox';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -34,6 +35,7 @@ library.add(iconList);
 export {
   StoryCard,
   UserCardSkeleton,
+  SelectBox,
   Button,
   Selector,
   UserCard,
