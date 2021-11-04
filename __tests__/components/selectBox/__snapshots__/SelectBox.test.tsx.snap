@@ -1,0 +1,865 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components >> Select Box Given select box has a variant of horizontal Given select box IS selected and has children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#0FCFA6",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "display": "flex",
+            },
+          ]
+        }
+      >
+        TEST CHILDREN
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of horizontal Given select box IS selected and has no children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#0FCFA6",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of horizontal Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f5f5",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "display": "flex",
+            },
+          ]
+        }
+      >
+        TEST CHILDREN
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of horizontal Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f5f5",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of vertical Given select box IS selected and has children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#0FCFA6",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "column",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "display": "flex",
+            },
+          ]
+        }
+      >
+        TEST CHILDREN
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of vertical Given select box IS selected and has no children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#0FCFA6",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "column",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of vertical Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f5f5",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "column",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "display": "flex",
+            },
+          ]
+        }
+      >
+        TEST CHILDREN
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`components >> Select Box Given select box has a variant of vertical Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f5f5",
+          "borderColor": "#000000",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "column",
+        },
+        Array [
+          Object {},
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "display": "flex",
+            "margin": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "display": "flex",
+            "flexWrap": "nowrap",
+            "margin": 8,
+            "width": "80%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "lineHeight": 24,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test title
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#252424",
+              "display": "flex",
+              "fontSize": 14,
+              "lineHeight": 18,
+              "marginTop": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Test sub text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
