@@ -3,6 +3,7 @@ import {
   StyledOpacityProps,
   SystemButton,
 } from '../../themes/systemButton/SystemButton';
+import { SystemSpinner } from '../../themes/systemSpinner/SystemSpinner';
 import { Text } from '../../themes/text/Text';
 
 interface IButtonProps {
@@ -11,6 +12,7 @@ interface IButtonProps {
   isDisabled?: boolean;
   variant?: 'cta';
   color?: string;
+  isLoading?: boolean;
 }
 
 export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
@@ -18,6 +20,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
   onPress,
   isDisabled,
   color,
+  isLoading,
   ...rest
 }) => {
   return (
@@ -25,14 +28,27 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
       backgroundColor={isDisabled ? 'contrastLow' : 'primary'}
       onPress={() => onPress()}
       padding="m"
-      width="90%"
       borderRadius="medium"
-      disabled={isDisabled}
+      width="90%"
+      disabled={isDisabled || isLoading}
       {...rest}
     >
-      <Text variant="default" fontWeight="600" textAlign="center" color={color}>
-        {title}
-      </Text>
+      {isLoading ? (
+        <SystemSpinner
+          size="small"
+          color="contrastHigh"
+          testID="QBYQCQ-button-spinner"
+        />
+      ) : (
+        <Text
+          variant="default"
+          fontWeight="600"
+          textAlign="center"
+          color={color}
+        >
+          {title}
+        </Text>
+      )}
     </SystemButton>
   );
 };
