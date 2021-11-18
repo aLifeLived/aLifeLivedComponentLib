@@ -79,3 +79,41 @@ exports[`components >> button  Enabled button Should render basic button correct
   </Text>
 </View>
 `;
+
+exports[`components >> button  Loading button Should render button in loading state 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#0FCFA6",
+      "borderRadius": 8,
+      "opacity": 1,
+      "padding": 16,
+      "width": "90%",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+    style={
+      Array [
+        Object {
+          "color": "#252424",
+        },
+      ]
+    }
+    testID="QBYQCQ-button-spinner"
+  />
+</View>
+`;
