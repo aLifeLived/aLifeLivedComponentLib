@@ -11,20 +11,20 @@ type Props = {
 
 export const Modal = ({ onClose, isVisible = false, children }: Props) => {
   return isVisible ? (
-    <Box
-      flex={1}
-      width="100%"
-      justifyContent="center"
-      position="absolute"
-      bottom={0}
-      top={0}
-      zIndex="foregroundTop"
-    >
-      <TouchableWithoutFeedback onPress={() => onClose()}>
+    <TouchableWithoutFeedback onPress={() => onClose()}>
+      <Box
+        flex={1}
+        width="100%"
+        justifyContent="center"
+        position="absolute"
+        bottom={0}
+        top={0}
+        zIndex="foregroundTop"
+      >
         <Box backgroundColor="contrastHigh" margin="s" borderRadius="medium">
           {children}
         </Box>
-      </TouchableWithoutFeedback>
-    </Box>
+      </Box>
+    </TouchableWithoutFeedback>
   ) : null;
 };

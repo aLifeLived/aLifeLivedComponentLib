@@ -39,7 +39,7 @@ storiesOf('Modal', module)
     </Modal>
   ))
   .add('With one cta button', () => (
-    <Modal onClose={action('Modal action fired')} isVisible={true}>
+    <Modal onClose={action('On close fired')} isVisible={true}>
       <ModalHeader onHeaderPress={action('Header button pressed')} />
       <ModalContent
         header="Test content"
@@ -51,7 +51,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primary"
+          color="primaryRed"
           marginRight="s"
         />
       </ModalFooter>

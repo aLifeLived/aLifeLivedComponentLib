@@ -4,6 +4,15 @@ exports[`component >> signupModal Modal is NOT visible not render modal 1`] = `n
 
 exports[`component >> signupModal Modal is visible Should render signup modal correctly 1`] = `
 <View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     Array [
       Object {
@@ -23,15 +32,6 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
   }
 >
   <View
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
       Array [
         Object {
