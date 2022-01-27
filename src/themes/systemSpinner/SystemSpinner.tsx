@@ -4,8 +4,6 @@ import {
   border,
   BorderProps,
   BoxProps,
-  color,
-  ColorProps,
   createRestyleComponent,
   layout,
   LayoutProps,
@@ -20,10 +18,9 @@ export type StyledSpinnerProps = ActivityIndicatorProps &
   LayoutProps<Theme> &
   BorderProps<Theme> &
   BoxProps<Theme> &
-  BackgroundColorProps<Theme> &
-  ColorProps<Theme>;
+  BackgroundColorProps<Theme>;
 
 export const SystemSpinner = createRestyleComponent<StyledSpinnerProps, Theme>(
-  [spacing, layout, border, backgroundColor, color],
+  [spacing, layout, border, backgroundColor],
   ActivityIndicator
 );

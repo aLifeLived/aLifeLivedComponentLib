@@ -103,14 +103,12 @@ exports[`components >> button  Loading button Should render button in loading st
 >
   <ActivityIndicator
     animating={true}
-    color="#999999"
+    color="white"
     hidesWhenStopped={true}
     size="small"
     style={
       Array [
-        Object {
-          "color": "#252424",
-        },
+        Object {},
       ]
     }
     testID="QBYQCQ-button-spinner"
