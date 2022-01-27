@@ -28,12 +28,6 @@
     "build-storybook": "build-storybook",
     "build": "tsc"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm test",
-      "pre-commit": "npm run lint"
-    }
-  },
   "config": {
     "react-native-storybook-loader": {
       "searchDir": [
@@ -91,7 +85,7 @@
     "concurrently": "^6.2.0",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^6.15.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.4",
     "jest": "^27.0.6",
     "jest-expo": "^42.1.0",
     "metro-react-native-babel-preset": "^0.66.2",
