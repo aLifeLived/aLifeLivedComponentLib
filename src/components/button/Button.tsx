@@ -1,4 +1,6 @@
+import { backgroundColor } from '@shopify/restyle';
 import React from 'react';
+import { ActivityIndicator } from 'react-native';
 import {
   StyledOpacityProps,
   SystemButton,
@@ -36,8 +38,9 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
       {isLoading ? (
         <SystemSpinner
           size="small"
-          color="contrastHigh"
+          color="white"
           testID="QBYQCQ-button-spinner"
+          animating
         />
       ) : (
         <Text
