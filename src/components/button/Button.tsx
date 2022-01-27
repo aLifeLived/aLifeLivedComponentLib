@@ -1,6 +1,4 @@
-import { backgroundColor } from '@shopify/restyle';
 import React from 'react';
-import { ActivityIndicator } from 'react-native';
 import {
   StyledOpacityProps,
   SystemButton,
