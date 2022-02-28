@@ -33,7 +33,7 @@ exports[`themes >> Modal Render modal as visible with children Should render mod
     style={
       Array [
         Object {
-          "backgroundColor": "#252424",
+          "backgroundColor": "#282828",
           "borderRadius": 8,
           "display": "flex",
           "margin": 8,

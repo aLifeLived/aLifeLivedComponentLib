@@ -21,7 +21,7 @@ exports[`themes >> Modal Content Render modal content with NO description  Shoul
     style={
       Array [
         Object {
-          "color": "#f4f5f5",
+          "color": "#A9ABAD",
           "display": "flex",
           "fontSize": 24,
           "fontWeight": "bold",
@@ -57,7 +57,7 @@ exports[`themes >> Modal Content Render modal content with header and descriptio
     style={
       Array [
         Object {
-          "color": "#f4f5f5",
+          "color": "#A9ABAD",
           "display": "flex",
           "fontSize": 24,
           "fontWeight": "bold",
@@ -73,7 +73,7 @@ exports[`themes >> Modal Content Render modal content with header and descriptio
     style={
       Array [
         Object {
-          "color": "#f4f5f5",
+          "color": "#A9ABAD",
           "display": "flex",
           "fontSize": 16,
           "lineHeight": 20,

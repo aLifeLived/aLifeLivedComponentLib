@@ -10,7 +10,7 @@ exports[`component >> Input Given input has variant of default Given input has N
       Array [
         Object {
           "elevation": 2,
-          "shadowColor": "#000000",
+          "shadowColor": "#282828",
           "shadowOffset": Object {
             "height": 4,
             "width": 0,
@@ -53,7 +53,7 @@ exports[`component >> Input Given input has variant of default Given input has l
       Array [
         Object {
           "elevation": 2,
-          "shadowColor": "#000000",
+          "shadowColor": "#282828",
           "shadowOffset": Object {
             "height": 4,
             "width": 0,
@@ -69,7 +69,7 @@ exports[`component >> Input Given input has variant of default Given input has l
     style={
       Array [
         Object {
-          "color": "#54575a",
+          "color": "#7F8183",
           "display": "flex",
           "fontSize": 14,
           "lineHeight": 18,
@@ -111,7 +111,7 @@ exports[`component >> Input Given input has variant underline Given input has NO
       Array [
         Object {
           "elevation": 2,
-          "shadowColor": "#000000",
+          "shadowColor": "#282828",
           "shadowOffset": Object {
             "height": 4,
             "width": 0,
@@ -152,7 +152,7 @@ exports[`component >> Input Given input has variant underline Given input has la
       Array [
         Object {
           "elevation": 2,
-          "shadowColor": "#000000",
+          "shadowColor": "#282828",
           "shadowOffset": Object {
             "height": 4,
             "width": 0,
@@ -168,7 +168,7 @@ exports[`component >> Input Given input has variant underline Given input has la
     style={
       Array [
         Object {
-          "color": "#54575a",
+          "color": "#7F8183",
           "display": "flex",
           "fontSize": 14,
           "lineHeight": 18,

@@ -24,7 +24,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "backgroundColor": "#ffffff",
-          "borderColor": "#252424",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -35,7 +35,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -67,7 +67,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -85,7 +85,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           Array [
             Object {
               "alignSelf": "flex-start",
-              "backgroundColor": "#0FCFA6",
+              "backgroundColor": "#67B6A8",
               "borderRadius": 8,
               "display": "flex",
               "marginTop": 8,
@@ -104,7 +104,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -120,7 +120,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       align="xMidYMid"
       bbHeight={20}
       bbWidth={20}
-      fill="#252424"
+      fill="#282828"
       focusable={false}
       height={20}
       meetOrSlice={0}
@@ -150,7 +150,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       width={20}
     >
       <RNSVGGroup
-        fill={4280624164}
+        fill={4280821800}
         propList={
           Array [
             "fill",
@@ -159,7 +159,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       >
         <RNSVGPath
           d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
-          fill={4280624164}
+          fill={4280821800}
           fillOpacity={1}
           propList={
             Array [

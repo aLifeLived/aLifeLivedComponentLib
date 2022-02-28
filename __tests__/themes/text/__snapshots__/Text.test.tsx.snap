@@ -5,7 +5,7 @@ exports[` Body Text render Render body test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#000000",
+        "color": "#282828",
         "display": "flex",
         "fontSize": 16,
         "lineHeight": 20,
@@ -22,7 +22,7 @@ exports[` Caption Text render Render caption test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#54575a",
+        "color": "#7F8183",
         "display": "flex",
         "fontSize": 14,
         "lineHeight": 18,
@@ -39,7 +39,7 @@ exports[` Default Text render Render default test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#000000",
+        "color": "#282828",
         "display": "flex",
         "fontSize": 16,
         "lineHeight": 20,
@@ -56,7 +56,7 @@ exports[` h1 Text render Render h1 test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#000000",
+        "color": "#282828",
         "display": "flex",
         "fontSize": 32,
         "lineHeight": 38,
@@ -73,7 +73,7 @@ exports[` h2 Text render Render h2 test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#000000",
+        "color": "#282828",
         "display": "flex",
         "fontSize": 24,
         "lineHeight": 30,
@@ -90,7 +90,7 @@ exports[` h3 Text render Render h3 test correctly 1`] = `
   style={
     Array [
       Object {
-        "color": "#000000",
+        "color": "#282828",
         "display": "flex",
         "fontSize": 16,
         "lineHeight": 24,

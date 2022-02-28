@@ -13,7 +13,7 @@ exports[`components >> button  Disabled button Should render basic button correc
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "backgroundColor": "#54575a",
+      "backgroundColor": "#CBCBCB",
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
@@ -25,7 +25,7 @@ exports[`components >> button  Disabled button Should render basic button correc
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "#282828",
           "display": "flex",
           "fontSize": 16,
           "fontWeight": "600",
@@ -53,7 +53,7 @@ exports[`components >> button  Enabled button Should render basic button correct
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "backgroundColor": "#0FCFA6",
+      "backgroundColor": "#67B6A8",
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
@@ -65,7 +65,7 @@ exports[`components >> button  Enabled button Should render basic button correct
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "#282828",
           "display": "flex",
           "fontSize": 16,
           "fontWeight": "600",
@@ -93,7 +93,7 @@ exports[`components >> button  Loading button Should render button in loading st
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "backgroundColor": "#0FCFA6",
+      "backgroundColor": "#67B6A8",
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
