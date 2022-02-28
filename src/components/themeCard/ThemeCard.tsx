@@ -22,7 +22,8 @@ export const ThemeCard: React.FC<ThemeCardProps> = ({
       onPress={() => onPress()}
       borderWidth={1}
       borderRadius="medium"
-      backgroundColor="surfaceLightest"
+      backgroundColor="white"
+      borderColor="borderColor"
     >
       <Box boxShadow="md" flexDirection="row">
         {imageUrl ? (
