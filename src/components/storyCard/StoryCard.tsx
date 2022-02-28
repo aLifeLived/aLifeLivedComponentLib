@@ -43,12 +43,13 @@ export const StoryCard: React.FC<StoryCardProps> = ({
         justifyContent="space-between"
         paddingBottom="s"
         marginBottom="l"
-        backgroundColor="surfaceLightest"
+        backgroundColor="white"
         marginTop="s"
         padding="s"
         borderRadius="medium"
         borderWidth={0.5}
         boxShadow="md"
+        borderColor="borderColor"
       >
         <Box width="80%">
           <Box>
@@ -67,7 +68,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
             <Box flexDirection="row" alignItems="center" marginLeft="s">
               <Icon
                 icon={[hasUserLikedStory ? 'fas' : 'far', 'heart']}
-                color="primaryRed"
+                color="backgroundError"
                 onPress={onLikePress}
                 testID="story-card-heart-icon"
               />
@@ -86,7 +87,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
             paddingLeft="s"
             paddingRight="s"
           >
-            <Text variant="caption" color="contrastHighest" numberOfLines={1}>
+            <Text variant="caption" color="textContrastHigh" numberOfLines={1}>
               {story.topic}
             </Text>
           </Box>
