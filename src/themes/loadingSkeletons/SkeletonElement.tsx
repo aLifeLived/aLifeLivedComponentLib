@@ -20,18 +20,18 @@ export const skeletonElementsVariants = {
   text: {
     width: '70%',
     height: 10,
-    backgroundColor: 'contrastFaint',
+    backgroundColor: 'backgroundContrastMid',
   },
   title: {
     width: '50%',
     height: 20,
-    backgroundColor: 'contrastFaint',
+    backgroundColor: 'backgroundContrastMid',
   },
   avatar: {
     width: 50,
     height: 50,
     borderRadius: 'xXlarge',
-    borderColor: 'contrastFaint',
+    borderColor: 'backgroundContrastMid',
     borderWidth: 1,
   },
   thumbNail: {
