@@ -14,7 +14,7 @@ const palette = {
   red100: '#D94E69',
   red80: '#F08969', // primary
   red70: '#F7DBC6',
-  red05: 'F1ECE5',
+  red05: '#F1ECE5',
 
   grey100: '#282828',
   grey90: '#606060',
@@ -42,10 +42,12 @@ export const ColorThemeLight = {
   borderColor: opacity(palette.grey100, 0.12),
 
   background: palette.grey05,
+  backgroundError: palette.red100,
   backgroundContrastHigh: palette.grey100,
   backgroundContrastMid: palette.grey20,
   backgroundContrastLow: palette.white,
   backgroundHighlight: palette.red70,
+  backgroundVisible: palette.seeThrew,
 
   textPrimary: palette.cyan,
   textSecondary: palette.red80,
