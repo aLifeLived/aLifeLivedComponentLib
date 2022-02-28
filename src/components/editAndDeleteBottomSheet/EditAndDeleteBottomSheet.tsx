@@ -17,13 +17,13 @@ export const EditAndDeleteBottomSheet: React.FC<EditAndDeleteBottomSheetTypes> =
           title="Edit story"
           onPress={() => onEditStoryPress()}
           marginBottom="s"
-          backgroundColor="surface"
+          backgroundColor="backgroundContrastLow"
         />
         <Button
           title="Delete story"
           onPress={() => onRemoveStoryPress()}
-          backgroundColor="surface"
-          color="primaryRed"
+          backgroundColor="backgroundError"
+          color="textContrastHigh"
         />
       </SystemBottomSheet>
     );
