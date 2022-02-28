@@ -22,8 +22,8 @@ export const TopicCard: React.FC<TopicCardProps> = ({
   return (
     <SystemButton onPress={() => onPress()}>
       <Box
-        borderColor="contrastHigh"
-        backgroundColor="surfaceLightest"
+        borderColor="borderColor"
+        backgroundColor="white"
         borderWidth={1}
         borderRadius="medium"
         margin="m"
@@ -35,7 +35,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
       >
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
-            color="contrastHigh"
+            color="textContrastHigh"
             variant="h3"
             marginTop="s"
             fontWeight="bold"
