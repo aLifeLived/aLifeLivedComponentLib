@@ -29,9 +29,9 @@ export const SelectBox: React.FC<SelectBoxType> = ({
         alignContent="center"
         alignItems="center"
         borderWidth={1}
-        borderColor="contrastHighest"
+        borderColor="borderColor"
         borderRadius="medium"
-        backgroundColor={isSelected ? 'primary' : 'surface'}
+        backgroundColor={isSelected ? 'primary' : 'backgroundContrastHigh'}
         boxShadow="md"
       >
         <Box margin="s">{children}</Box>
@@ -39,7 +39,7 @@ export const SelectBox: React.FC<SelectBoxType> = ({
           <Text
             variant="h3"
             fontWeight="bold"
-            color="contrastHigh"
+            color="textContrastHigh"
             textAlign={variant === 'horizontal' ? 'left' : 'center'}
           >
             {title}
@@ -47,7 +47,7 @@ export const SelectBox: React.FC<SelectBoxType> = ({
           <Text
             textAlign={variant === 'horizontal' ? 'left' : 'center'}
             marginTop="s"
-            color="contrastHigh"
+            color="textContrastHigh"
             variant="caption"
           >
             {subText}
