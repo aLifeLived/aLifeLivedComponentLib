@@ -22,6 +22,7 @@ function loadStories() {
   require('../components/topicCard/TopicCard.stories');
   require('../components/userCard/UserCard.stories');
   require('../themes/modal/Modal.stories');
+  require('../themes/palette.stories');
   require('../themes/systemBottomSheet/SystemBottomSheet.stories');
   require('../themes/text/Text.stories');
 }
@@ -45,6 +46,7 @@ const stories = [
   '../components/topicCard/TopicCard.stories',
   '../components/userCard/UserCard.stories',
   '../themes/modal/Modal.stories',
+  '../themes/palette.stories',
   '../themes/systemBottomSheet/SystemBottomSheet.stories',
   '../themes/text/Text.stories',
 ];
