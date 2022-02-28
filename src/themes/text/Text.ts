@@ -5,32 +5,32 @@ export const textVariants = {
   h1: {
     fontSize: 32,
     lineHeight: 38,
-    color: 'contrastHighest',
+    color: 'textContrastHigh',
   },
   h2: {
     fontSize: 24,
     lineHeight: 30,
-    color: 'contrastHighest',
+    color: 'textContrastHigh',
   },
   h3: {
     fontSize: 16,
     lineHeight: 24,
-    color: 'contrastHighest',
+    color: 'textContrastHigh',
   },
   body: {
     fontSize: 16,
     lineHeight: 20,
-    color: 'contrastHighest',
+    color: 'textContrastHigh',
   },
   caption: {
     fontSize: 14,
     lineHeight: 18,
-    color: 'contrastLow',
+    color: 'textContrastLow',
   },
   default: {
     fontSize: 16,
     lineHeight: 20,
-    color: 'contrastHighest',
+    color: 'textContrastHigh',
   },
 };
 
