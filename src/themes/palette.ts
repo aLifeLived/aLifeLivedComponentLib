@@ -3,7 +3,6 @@ import { opacity } from './utils';
 const palette = {
   seeThrew: 'rgba(0,0,0,.5)',
 
-  cyanExtraLight: '#backgroundHighlight',
   lightCyan: '#5FD2B5',
   cyan: '#67B6A8', // primary
 
