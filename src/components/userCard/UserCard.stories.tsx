@@ -39,7 +39,7 @@ storiesOf('User card', module)
   .addDecorator(Story => Story())
   .add('Default user card', () => (
     <Box
-      backgroundColor="surface"
+      backgroundColor="backgroundContrastHigh"
       flex={1}
       alignContent="center"
       alignItems="flex-start"

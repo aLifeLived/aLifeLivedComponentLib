@@ -55,7 +55,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#f4f5f5",
+          "backgroundColor": "#ffffff",
           "borderRadius": 8,
           "marginBottom": 24,
           "marginTop": 24,
@@ -69,7 +69,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "600",
@@ -150,7 +150,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#f4f5f5",
+          "backgroundColor": "#ffffff",
           "borderRadius": 8,
           "marginBottom": 24,
           "marginTop": 24,
@@ -164,7 +164,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "600",

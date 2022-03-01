@@ -23,8 +23,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#0FCFA6",
-          "borderColor": "#000000",
+          "backgroundColor": "#67B6A8",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -33,7 +33,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -90,7 +90,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -106,7 +106,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -146,8 +146,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#0FCFA6",
-          "borderColor": "#000000",
+          "backgroundColor": "#67B6A8",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -156,7 +156,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -201,7 +201,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -217,7 +217,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -257,8 +257,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#f4f5f5",
-          "borderColor": "#000000",
+          "backgroundColor": "#282828",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -267,7 +267,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -324,7 +324,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -340,7 +340,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -380,8 +380,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#f4f5f5",
-          "borderColor": "#000000",
+          "backgroundColor": "#282828",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -390,7 +390,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -435,7 +435,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -451,7 +451,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -491,8 +491,8 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#0FCFA6",
-          "borderColor": "#000000",
+          "backgroundColor": "#67B6A8",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -501,7 +501,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -558,7 +558,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -574,7 +574,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -614,8 +614,8 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#0FCFA6",
-          "borderColor": "#000000",
+          "backgroundColor": "#67B6A8",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -624,7 +624,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -669,7 +669,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -685,7 +685,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -725,8 +725,8 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#f4f5f5",
-          "borderColor": "#000000",
+          "backgroundColor": "#282828",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -735,7 +735,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -792,7 +792,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -808,7 +808,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -848,8 +848,8 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#f4f5f5",
-          "borderColor": "#000000",
+          "backgroundColor": "#282828",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -858,7 +858,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -903,7 +903,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -919,7 +919,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,

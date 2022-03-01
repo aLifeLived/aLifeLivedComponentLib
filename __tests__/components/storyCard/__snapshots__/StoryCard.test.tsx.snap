@@ -25,6 +25,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#ffffff",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 0.5,
           "display": "flex",
@@ -38,7 +39,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -80,7 +81,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 16,
                 "fontWeight": "bold",
@@ -126,7 +127,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             align="xMidYMid"
             bbHeight={16}
             bbWidth={16}
-            fill="#000000"
+            fill="#282828"
             focusable={false}
             height={16}
             meetOrSlice={0}
@@ -153,7 +154,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             width={16}
           >
             <RNSVGGroup
-              fill={4278190080}
+              fill={4280821800}
               propList={
                 Array [
                   "fill",
@@ -162,7 +163,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             >
               <RNSVGPath
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                fill={4278190080}
+                fill={4280821800}
                 fillOpacity={1}
                 propList={
                   Array [
@@ -177,7 +178,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -224,7 +225,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
               align="xMidYMid"
               bbHeight={16}
               bbWidth={16}
-              fill="#f03434"
+              fill="#D94E69"
               focusable={false}
               height={16}
               meetOrSlice={0}
@@ -252,7 +253,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
               width={16}
             >
               <RNSVGGroup
-                fill={4293932084}
+                fill={4292431465}
                 propList={
                   Array [
                     "fill",
@@ -261,7 +262,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
               >
                 <RNSVGPath
                   d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
-                  fill={4293932084}
+                  fill={4292431465}
                   fillOpacity={1}
                   propList={
                     Array [
@@ -277,7 +278,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -295,7 +296,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           Array [
             Object {
               "alignSelf": "flex-start",
-              "backgroundColor": "#0FCFA6",
+              "backgroundColor": "#67B6A8",
               "borderRadius": 8,
               "display": "flex",
               "marginTop": 8,
@@ -314,7 +315,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -396,7 +397,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           align="xMidYMid"
           bbHeight={16}
           bbWidth={16}
-          fill="#000000"
+          fill="#282828"
           focusable={false}
           height={16}
           meetOrSlice={0}
@@ -426,7 +427,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           width={16}
         >
           <RNSVGGroup
-            fill={4278190080}
+            fill={4280821800}
             propList={
               Array [
                 "fill",
@@ -435,7 +436,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
           >
             <RNSVGPath
               d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-              fill={4278190080}
+              fill={4280821800}
               fillOpacity={1}
               propList={
                 Array [
@@ -477,6 +478,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#ffffff",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 0.5,
           "display": "flex",
@@ -490,7 +492,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -532,7 +534,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 16,
                 "fontWeight": "bold",
@@ -578,7 +580,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             align="xMidYMid"
             bbHeight={16}
             bbWidth={16}
-            fill="#000000"
+            fill="#282828"
             focusable={false}
             height={16}
             meetOrSlice={0}
@@ -605,7 +607,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             width={16}
           >
             <RNSVGGroup
-              fill={4278190080}
+              fill={4280821800}
               propList={
                 Array [
                   "fill",
@@ -614,7 +616,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             >
               <RNSVGPath
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                fill={4278190080}
+                fill={4280821800}
                 fillOpacity={1}
                 propList={
                   Array [
@@ -629,7 +631,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -676,7 +678,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
               align="xMidYMid"
               bbHeight={16}
               bbWidth={16}
-              fill="#f03434"
+              fill="#D94E69"
               focusable={false}
               height={16}
               meetOrSlice={0}
@@ -704,7 +706,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
               width={16}
             >
               <RNSVGGroup
-                fill={4293932084}
+                fill={4292431465}
                 propList={
                   Array [
                     "fill",
@@ -713,7 +715,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
               >
                 <RNSVGPath
                   d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
-                  fill={4293932084}
+                  fill={4292431465}
                   fillOpacity={1}
                   propList={
                     Array [
@@ -729,7 +731,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -747,7 +749,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           Array [
             Object {
               "alignSelf": "flex-start",
-              "backgroundColor": "#0FCFA6",
+              "backgroundColor": "#67B6A8",
               "borderRadius": 8,
               "display": "flex",
               "marginTop": 8,
@@ -766,7 +768,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -848,7 +850,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           align="xMidYMid"
           bbHeight={16}
           bbWidth={16}
-          fill="#000000"
+          fill="#282828"
           focusable={false}
           height={16}
           meetOrSlice={0}
@@ -878,7 +880,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           width={16}
         >
           <RNSVGGroup
-            fill={4278190080}
+            fill={4280821800}
             propList={
               Array [
                 "fill",
@@ -887,7 +889,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
           >
             <RNSVGPath
               d="M336 0H48C21.49 0 0 21.49 0 48v464l192-112 192 112V48c0-26.51-21.49-48-48-48zm0 428.43l-144-84-144 84V54a6 6 0 0 1 6-6h276c3.314 0 6 2.683 6 5.996V428.43z"
-              fill={4278190080}
+              fill={4280821800}
               fillOpacity={1}
               propList={
                 Array [
@@ -929,6 +931,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#ffffff",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 0.5,
           "display": "flex",
@@ -942,7 +945,7 @@ exports[`components >> story card  Story card with NO profile image and render i
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -984,7 +987,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 16,
                 "fontWeight": "bold",
@@ -1030,7 +1033,7 @@ exports[`components >> story card  Story card with NO profile image and render i
             align="xMidYMid"
             bbHeight={16}
             bbWidth={16}
-            fill="#000000"
+            fill="#282828"
             focusable={false}
             height={16}
             meetOrSlice={0}
@@ -1057,7 +1060,7 @@ exports[`components >> story card  Story card with NO profile image and render i
             width={16}
           >
             <RNSVGGroup
-              fill={4278190080}
+              fill={4280821800}
               propList={
                 Array [
                   "fill",
@@ -1066,7 +1069,7 @@ exports[`components >> story card  Story card with NO profile image and render i
             >
               <RNSVGPath
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                fill={4278190080}
+                fill={4280821800}
                 fillOpacity={1}
                 propList={
                   Array [
@@ -1081,7 +1084,7 @@ exports[`components >> story card  Story card with NO profile image and render i
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -1128,7 +1131,7 @@ exports[`components >> story card  Story card with NO profile image and render i
               align="xMidYMid"
               bbHeight={16}
               bbWidth={16}
-              fill="#f03434"
+              fill="#D94E69"
               focusable={false}
               height={16}
               meetOrSlice={0}
@@ -1156,7 +1159,7 @@ exports[`components >> story card  Story card with NO profile image and render i
               width={16}
             >
               <RNSVGGroup
-                fill={4293932084}
+                fill={4292431465}
                 propList={
                   Array [
                     "fill",
@@ -1165,7 +1168,7 @@ exports[`components >> story card  Story card with NO profile image and render i
               >
                 <RNSVGPath
                   d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
-                  fill={4293932084}
+                  fill={4292431465}
                   fillOpacity={1}
                   propList={
                     Array [
@@ -1181,7 +1184,7 @@ exports[`components >> story card  Story card with NO profile image and render i
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -1199,7 +1202,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           Array [
             Object {
               "alignSelf": "flex-start",
-              "backgroundColor": "#0FCFA6",
+              "backgroundColor": "#67B6A8",
               "borderRadius": 8,
               "display": "flex",
               "marginTop": 8,
@@ -1218,7 +1221,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -1337,7 +1340,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           align="xMidYMid"
           bbHeight={16}
           bbWidth={16}
-          fill="#000000"
+          fill="#282828"
           focusable={false}
           height={16}
           meetOrSlice={0}
@@ -1367,7 +1370,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           width={16}
         >
           <RNSVGGroup
-            fill={4278190080}
+            fill={4280821800}
             propList={
               Array [
                 "fill",
@@ -1376,7 +1379,7 @@ exports[`components >> story card  Story card with NO profile image and render i
           >
             <RNSVGPath
               d="M336 0H48C21.49 0 0 21.49 0 48v464l192-112 192 112V48c0-26.51-21.49-48-48-48zm0 428.43l-144-84-144 84V54a6 6 0 0 1 6-6h276c3.314 0 6 2.683 6 5.996V428.43z"
-              fill={4278190080}
+              fill={4280821800}
               fillOpacity={1}
               propList={
                 Array [
@@ -1418,6 +1421,7 @@ exports[`components >> story card  Story card with profile image Should render s
           "alignItems": "center",
           "alignSelf": "center",
           "backgroundColor": "#ffffff",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 0.5,
           "display": "flex",
@@ -1431,7 +1435,7 @@ exports[`components >> story card  Story card with profile image Should render s
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -1473,7 +1477,7 @@ exports[`components >> story card  Story card with profile image Should render s
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 16,
                 "fontWeight": "bold",
@@ -1519,7 +1523,7 @@ exports[`components >> story card  Story card with profile image Should render s
             align="xMidYMid"
             bbHeight={16}
             bbWidth={16}
-            fill="#000000"
+            fill="#282828"
             focusable={false}
             height={16}
             meetOrSlice={0}
@@ -1546,7 +1550,7 @@ exports[`components >> story card  Story card with profile image Should render s
             width={16}
           >
             <RNSVGGroup
-              fill={4278190080}
+              fill={4280821800}
               propList={
                 Array [
                   "fill",
@@ -1555,7 +1559,7 @@ exports[`components >> story card  Story card with profile image Should render s
             >
               <RNSVGPath
                 d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"
-                fill={4278190080}
+                fill={4280821800}
                 fillOpacity={1}
                 propList={
                   Array [
@@ -1570,7 +1574,7 @@ exports[`components >> story card  Story card with profile image Should render s
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -1617,7 +1621,7 @@ exports[`components >> story card  Story card with profile image Should render s
               align="xMidYMid"
               bbHeight={16}
               bbWidth={16}
-              fill="#f03434"
+              fill="#D94E69"
               focusable={false}
               height={16}
               meetOrSlice={0}
@@ -1645,7 +1649,7 @@ exports[`components >> story card  Story card with profile image Should render s
               width={16}
             >
               <RNSVGGroup
-                fill={4293932084}
+                fill={4292431465}
                 propList={
                   Array [
                     "fill",
@@ -1654,7 +1658,7 @@ exports[`components >> story card  Story card with profile image Should render s
               >
                 <RNSVGPath
                   d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
-                  fill={4293932084}
+                  fill={4292431465}
                   fillOpacity={1}
                   propList={
                     Array [
@@ -1670,7 +1674,7 @@ exports[`components >> story card  Story card with profile image Should render s
             style={
               Array [
                 Object {
-                  "color": "#000000",
+                  "color": "#282828",
                   "display": "flex",
                   "fontSize": 16,
                   "lineHeight": 20,
@@ -1688,7 +1692,7 @@ exports[`components >> story card  Story card with profile image Should render s
           Array [
             Object {
               "alignSelf": "flex-start",
-              "backgroundColor": "#0FCFA6",
+              "backgroundColor": "#67B6A8",
               "borderRadius": 8,
               "display": "flex",
               "marginTop": 8,
@@ -1707,7 +1711,7 @@ exports[`components >> story card  Story card with profile image Should render s
           style={
             Array [
               Object {
-                "color": "#000000",
+                "color": "#282828",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -1789,7 +1793,7 @@ exports[`components >> story card  Story card with profile image Should render s
           align="xMidYMid"
           bbHeight={16}
           bbWidth={16}
-          fill="#000000"
+          fill="#282828"
           focusable={false}
           height={16}
           meetOrSlice={0}
@@ -1819,7 +1823,7 @@ exports[`components >> story card  Story card with profile image Should render s
           width={16}
         >
           <RNSVGGroup
-            fill={4278190080}
+            fill={4280821800}
             propList={
               Array [
                 "fill",
@@ -1828,7 +1832,7 @@ exports[`components >> story card  Story card with profile image Should render s
           >
             <RNSVGPath
               d="M336 0H48C21.49 0 0 21.49 0 48v464l192-112 192 112V48c0-26.51-21.49-48-48-48zm0 428.43l-144-84-144 84V54a6 6 0 0 1 6-6h276c3.314 0 6 2.683 6 5.996V428.43z"
-              fill={4278190080}
+              fill={4280821800}
               fillOpacity={1}
               propList={
                 Array [

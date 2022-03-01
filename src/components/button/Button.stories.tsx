@@ -18,7 +18,7 @@ storiesOf('Button', module)
         isLoading={false}
         isDisabled={false}
         margin="m"
-        backgroundColor="primaryRed"
+        backgroundColor="secondary"
       />
 
       <Button

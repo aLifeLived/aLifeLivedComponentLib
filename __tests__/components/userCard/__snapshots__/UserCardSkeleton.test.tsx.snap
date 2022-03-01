@@ -21,7 +21,7 @@ exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should m
           Object {},
           Array [
             Object {
-              "borderColor": "#eaeaea",
+              "borderColor": "#CBCBCB",
               "borderRadius": 48,
               "borderWidth": 1,
               "height": 50,
@@ -56,7 +56,7 @@ exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should m
             Object {},
             Array [
               Object {
-                "backgroundColor": "#eaeaea",
+                "backgroundColor": "#CBCBCB",
                 "height": 20,
                 "width": "50%",
               },

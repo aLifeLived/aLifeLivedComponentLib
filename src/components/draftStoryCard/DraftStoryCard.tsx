@@ -20,8 +20,8 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   return (
     <SystemButton onPress={() => onPress()}>
       <Box
-        borderColor="contrastHigh"
-        backgroundColor="surfaceLightest"
+        borderColor="borderColor"
+        backgroundColor="backgroundContrastLow"
         borderWidth={1}
         borderRadius="medium"
         margin="m"
@@ -33,7 +33,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
       >
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
-            color="contrastHigh"
+            color="textContrastHigh"
             variant="h3"
             marginTop="s"
             fontWeight="bold"
@@ -51,14 +51,14 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             paddingLeft="s"
             paddingRight="s"
           >
-            <Text variant="caption" color="contrastHighest" numberOfLines={1}>
+            <Text variant="caption" color="textContrastHigh" numberOfLines={1}>
               {topicTitle}
             </Text>
           </Box>
         </Box>
         <Icon
           icon="chevron-right"
-          color="contrastHigh"
+          color="textContrastHigh"
           size={20}
           marginRight="m"
         />

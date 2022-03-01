@@ -86,7 +86,7 @@ exports[`components >> user card  UserCard with profile image Should render user
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -224,7 +224,7 @@ exports[`components >> user card  UserCard without profile image Should render u
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",

@@ -25,7 +25,7 @@ export const RecordingTimer: React.FC<RecordingTimerProps> = ({
         {isRecording ? (
           <Animatable.View animation="fadeIn" iterationCount={'infinite'}>
             <Box
-              backgroundColor="primaryRed"
+              backgroundColor="backgroundError"
               width={10}
               height={10}
               borderRadius="medium"

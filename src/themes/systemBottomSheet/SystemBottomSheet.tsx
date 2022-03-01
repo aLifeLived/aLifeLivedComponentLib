@@ -21,7 +21,7 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
       bottom={0}
       top={0}
       justifyContent="flex-end"
-      backgroundColor="surfaceVisible"
+      backgroundColor="backgroundVisible"
       zIndex="foregroundTop"
     >
       <Box
@@ -38,7 +38,8 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
         <Button
           title="Close"
           onPress={() => onClose()}
-          backgroundColor="surface"
+          backgroundColor="backgroundContrastLow"
+          color="textContrastHigh"
           marginTop="l"
           marginBottom="l"
         />

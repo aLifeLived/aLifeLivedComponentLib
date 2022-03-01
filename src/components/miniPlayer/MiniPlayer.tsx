@@ -55,10 +55,10 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             testID="miniPlayer-avatar"
           />
           <Box marginLeft="s">
-            <Text color="surface" fontWeight="bold" numberOfLines={1}>
+            <Text color="white" fontWeight="bold" numberOfLines={1}>
               {title ? title : 'Nothing playing'}
             </Text>
-            <Text marginTop="s" variant="caption" color="surfaceLight">
+            <Text marginTop="s" variant="caption" color="white">
               {username}
             </Text>
           </Box>
@@ -71,7 +71,7 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
           <Icon
             icon={mediaControlIcon}
             size={25}
-            color="surface"
+            color="textContrastMid"
             testID="mediaControl-icon"
           />
         </SystemButton>

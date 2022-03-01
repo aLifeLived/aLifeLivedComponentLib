@@ -20,7 +20,7 @@ exports[`Help card component test  Should render help card correctly 1`] = `
     style={
       Array [
         Object {
-          "color": "#000000",
+          "color": "#282828",
           "display": "flex",
           "fontSize": 16,
           "lineHeight": 24,
@@ -34,7 +34,7 @@ exports[`Help card component test  Should render help card correctly 1`] = `
     style={
       Array [
         Object {
-          "color": "#54575a",
+          "color": "#7F8183",
           "display": "flex",
           "fontSize": 14,
           "lineHeight": 18,

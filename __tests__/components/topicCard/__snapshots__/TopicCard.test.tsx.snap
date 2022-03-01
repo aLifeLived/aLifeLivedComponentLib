@@ -24,7 +24,7 @@ exports[`components >> topic card  User HAS completed Should render component co
           "alignContent": "center",
           "alignItems": "center",
           "backgroundColor": "#ffffff",
-          "borderColor": "#252424",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -35,7 +35,7 @@ exports[`components >> topic card  User HAS completed Should render component co
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -67,7 +67,7 @@ exports[`components >> topic card  User HAS completed Should render component co
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -85,7 +85,7 @@ exports[`components >> topic card  User HAS completed Should render component co
         style={
           Array [
             Object {
-              "color": "#54575a",
+              "color": "#7F8183",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -167,7 +167,7 @@ exports[`components >> topic card  User HAS completed Should render component co
           style={
             Array [
               Object {
-                "color": "#0FCFA6",
+                "color": "#67B6A8",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,
@@ -185,7 +185,7 @@ exports[`components >> topic card  User HAS completed Should render component co
       align="xMidYMid"
       bbHeight={20}
       bbWidth={20}
-      fill="#0FCFA6"
+      fill="#67B6A8"
       focusable={false}
       height={20}
       meetOrSlice={0}
@@ -216,7 +216,7 @@ exports[`components >> topic card  User HAS completed Should render component co
       width={20}
     >
       <RNSVGGroup
-        fill={4279226278}
+        fill={4284987048}
         propList={
           Array [
             "fill",
@@ -225,7 +225,7 @@ exports[`components >> topic card  User HAS completed Should render component co
       >
         <RNSVGPath
           d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
-          fill={4279226278}
+          fill={4284987048}
           fillOpacity={1}
           propList={
             Array [
@@ -264,7 +264,7 @@ exports[`components >> topic card  User has not completed Should render componen
           "alignContent": "center",
           "alignItems": "center",
           "backgroundColor": "#ffffff",
-          "borderColor": "#252424",
+          "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -275,7 +275,7 @@ exports[`components >> topic card  User has not completed Should render componen
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -307,7 +307,7 @@ exports[`components >> topic card  User has not completed Should render componen
         style={
           Array [
             Object {
-              "color": "#252424",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -325,7 +325,7 @@ exports[`components >> topic card  User has not completed Should render componen
         style={
           Array [
             Object {
-              "color": "#54575a",
+              "color": "#7F8183",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,
@@ -407,7 +407,7 @@ exports[`components >> topic card  User has not completed Should render componen
           style={
             Array [
               Object {
-                "color": "#0FCFA6",
+                "color": "#67B6A8",
                 "display": "flex",
                 "fontSize": 14,
                 "lineHeight": 18,

@@ -24,7 +24,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primary"
+          color="textContrastHigh"
           marginRight="s"
         />
         <Button
@@ -32,7 +32,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primary"
+          color="textContrastHigh"
           marginRight="s"
         />
       </ModalFooter>
@@ -51,7 +51,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primaryRed"
+          color="textContrastHigh"
           marginRight="s"
         />
       </ModalFooter>
@@ -75,7 +75,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primary"
+          color="textContrastHigh"
           marginRight="s"
         />
         <Button
@@ -83,7 +83,7 @@ storiesOf('Modal', module)
           onPress={action('Fire on press for button one')}
           width="40%"
           backgroundColor="primary"
-          color="primary"
+          color="textContrastHigh"
           marginRight="s"
         />
       </ModalFooter>

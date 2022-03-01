@@ -40,7 +40,7 @@ const data = [
 storiesOf('Theme card', module)
   .addDecorator(Story => Story())
   .add('Default theme card in list', () => (
-    <Box flex={1} backgroundColor="surface">
+    <Box flex={1} backgroundColor="white">
       <FlatList
         data={data}
         numColumns={1}

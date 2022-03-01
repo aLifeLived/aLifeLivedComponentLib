@@ -14,6 +14,7 @@ exports[`components >> theme card  Given there is a image the component still re
   style={
     Object {
       "backgroundColor": "#ffffff",
+      "borderColor": "#2828281e",
       "borderRadius": 8,
       "borderWidth": 1,
       "opacity": 1,
@@ -30,7 +31,7 @@ exports[`components >> theme card  Given there is a image the component still re
         Array [
           Object {
             "elevation": 2,
-            "shadowColor": "#000000",
+            "shadowColor": "#282828",
             "shadowOffset": Object {
               "height": 4,
               "width": 0,
@@ -100,7 +101,7 @@ exports[`components >> theme card  Given there is a image the component still re
         style={
           Array [
             Object {
-              "color": "#000000",
+              "color": "#282828",
               "display": "flex",
               "fontSize": 16,
               "fontWeight": "bold",
@@ -116,7 +117,7 @@ exports[`components >> theme card  Given there is a image the component still re
         style={
           Array [
             Object {
-              "color": "#54575a",
+              "color": "#7F8183",
               "display": "flex",
               "fontSize": 14,
               "lineHeight": 18,

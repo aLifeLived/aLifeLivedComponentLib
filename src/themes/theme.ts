@@ -1,14 +1,14 @@
 import { createTheme as _createTheme } from '@shopify/restyle';
-import { ColorThemeLight, ColorThemeDark } from './palette';
+import { ColorThemeLight } from './palette';
 import { textVariants } from './text/Text';
 import { imageVariants } from './systemImage/SystemImage';
 import { inputVariants } from './systemInput/SystemInput';
 import { skeletonElementsVariants } from './loadingSkeletons/SkeletonElement';
 
 export type Theme = ReturnType<typeof createTheme>;
-export const createTheme = (theme: 'light' | 'dark') =>
+export const createTheme = () =>
   _createTheme({
-    colors: theme === 'light' ? ColorThemeLight : ColorThemeDark,
+    colors: ColorThemeLight,
     spacing: {
       xs: 2,
       s: 8,

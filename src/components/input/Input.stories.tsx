@@ -8,7 +8,7 @@ import { Box } from '../../themes/box/Box';
 storiesOf('Input', module)
   .addDecorator(Story => Story())
   .add('Default', () => (
-    <Box backgroundColor="surface" flex={1} width="100%">
+    <Box backgroundColor="backgroundContrastLow" flex={1} width="100%">
       <Box margin="s">
         <Input
           label="Hey this is a long label"

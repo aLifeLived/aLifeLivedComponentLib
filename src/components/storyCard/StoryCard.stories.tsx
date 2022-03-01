@@ -38,7 +38,7 @@ const storyData = [
 storiesOf('Story card', module)
   .addDecorator(Story => Story())
   .add('Default story card', () => (
-    <Box flex={1} backgroundColor="surface" padding="s">
+    <Box flex={1} backgroundColor="white" padding="s">
       {storyData.map(story => (
         <StoryCard
           key={story.id}
@@ -53,7 +53,7 @@ storiesOf('Story card', module)
     </Box>
   ))
   .add('Liked and bookmarked story card', () => (
-    <Box flex={1} backgroundColor="surface" padding="s">
+    <Box flex={1} backgroundColor="white" padding="s">
       {storyData.map(story => (
         <StoryCard
           key={story.id}

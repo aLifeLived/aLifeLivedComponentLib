@@ -22,7 +22,7 @@ storiesOf('Select box', module)
         isSelected={boolean('isSelected', false)}
         onPress={action('Public pressed')}
       >
-        <Icon icon="eye" color="contrastHigh" size={32} />
+        <Icon icon="eye" color="backgroundContrastHigh" size={32} />
       </SelectBox>
     </Box>
   ))
@@ -38,7 +38,7 @@ storiesOf('Select box', module)
         isSelected={boolean('isSelected', false)}
         onPress={action('Public pressed')}
       >
-        <Icon icon="eye" color="contrastHigh" size={32} />
+        <Icon icon="eye" color="backgroundContrastHigh" size={32} />
       </SelectBox>
     </Box>
   ));

@@ -27,12 +27,12 @@ storiesOf('Icon', module)
       <Icon icon="user" margin="s" />
       <Icon icon="users" margin="s" />
       <Icon icon="times" margin="s" />
-      <Icon icon={['far', 'heart']} margin="s" color="primaryRed" />
-      <Icon icon={['fas', 'heart']} margin="s" color="primaryRed" />
+      <Icon icon={['far', 'heart']} margin="s" color="secondary" />
+      <Icon icon={['fas', 'heart']} margin="s" color="secondary" />
       <Icon icon={['far', 'bookmark']} margin="s" />
       <Icon icon={['fas', 'bookmark']} margin="s" />
       <Icon icon="search" margin="s" />
-      <Icon icon="exclamation-circle" margin="s" color="primaryRed" />
+      <Icon icon="exclamation-circle" margin="s" color="secondary" />
       <Icon icon="check-circle" margin="s" color="primary" />
       <Icon icon="plus-circle" margin="s" color="primary" />
       <Icon icon="eye" margin="s" color="primary" />
@@ -47,13 +47,13 @@ storiesOf('Icon', module)
       <Icon
         icon={['far', 'heart']}
         margin="s"
-        color="primaryRed"
+        color="secondary"
         onPress={action('Heart icon pressed')}
       />
       <Icon
         icon={['fas', 'heart']}
         margin="s"
-        color="primaryRed"
+        color="secondary"
         onPress={action('Heart icon pressed')}
       />
       <Icon

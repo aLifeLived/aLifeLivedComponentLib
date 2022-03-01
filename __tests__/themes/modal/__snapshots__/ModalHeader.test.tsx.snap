@@ -39,7 +39,7 @@ exports[`themes >> ModalHeader Render modal header Should render modal header co
       align="xMidYMid"
       bbHeight={16}
       bbWidth={16}
-      fill="#f4f5f5"
+      fill="#282828"
       focusable={false}
       height={16}
       meetOrSlice={0}
@@ -67,7 +67,7 @@ exports[`themes >> ModalHeader Render modal header Should render modal header co
       width={16}
     >
       <RNSVGGroup
-        fill={4294243829}
+        fill={4280821800}
         propList={
           Array [
             "fill",
@@ -76,7 +76,7 @@ exports[`themes >> ModalHeader Render modal header Should render modal header co
       >
         <RNSVGPath
           d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
-          fill={4294243829}
+          fill={4280821800}
           fillOpacity={1}
           propList={
             Array [

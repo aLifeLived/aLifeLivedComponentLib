@@ -25,7 +25,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
 }) => {
   return (
     <SystemButton
-      backgroundColor={isDisabled ? 'contrastLow' : 'primary'}
+      backgroundColor={isDisabled ? 'backgroundContrastMid' : 'primary'}
       onPress={() => onPress()}
       padding="m"
       borderRadius="medium"
