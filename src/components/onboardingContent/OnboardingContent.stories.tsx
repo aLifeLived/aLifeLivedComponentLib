@@ -12,21 +12,18 @@ import { SystemFlatList } from '../../themes/systemFlatList/SystemFlatList';
 import { Box } from '../../themes/box/Box';
 import { Text } from '../../themes/text/Text';
 
-const onPress = () => {
-  console.log('PRESSED');
-};
 const pages = [
   {
     title: 'Listen',
     description: 'This is the first description',
-    onNextPress: onPress,
+    onNextPress: () => action('Tap next pressed'),
     children: <Text>This is the first</Text>,
     onNextButtonText: 'Tap next',
   },
   {
     title: 'Record',
     description: 'This is the second description',
-    onNextPress: onPress,
+    onNextPress: () => action('Tap next pressed'),
     children: <Text>This is the second</Text>,
     onNextButtonText: 'Finish',
   },
