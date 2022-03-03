@@ -15,7 +15,7 @@ const setup = () =>
       title="Test title"
       description="This is a test description"
       onNextPress={mockOnNextButtonPress}
-      testID="testId"
+      buttonTestID="testId"
       onNextButtonText="Tap next"
     >
       <Text>Test child</Text>

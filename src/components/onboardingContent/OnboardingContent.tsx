@@ -9,7 +9,8 @@ type OnboardingProps = {
   title: string;
   description: string;
   onNextPress: () => void;
-  testID?: string;
+  buttonTestID?: string;
+  textTestID?: string;
   onNextButtonText: 'Tap next' | 'Finish';
   children: ReactChild;
 };
@@ -18,7 +19,8 @@ export const OnboardingContent: React.FC<OnboardingProps> = ({
   title,
   description,
   onNextPress,
-  testID,
+  buttonTestID,
+  textTestID,
   onNextButtonText,
   children,
 }) => {
@@ -34,7 +36,7 @@ export const OnboardingContent: React.FC<OnboardingProps> = ({
       </Box>
 
       <Box alignItems="center" flex={1} width="100%">
-        <Text variant="h2" marginTop="xl">
+        <Text variant="h2" marginTop="xl" testID={textTestID}>
           {title}
         </Text>
         <Text
@@ -46,7 +48,7 @@ export const OnboardingContent: React.FC<OnboardingProps> = ({
           {description}
         </Text>
         <Box alignSelf="flex-end">
-          <Pressable onPress={() => onNextPress()} testID={testID}>
+          <Pressable onPress={() => onNextPress()} testID={buttonTestID}>
             <Text variant="caption" fontStyle="italic" padding="xl">
               {onNextButtonText}
             </Text>
