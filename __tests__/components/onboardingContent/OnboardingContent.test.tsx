@@ -44,7 +44,7 @@ describe('components >> onBoardingContent', () => {
     expect(mockOnNextButtonPress).toBeCalledTimes(1);
   });
 
-  test('Should render on next button with different text and successfully press', () => {
+  test('Should render on next button test', () => {
     const { getByText } = setup();
     expect(getByText('Tap next')).toBeDefined();
   });
