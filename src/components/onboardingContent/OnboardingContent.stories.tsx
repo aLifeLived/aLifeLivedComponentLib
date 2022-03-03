@@ -21,12 +21,14 @@ const pages = [
     description: 'This is the first description',
     onNextPress: onPress,
     children: <Text>This is the first</Text>,
+    onNextButtonText: 'Tap next',
   },
   {
     title: 'Record',
     description: 'This is the second description',
     onNextPress: onPress,
     children: <Text>This is the second</Text>,
+    onNextButtonText: 'Finish',
   },
 ];
 
@@ -40,6 +42,7 @@ storiesOf('Onboarding', module)
           title={text('Title', 'Listen')}
           description={text('Description', 'This is the description')}
           onNextPress={action('Tap next pressed')}
+          onNextButtonText="Tap next"
         >
           <Text variant="h1">I'm the child</Text>
         </OnboardingContent>
@@ -65,6 +68,7 @@ storiesOf('Onboarding', module)
               title={item.title}
               description={item.description}
               onNextPress={item.onNextPress}
+              onNextButtonText={item.onNextButtonText}
             >
               {item.children}
             </OnboardingContent>
