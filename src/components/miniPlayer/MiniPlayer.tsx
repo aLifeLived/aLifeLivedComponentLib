@@ -71,7 +71,7 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
           <Icon
             icon={mediaControlIcon}
             size={25}
-            color="textContrastMid"
+            color="white"
             testID="mediaControl-icon"
           />
         </SystemButton>
