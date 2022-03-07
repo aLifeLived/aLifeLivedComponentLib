@@ -257,7 +257,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#282828",
+          "backgroundColor": "#ffffff",
           "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -380,7 +380,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#282828",
+          "backgroundColor": "#ffffff",
           "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -725,7 +725,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#282828",
+          "backgroundColor": "#ffffff",
           "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
@@ -848,7 +848,7 @@ exports[`components >> Select Box Given select box has a variant of vertical Giv
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#282828",
+          "backgroundColor": "#ffffff",
           "borderColor": "#2828281e",
           "borderRadius": 8,
           "borderWidth": 1,
