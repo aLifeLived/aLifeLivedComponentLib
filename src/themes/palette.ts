@@ -55,9 +55,11 @@ export const ColorThemeLight = {
   textContrastMid: palette.grey80,
   textContrastLow: palette.grey60,
   textContrastXLow: palette.grey40,
+  textContrastXXLow: palette.red05,
 
   white: palette.white,
   blue: palette.blue,
+  yellow: palette.yellow,
   black: palette.black,
   transparent: '#00000000',
 };
