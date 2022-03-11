@@ -74,9 +74,23 @@ const InputIconAdornment: React.FC = React.memo(({ children }) => {
 });
 
 const ErrorIconAdornment: React.FC = () => {
-  return <Icon icon="exclamation-circle" color="backgroundError" size={20} />;
+  return (
+    <Icon
+      icon="exclamation-circle"
+      color="backgroundError"
+      size={20}
+      testID="O4G7U-error-icon"
+    />
+  );
 };
 
 const SuccessIconAdornment: React.FC = () => {
-  return <Icon icon="check-circle" color="primary" size={20} />;
+  return (
+    <Icon
+      icon="check-circle"
+      color="primary"
+      size={20}
+      testID="E7P0M-success-icon"
+    />
+  );
 };
