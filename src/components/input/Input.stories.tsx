@@ -11,21 +11,28 @@ storiesOf('Input', module)
     <Box backgroundColor="backgroundContrastLow" flex={1} width="100%">
       <Box margin="s">
         <Input
-          label="Hey this is a long label"
+          label="Default variant"
           variant="default"
+          labelVariant="h3"
           returnKeyType="default"
-          placeholder="Enter your first name"
         />
       </Box>
-    </Box>
-  ))
-  .add('No Label', () => (
-    <Box margin="s">
-      <Input
-        variant="default"
-        returnKeyType="default"
-        placeholder="Enter your email address"
-      />
+      <Box margin="s">
+        <Input
+          label="Success variant"
+          variant="success"
+          labelVariant="h3"
+          returnKeyType="default"
+        />
+      </Box>
+      <Box margin="s">
+        <Input
+          label="Error variant"
+          variant="error"
+          labelVariant="h3"
+          returnKeyType="default"
+        />
+      </Box>
     </Box>
   ))
   .add('Underline', () => (
@@ -33,7 +40,6 @@ storiesOf('Input', module)
       <Input
         variant="underline"
         returnKeyType="default"
-        placeholder="Enter your email address"
         label="Under line variant"
       />
     </Box>
