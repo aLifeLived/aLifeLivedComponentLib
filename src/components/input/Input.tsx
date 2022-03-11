@@ -31,6 +31,16 @@ const handleVariantState = (variant: keyof typeof inputVariants) => {
   }
 };
 
+const handleBorderColor = (variant: keyof typeof inputVariants) => {
+  if (variant === 'error') {
+    return 'backgroundError';
+  } else if (variant === 'success') {
+    return 'primary';
+  } else {
+    return 'borderColor';
+  }
+};
+
 export const Input: React.FC<InputProps & StyledInputProps> = ({
   variant,
   label,
@@ -56,9 +66,7 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
           flex={1}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
-          borderColor={
-            isFocused && variant !== 'error' ? 'primary' : 'transparent'
-          }
+          borderColor={isFocused ? handleBorderColor(variant) : 'transparent'}
           {...rest}
         />
         {endAdornmentComponent ? (
