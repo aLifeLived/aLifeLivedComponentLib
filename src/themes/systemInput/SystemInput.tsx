@@ -16,13 +16,29 @@ import {
 import { TextInput, TextInputProps } from 'react-native';
 import { Theme } from '../theme';
 
+const baseStyles = {
+  borderWidth: 1,
+  borderColor: 'borderColor',
+  backgroundColor: 'borderColor',
+  borderRadius: 'medium',
+  paddingRight: 's',
+  paddingTop: 'm',
+  paddingBottom: 'm',
+  paddingLeft: 'm',
+  color: 'textContrastHigh',
+};
+
 export const inputVariants = {
-  default: {
-    borderWidth: 1,
-    borderRadius: 'small',
-    paddingTop: 's',
-    paddingBottom: 's',
-    paddingLeft: 's',
+  default: baseStyles,
+  error: {
+    ...baseStyles,
+    borderColor: 'backgroundError',
+    backgroundColor: 'backgroundErrorOverlay',
+  },
+  success: {
+    ...baseStyles,
+    borderColor: 'primary',
+    backgroundColor: 'primaryOverlay',
   },
   underline: {
     borderBottomWidth: 1,

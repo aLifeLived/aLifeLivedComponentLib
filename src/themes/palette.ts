@@ -42,6 +42,7 @@ export const ColorThemeLight = {
 
   background: palette.grey05,
   backgroundError: palette.red100,
+  backgroundErrorOverlay: opacity(palette.red100, 0.16),
   backgroundContrastHigh: palette.grey100,
   backgroundContrastMid: palette.grey20,
   backgroundContrastLow: palette.white,
