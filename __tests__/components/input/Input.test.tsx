@@ -1,18 +1,28 @@
 import React from 'react';
-import { render } from './../../../jest/renderUtil';
+import { render, fireEvent } from './../../../jest/renderUtil';
 
 // Component
 import { Input } from '../../../src/components/input/Input';
 
 const mockOnPress = jest.fn();
-
-const setup = ({ label, variant }) => {
+const mockOnChange = jest.fn();
+const setup = ({
+  label,
+  variant,
+  testID,
+}: {
+  label?: string;
+  variant: 'default' | 'success' | 'error' | 'underline';
+  testID?: string;
+}) => {
   const utils = render(
     <Input
       placeholder="Test placeholder"
       label={label}
       variant={variant}
       onPressIn={mockOnPress}
+      testID={testID}
+      onChangeText={mockOnChange}
     />
   );
 
@@ -22,6 +32,18 @@ const setup = ({ label, variant }) => {
 };
 
 describe('component >> Input', () => {
+  describe('Given user enters text', () => {
+    test('Should find entered value', () => {
+      const { getByTestId } = setup({
+        variant: 'default',
+        testID: 'default-variant-test',
+      });
+
+      fireEvent.changeText(getByTestId('default-variant-test'), 'test');
+      expect(mockOnChange).toBeCalledTimes(1);
+    });
+  });
+
   describe('Given input has variant of default', () => {
     describe('Given input has label', () => {
       test('Should render input with label correctly', () => {

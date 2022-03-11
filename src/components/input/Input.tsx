@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TextInputProps } from 'react-native';
 import { Theme } from '../../themes/theme';
 
@@ -38,6 +38,10 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
   ...rest
 }) => {
   const endAdornmentComponent = handleVariantState(variant);
+  const [isFocused, setIsFocused] = useState(false);
+  const handleOnFocus = () => setIsFocused(true);
+  const handleOnBlur = () => setIsFocused(false);
+
   return (
     <Box boxShadow="md">
       {label && (
@@ -47,7 +51,16 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
       )}
 
       <Box flexDirection="row">
-        <SystemInput variant={variant} {...rest} flex={1} />
+        <SystemInput
+          variant={variant}
+          flex={1}
+          onFocus={handleOnFocus}
+          onBlur={handleOnBlur}
+          borderColor={
+            isFocused && variant !== 'error' ? 'primary' : 'transparent'
+          }
+          {...rest}
+        />
         {endAdornmentComponent ? (
           <InputIconAdornment>{endAdornmentComponent}</InputIconAdornment>
         ) : null}
