@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-import {
-  NativeSyntheticEvent,
-  TextInputChangeEventData,
-  TextInputProps,
-} from 'react-native';
+import { TextInputProps } from 'react-native';
 import { Theme } from '../../themes/theme';
 
 // Hooks
@@ -21,7 +17,6 @@ import {
 
 interface InputProps extends TextInputProps {
   variant: keyof typeof inputVariants;
-  onChange: (text: NativeSyntheticEvent<TextInputChangeEventData>) => string;
   label?: string;
   labelVariant?: keyof Omit<Theme['textVariants'], 'defaults'>;
 }
@@ -50,7 +45,6 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
   variant,
   label,
   labelVariant = 'caption',
-  onChange,
   ...rest
 }) => {
   const endAdornmentComponent = handleVariantState(variant);
@@ -72,7 +66,6 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
           flex={1}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
-          onChange={event => onChange(event)}
           borderColor={isFocused ? handleBorderColor(variant) : 'transparent'}
           {...rest}
         />
