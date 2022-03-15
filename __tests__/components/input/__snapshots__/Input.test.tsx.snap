@@ -53,6 +53,7 @@ exports[`component >> Input Given input has variant ERROR Should match snapshot 
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
@@ -220,6 +221,7 @@ exports[`component >> Input Given input has variant SUCCESS Should match snapsho
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
@@ -372,6 +374,7 @@ exports[`component >> Input Given input has variant of default Given input has N
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
@@ -466,6 +469,7 @@ exports[`component >> Input Given input has variant of default Given input has l
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
@@ -545,6 +549,7 @@ exports[`component >> Input Given input has variant underline Given input has NO
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
@@ -634,6 +639,7 @@ exports[`component >> Input Given input has variant underline Given input has la
     <TextInput
       allowFontScaling={true}
       onBlur={[Function]}
+      onChange={[Function]}
       onChangeText={
         [MockFunction] {
           "calls": Array [
