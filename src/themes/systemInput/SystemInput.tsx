@@ -42,6 +42,7 @@ export const inputVariants = {
   },
   underline: {
     borderBottomWidth: 1,
+    borderColor: 'borderColor',
     paddingTop: 's',
     paddingBottom: 's',
   },

@@ -47,6 +47,7 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
   labelVariant = 'caption',
   ...rest
 }) => {
+  const { colors } = useTheme();
   const endAdornmentComponent = handleVariantState(variant);
   const [isFocused, setIsFocused] = useState(false);
   const handleOnFocus = () => setIsFocused(true);
@@ -66,6 +67,7 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
           flex={1}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
+          placeholderTextColor={colors.textContrastLow}
           borderColor={isFocused ? handleBorderColor(variant) : 'transparent'}
           {...rest}
         />
