@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> systemKeyboardAvoidingView Given style has been applied to avoiding view Should match snapshot with flex of 1 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+    ]
+  }
+/>
+`;
