@@ -29,6 +29,7 @@ import { iconList } from './themes/systemIcon/IconList';
 import { BlurLayout } from './themes/systemBlurLayout/SystemBlurLayout';
 import { SystemFlatList } from './themes/systemFlatList/SystemFlatList';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
+import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
 import { useTheme } from './themes/hooks/useTheme';
 
 library.add(iconList);
@@ -60,4 +61,5 @@ export {
   DraftStoryCard,
   ThemeCard,
   OnboardingContent,
+  SystemKeyboardAvoidingView,
 };
