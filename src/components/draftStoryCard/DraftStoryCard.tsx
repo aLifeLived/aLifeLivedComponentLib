@@ -21,7 +21,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
     <SystemButton onPress={() => onPress()}>
       <Box
         borderColor="borderColor"
-        backgroundColor="backgroundContrastLow"
+        backgroundColor="backgroundContrastXLow"
         borderWidth={1}
         borderRadius="medium"
         margin="m"

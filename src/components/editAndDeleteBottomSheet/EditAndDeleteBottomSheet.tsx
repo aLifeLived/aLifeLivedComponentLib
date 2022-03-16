@@ -17,7 +17,7 @@ export const EditAndDeleteBottomSheet: React.FC<EditAndDeleteBottomSheetTypes> =
           title="Edit story"
           onPress={() => onEditStoryPress()}
           marginBottom="s"
-          backgroundColor="backgroundContrastLow"
+          backgroundColor="backgroundContrastXLow"
         />
         <Button
           title="Delete story"

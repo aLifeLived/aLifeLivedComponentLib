@@ -21,6 +21,7 @@ const palette = {
   grey60: '#7F8183',
   grey40: '#A9ABAD',
   grey20: '#CBCBCB',
+  grey15: '#EFEFEF',
   grey10: '#EAEAEA',
   grey05: '#FBFBFB',
 
@@ -45,7 +46,8 @@ export const ColorThemeLight = {
   backgroundErrorOverlay: opacity(palette.red100, 0.16),
   backgroundContrastHigh: palette.grey100,
   backgroundContrastMid: palette.grey20,
-  backgroundContrastLow: palette.white,
+  backgroundContrastLow: palette.grey15,
+  backgroundContrastXLow: palette.white,
   backgroundHighlight: palette.red70,
   backgroundVisible: palette.seeThrew,
 

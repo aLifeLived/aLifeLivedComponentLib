@@ -26,6 +26,7 @@ const InputExample = () => {
       onChangeText={(text: string) => setInput(text)}
       labelVariant="h3"
       returnKeyType="default"
+      placeholder="Default variant placeholder"
     />
   );
 };
@@ -33,13 +34,14 @@ const InputExample = () => {
 storiesOf('Input', module)
   .addDecorator(Story => Story())
   .add('Default', () => (
-    <Box backgroundColor="backgroundContrastLow" flex={1} width="100%">
+    <Box backgroundColor="backgroundContrastXLow" flex={1} width="100%">
       <Box margin="s">
         <InputExample />
       </Box>
       <Box margin="s">
         <Input
           label="SUCCESS variant"
+          placeholder="Success variant placeholder"
           variant="success"
           labelVariant="h3"
           returnKeyType="default"
@@ -49,6 +51,7 @@ storiesOf('Input', module)
         <Input
           label="ERROR variant"
           variant="error"
+          placeholder="Error variant placeholder"
           labelVariant="h3"
           returnKeyType="default"
         />
@@ -61,6 +64,7 @@ storiesOf('Input', module)
         variant="underline"
         returnKeyType="default"
         label="Under line variant"
+        placeholder="Underline variant"
       />
     </Box>
   ));

@@ -29,11 +29,14 @@ import { iconList } from './themes/systemIcon/IconList';
 import { BlurLayout } from './themes/systemBlurLayout/SystemBlurLayout';
 import { SystemFlatList } from './themes/systemFlatList/SystemFlatList';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
+import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
+import { SystemPressable } from './themes/systemPressable/SystemPressable';
 import { useTheme } from './themes/hooks/useTheme';
 
 library.add(iconList);
 
 export {
+  SystemPressable,
   StoryCard,
   UserCardSkeleton,
   SelectBox,
@@ -60,4 +63,5 @@ export {
   DraftStoryCard,
   ThemeCard,
   OnboardingContent,
+  SystemKeyboardAvoidingView,
 };
