@@ -34,7 +34,7 @@ const InputExample = () => {
 storiesOf('Input', module)
   .addDecorator(Story => Story())
   .add('Default', () => (
-    <Box backgroundColor="backgroundContrastLow" flex={1} width="100%">
+    <Box backgroundColor="backgroundContrastXLow" flex={1} width="100%">
       <Box margin="s">
         <InputExample />
       </Box>

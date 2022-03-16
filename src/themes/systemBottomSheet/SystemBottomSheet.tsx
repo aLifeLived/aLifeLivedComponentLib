@@ -38,7 +38,7 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
         <Button
           title="Close"
           onPress={() => onClose()}
-          backgroundColor="backgroundContrastLow"
+          backgroundColor="backgroundContrastXLow"
           color="textContrastHigh"
           marginTop="l"
           marginBottom="l"
