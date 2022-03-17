@@ -1,36 +1,79 @@
-import { createText } from '@shopify/restyle';
+import { createText, ResponsiveValue } from '@shopify/restyle';
+import { ColorThemeTokens } from '../palette';
 import { Theme } from '../theme';
 
-export const textVariants = {
+const FontFamilies = {
+  sfUiTextBold: 'SFUIText-Bold',
+  sfUiTextRegular: 'SFUIText-Regular',
+  sfUiTextSemiBold: 'SFUIText-Semibold',
+  sfUiDisplayRegular: 'SFUIDisplay-Regular',
+};
+
+type TextVariantToken =
+  | 'h1'
+  | 'h2'
+  | 'h3'
+  | 'h4'
+  | 'intro'
+  | 'body'
+  | 'bodySmall'
+  | 'bodyXSmall';
+
+type TextVariant = {
+  fontFamily: ValueOf<typeof FontFamilies>;
+  fontSize: number | ResponsiveValue<number, Theme>;
+  lineHeight?: number | string;
+  color: ColorThemeTokens;
+};
+
+export const textVariants: Record<TextVariantToken, TextVariant> = {
   h1: {
-    fontSize: 32,
+    fontSize: 60,
     lineHeight: 38,
     color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiTextBold,
   },
   h2: {
-    fontSize: 24,
+    fontSize: 32,
     lineHeight: 30,
     color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiTextBold,
   },
   h3: {
-    fontSize: 16,
+    fontSize: 24,
     lineHeight: 24,
     color: 'textContrastHigh',
+    fontFamily: 'sfUiTextRegular',
+  },
+  h4: {
+    fontSize: 18,
+    lineHeight: 24,
+    color: 'textContrastHigh',
+    fontFamily: 'sfUiTextRegular',
   },
   body: {
+    fontSize: 18,
+    lineHeight: 20,
+    color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
+  },
+  bodySmall: {
     fontSize: 16,
     lineHeight: 20,
     color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
   },
-  caption: {
+  bodyXSmall: {
+    fontSize: 14,
+    lineHeight: 20,
+    color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
+  },
+  intro: {
     fontSize: 14,
     lineHeight: 18,
     color: 'textContrastLow',
-  },
-  default: {
-    fontSize: 16,
-    lineHeight: 20,
-    color: 'textContrastHigh',
+    fontFamily: FontFamilies.sfUiTextSemiBold,
   },
 };
 

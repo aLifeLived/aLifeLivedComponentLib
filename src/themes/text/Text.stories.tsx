@@ -12,8 +12,7 @@ storiesOf('Text', module)
       <Text variant="h1">H1 Heading</Text>
       <Text variant="h2">H2 Heading</Text>
       <Text variant="h3">H3 Heading</Text>
-      <Text variant="default">Default</Text>
+      <Text variant="h4">H4 Heading</Text>
       <Text variant="body">Body</Text>
-      <Text variant="caption">Caption</Text>
     </>
   ));
