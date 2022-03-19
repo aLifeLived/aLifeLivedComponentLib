@@ -43,10 +43,10 @@ export const ThemeCard: React.FC<ThemeCardProps> = ({
           borderBottomRightRadius="medium"
           width="80%"
         >
-          <Text variant="h3" fontWeight="bold" numberOfLines={1}>
+          <Text variant="h4" fontWeight="bold" numberOfLines={1}>
             {title}
           </Text>
-          <Text variant="caption" numberOfLines={1}>
+          <Text variant="bodySmall" numberOfLines={1} marginTop="xs">
             {subText}
           </Text>
         </Box>
