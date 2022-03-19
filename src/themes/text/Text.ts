@@ -17,10 +17,11 @@ type TextVariantToken =
   | 'intro'
   | 'body'
   | 'bodySmall'
-  | 'bodyXSmall';
+  | 'bodyXSmall'
+  | 'default';
 
 type TextVariant = {
-  fontFamily: ValueOf<typeof FontFamilies>;
+  fontFamily: keyof typeof FontFamilies;
   fontSize: number | ResponsiveValue<number, Theme>;
   lineHeight?: number | string;
   color: ColorThemeTokens;
@@ -28,16 +29,16 @@ type TextVariant = {
 
 export const textVariants: Record<TextVariantToken, TextVariant> = {
   h1: {
-    fontSize: 60,
-    lineHeight: 38,
+    fontSize: 52,
+    lineHeight: 52,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiTextBold,
+    fontFamily: 'sfUiTextBold',
   },
   h2: {
     fontSize: 32,
     lineHeight: 30,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiTextBold,
+    fontFamily: 'sfUiTextBold',
   },
   h3: {
     fontSize: 24,
@@ -46,34 +47,40 @@ export const textVariants: Record<TextVariantToken, TextVariant> = {
     fontFamily: 'sfUiTextRegular',
   },
   h4: {
-    fontSize: 18,
+    fontSize: 20,
     lineHeight: 24,
     color: 'textContrastHigh',
     fontFamily: 'sfUiTextRegular',
+  },
+  intro: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: 'textContrastHigh',
+    fontFamily: 'sfUiTextSemiBold',
   },
   body: {
     fontSize: 18,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiDisplayRegular,
+    fontFamily: 'sfUiDisplayRegular',
   },
   bodySmall: {
     fontSize: 16,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiDisplayRegular,
+    fontFamily: 'sfUiDisplayRegular',
   },
   bodyXSmall: {
     fontSize: 14,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiDisplayRegular,
+    fontFamily: 'sfUiDisplayRegular',
   },
-  intro: {
-    fontSize: 14,
-    lineHeight: 18,
-    color: 'textContrastLow',
-    fontFamily: FontFamilies.sfUiTextSemiBold,
+  default: {
+    fontSize: 18,
+    lineHeight: 20,
+    color: 'textContrastHigh',
+    fontFamily: 'sfUiDisplayRegular',
   },
 };
 
