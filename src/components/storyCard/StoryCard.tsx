@@ -53,7 +53,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
       >
         <Box width="80%">
           <Box>
-            <Text variant="default" fontWeight="bold" numberOfLines={1}>
+            <Text variant="h4" fontWeight="bold" numberOfLines={1}>
               {story.title}
             </Text>
           </Box>
@@ -61,7 +61,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
           <Box flexDirection="row" alignItems="center" marginTop="s">
             <Box flexDirection="row" alignItems="center" width="25%">
               <Icon icon={['far', 'clock']} color="primaryContrast" />
-              <Text variant="body" marginLeft="s">
+              <Text variant="bodyXSmall" marginLeft="s">
                 {story.duration}
               </Text>
             </Box>
@@ -72,7 +72,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
                 onPress={onLikePress}
                 testID="story-card-heart-icon"
               />
-              <Text variant="body" marginLeft="s">
+              <Text variant="bodyXSmall" marginLeft="s">
                 {story.likes}
               </Text>
             </Box>
@@ -87,7 +87,11 @@ export const StoryCard: React.FC<StoryCardProps> = ({
             paddingLeft="s"
             paddingRight="s"
           >
-            <Text variant="caption" color="textContrastHigh" numberOfLines={1}>
+            <Text
+              variant="bodyXSmall"
+              color="textContrastHigh"
+              numberOfLines={1}
+            >
               {story.topic}
             </Text>
           </Box>
