@@ -49,7 +49,7 @@ export const OnboardingContent: React.FC<OnboardingProps> = ({
         </Text>
         <Box alignSelf="flex-end">
           <Pressable onPress={() => onNextPress()} testID={buttonTestID}>
-            <Text variant="caption" fontStyle="italic" padding="xl">
+            <Text variant="intro" fontStyle="italic" padding="xl">
               {onNextButtonText}
             </Text>
           </Pressable>
