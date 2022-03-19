@@ -1,6 +1,7 @@
 import { createText, ResponsiveValue } from '@shopify/restyle';
 import { ColorThemeTokens } from '../palette';
 import { Theme } from '../theme';
+import { ValueOf } from '../../types/utils';
 
 const FontFamilies = {
   sfUiTextBold: 'SFUIText-Bold',
@@ -21,7 +22,7 @@ type TextVariantToken =
   | 'default';
 
 type TextVariant = {
-  fontFamily: keyof typeof FontFamilies;
+  fontFamily: ValueOf<typeof FontFamilies>;
   fontSize: number | ResponsiveValue<number, Theme>;
   lineHeight?: number | string;
   color: ColorThemeTokens;
@@ -32,55 +33,55 @@ export const textVariants: Record<TextVariantToken, TextVariant> = {
     fontSize: 52,
     lineHeight: 52,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiTextBold',
+    fontFamily: FontFamilies.sfUiTextBold,
   },
   h2: {
     fontSize: 32,
     lineHeight: 30,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiTextBold',
+    fontFamily: FontFamilies.sfUiTextBold,
   },
   h3: {
     fontSize: 24,
     lineHeight: 24,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiTextRegular',
+    fontFamily: FontFamilies.sfUiTextRegular,
   },
   h4: {
     fontSize: 20,
     lineHeight: 24,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiTextRegular',
+    fontFamily: FontFamilies.sfUiTextRegular,
   },
   intro: {
     fontSize: 16,
     lineHeight: 24,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiTextSemiBold',
+    fontFamily: FontFamilies.sfUiTextSemiBold,
   },
   body: {
     fontSize: 18,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiDisplayRegular',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
   },
   bodySmall: {
     fontSize: 16,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiDisplayRegular',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
   },
   bodyXSmall: {
     fontSize: 14,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiDisplayRegular',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
   },
   default: {
     fontSize: 18,
     lineHeight: 20,
     color: 'textContrastHigh',
-    fontFamily: 'sfUiDisplayRegular',
+    fontFamily: FontFamilies.sfUiDisplayRegular,
   },
 };
 
