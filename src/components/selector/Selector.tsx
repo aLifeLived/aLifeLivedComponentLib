@@ -28,8 +28,10 @@ export const Selector = ({
         borderBottomWidth={1}
       >
         <Box justifyContent="center">
-          <Text marginBottom="m">{title}</Text>
-          <Text marginBottom="s" variant="caption">
+          <Text marginBottom="m" variant="body">
+            {title}
+          </Text>
+          <Text marginBottom="s" variant="bodySmall" color="textContrastLow">
             {selectedValue.length <= 0
               ? selectedValuePlaceholderValue
               : selectedValue.join(', ')}
