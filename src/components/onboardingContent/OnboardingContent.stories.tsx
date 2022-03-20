@@ -17,14 +17,14 @@ const pages = [
     title: 'Listen',
     description: 'This is the first description',
     onNextPress: () => action('Tap next pressed'),
-    children: <Text>This is the first</Text>,
+    children: <Text variant="h1">This is the first</Text>,
     onNextButtonText: 'Tap next',
   },
   {
     title: 'Record',
     description: 'This is the second description',
     onNextPress: () => action('Tap next pressed'),
-    children: <Text>This is the second</Text>,
+    children: <Text variant="h1">This is the second</Text>,
     onNextButtonText: 'Finish',
   },
 ];

@@ -40,7 +40,7 @@ export const OnboardingContent: React.FC<OnboardingProps> = ({
           {title}
         </Text>
         <Text
-          variant="h3"
+          variant="body"
           marginTop="m"
           paddingHorizontal="s"
           textAlign="center"
