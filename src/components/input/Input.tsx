@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { TextInputProps } from 'react-native';
-import { Theme } from '../../themes/theme';
 
 // Hooks
 import { useTheme } from '../../themes/hooks/useTheme';
@@ -18,7 +17,6 @@ import {
 interface InputProps extends TextInputProps {
   variant: keyof typeof inputVariants;
   label?: string;
-  labelVariant?: keyof Omit<Theme['textVariants'], 'defaults'>;
 }
 
 const handleVariantState = (variant: keyof typeof inputVariants) => {
@@ -44,7 +42,6 @@ const handleBorderColor = (variant: keyof typeof inputVariants) => {
 export const Input: React.FC<InputProps & StyledInputProps> = ({
   variant,
   label,
-  labelVariant = 'caption',
   ...rest
 }) => {
   const { colors } = useTheme();
@@ -56,7 +53,7 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
   return (
     <Box boxShadow="md">
       {label && (
-        <Text marginBottom="s" variant={labelVariant}>
+        <Text marginBottom="s" variant="body">
           {label}
         </Text>
       )}

@@ -24,7 +24,6 @@ const InputExample = () => {
       variant={handleError()}
       value={input}
       onChangeText={(text: string) => setInput(text)}
-      labelVariant="h3"
       returnKeyType="default"
       placeholder="Default variant placeholder"
     />
@@ -43,7 +42,6 @@ storiesOf('Input', module)
           label="SUCCESS variant"
           placeholder="Success variant placeholder"
           variant="success"
-          labelVariant="h3"
           returnKeyType="default"
         />
       </Box>
@@ -52,7 +50,6 @@ storiesOf('Input', module)
           label="ERROR variant"
           variant="error"
           placeholder="Error variant placeholder"
-          labelVariant="h3"
           returnKeyType="default"
         />
       </Box>
