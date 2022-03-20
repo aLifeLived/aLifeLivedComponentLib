@@ -53,7 +53,7 @@ export const StoryCard: React.FC<StoryCardProps> = ({
       >
         <Box width="80%">
           <Box>
-            <Text variant="h4" fontWeight="bold" numberOfLines={1}>
+            <Text variant="body" numberOfLines={1}>
               {story.title}
             </Text>
           </Box>
