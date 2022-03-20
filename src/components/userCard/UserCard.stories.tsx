@@ -38,12 +38,7 @@ const data = [
 storiesOf('User card', module)
   .addDecorator(Story => Story())
   .add('Default user card', () => (
-    <Box
-      backgroundColor="backgroundContrastHigh"
-      flex={1}
-      alignContent="center"
-      alignItems="flex-start"
-    >
+    <Box flex={1} alignContent="center" alignItems="flex-start">
       <SystemFlatList
         data={data}
         width="100%"
