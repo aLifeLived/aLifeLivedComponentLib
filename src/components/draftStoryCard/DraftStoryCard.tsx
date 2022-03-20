@@ -34,9 +34,8 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
             color="textContrastHigh"
-            variant="h3"
+            variant="body"
             marginTop="s"
-            fontWeight="bold"
             numberOfLines={1}
             marginRight="m"
           >
@@ -51,7 +50,11 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             paddingLeft="s"
             paddingRight="s"
           >
-            <Text variant="caption" color="textContrastHigh" numberOfLines={1}>
+            <Text
+              variant="bodyXSmall"
+              color="textContrastHigh"
+              numberOfLines={1}
+            >
               {topicTitle}
             </Text>
           </Box>
