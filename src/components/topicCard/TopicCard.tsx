@@ -36,20 +36,19 @@ export const TopicCard: React.FC<TopicCardProps> = ({
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
             color="textContrastHigh"
-            variant="h3"
+            variant="body"
             marginTop="s"
-            fontWeight="bold"
             numberOfLines={1}
             marginRight="m"
           >
             {title}
           </Text>
-          <Text marginTop="s" variant="caption" numberOfLines={1}>
+          <Text marginTop="s" variant="bodyXSmall" numberOfLines={1}>
             {description}
           </Text>
           <Box flexDirection="row" marginTop="s" alignItems="center">
             <Icon icon={['far', 'clock']} testID="clock-icon" />
-            <Text color="primary" variant="caption" marginLeft="s">
+            <Text color="primary" variant="bodyXSmall" marginLeft="s">
               {duration} mins
             </Text>
           </Box>

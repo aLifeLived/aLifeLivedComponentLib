@@ -26,7 +26,7 @@ export const UserCard: React.FC<UserCardProps> = ({
           variant="roundAvatar"
         />
         <Box marginLeft="s" width="80%">
-          <Text variant="h3" fontWeight="bold" numberOfLines={1}>
+          <Text variant="body" numberOfLines={1}>
             {username}
           </Text>
         </Box>

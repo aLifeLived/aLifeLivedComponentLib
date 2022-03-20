@@ -22,8 +22,9 @@ exports[`Help card component test  Should render help card correctly 1`] = `
         Object {
           "color": "#282828",
           "display": "flex",
-          "fontSize": 16,
-          "lineHeight": 24,
+          "fontFamily": "SFUIDisplay-Regular",
+          "fontSize": 18,
+          "lineHeight": 20,
         },
       ]
     }
@@ -34,10 +35,11 @@ exports[`Help card component test  Should render help card correctly 1`] = `
     style={
       Array [
         Object {
-          "color": "#7F8183",
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIDisplay-Regular",
           "fontSize": 14,
-          "lineHeight": 18,
+          "lineHeight": 20,
           "marginTop": 16,
         },
       ]

@@ -26,10 +26,11 @@ exports[`component >> Input Given input has variant ERROR Should match snapshot 
     style={
       Array [
         Object {
-          "color": "#7F8183",
+          "color": "#282828",
           "display": "flex",
-          "fontSize": 14,
-          "lineHeight": 18,
+          "fontFamily": "SFUIDisplay-Regular",
+          "fontSize": 18,
+          "lineHeight": 20,
           "marginBottom": 8,
         },
       ]
@@ -194,10 +195,11 @@ exports[`component >> Input Given input has variant SUCCESS Should match snapsho
     style={
       Array [
         Object {
-          "color": "#7F8183",
+          "color": "#282828",
           "display": "flex",
-          "fontSize": 14,
-          "lineHeight": 18,
+          "fontFamily": "SFUIDisplay-Regular",
+          "fontSize": 18,
+          "lineHeight": 20,
           "marginBottom": 8,
         },
       ]
@@ -442,10 +444,11 @@ exports[`component >> Input Given input has variant of default Given input has l
     style={
       Array [
         Object {
-          "color": "#7F8183",
+          "color": "#282828",
           "display": "flex",
-          "fontSize": 14,
-          "lineHeight": 18,
+          "fontFamily": "SFUIDisplay-Regular",
+          "fontSize": 18,
+          "lineHeight": 20,
           "marginBottom": 8,
         },
       ]
@@ -612,10 +615,11 @@ exports[`component >> Input Given input has variant underline Given input has la
     style={
       Array [
         Object {
-          "color": "#7F8183",
+          "color": "#282828",
           "display": "flex",
-          "fontSize": 14,
-          "lineHeight": 18,
+          "fontFamily": "SFUIDisplay-Regular",
+          "fontSize": 18,
+          "lineHeight": 20,
           "marginBottom": 8,
         },
       ]

@@ -1,13 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` Body Text render Render body test correctly 1`] = `
+exports[`src >> themes >> Text Body Text render Render body test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#282828",
         "display": "flex",
-        "fontSize": 16,
+        "fontFamily": "SFUIDisplay-Regular",
+        "fontSize": 18,
         "lineHeight": 20,
       },
     ]
@@ -17,15 +18,16 @@ exports[` Body Text render Render body test correctly 1`] = `
 </Text>
 `;
 
-exports[` Caption Text render Render caption test correctly 1`] = `
+exports[`src >> themes >> Text BodySmall Text render Render BodySmall test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
-        "color": "#7F8183",
+        "color": "#282828",
         "display": "flex",
-        "fontSize": 14,
-        "lineHeight": 18,
+        "fontFamily": "SFUIDisplay-Regular",
+        "fontSize": 16,
+        "lineHeight": 20,
       },
     ]
   }
@@ -34,32 +36,52 @@ exports[` Caption Text render Render caption test correctly 1`] = `
 </Text>
 `;
 
-exports[` Default Text render Render default test correctly 1`] = `
+exports[`src >> themes >> Text BodyXSmall Text render Render BodyXSmall test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#282828",
         "display": "flex",
-        "fontSize": 16,
+        "fontFamily": "SFUIDisplay-Regular",
+        "fontSize": 14,
         "lineHeight": 20,
       },
     ]
   }
 >
-  Default variant
+  Caption variant
 </Text>
 `;
 
-exports[` h1 Text render Render h1 test correctly 1`] = `
+exports[`src >> themes >> Text Intro Text render Render intro test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#282828",
         "display": "flex",
-        "fontSize": 32,
-        "lineHeight": 38,
+        "fontFamily": "SFUIText-Semibold",
+        "fontSize": 16,
+        "lineHeight": 24,
+      },
+    ]
+  }
+>
+  Body variant
+</Text>
+`;
+
+exports[`src >> themes >> Text h1 Text render Render h1 test correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "display": "flex",
+        "fontFamily": "SFUIText-Bold",
+        "fontSize": 52,
+        "lineHeight": 52,
       },
     ]
   }
@@ -68,15 +90,16 @@ exports[` h1 Text render Render h1 test correctly 1`] = `
 </Text>
 `;
 
-exports[` h2 Text render Render h2 test correctly 1`] = `
+exports[`src >> themes >> Text h2 Text render Render h2 test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#282828",
         "display": "flex",
-        "fontSize": 24,
-        "lineHeight": 30,
+        "fontFamily": "SFUIText-Bold",
+        "fontSize": 32,
+        "lineHeight": 40,
       },
     ]
   }
@@ -85,14 +108,33 @@ exports[` h2 Text render Render h2 test correctly 1`] = `
 </Text>
 `;
 
-exports[` h3 Text render Render h3 test correctly 1`] = `
+exports[`src >> themes >> Text h3 Text render Render h3 test correctly 1`] = `
 <Text
   style={
     Array [
       Object {
         "color": "#282828",
         "display": "flex",
-        "fontSize": 16,
+        "fontFamily": "SFUIText-Bold",
+        "fontSize": 24,
+        "lineHeight": 28.8,
+      },
+    ]
+  }
+>
+  H3 variant
+</Text>
+`;
+
+exports[`src >> themes >> Text h4 Text render Render h4 test correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#282828",
+        "display": "flex",
+        "fontFamily": "SFUIText-Regular",
+        "fontSize": 20,
         "lineHeight": 24,
       },
     ]

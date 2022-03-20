@@ -8,8 +8,8 @@ export const HelpCard: React.FC<{ title: string; subText: string }> = ({
 }) => {
   return (
     <Box margin="m" borderBottomWidth={1} paddingBottom="s">
-      <Text variant="h3">{title}</Text>
-      <Text variant="caption" marginTop="m">
+      <Text variant="body">{title}</Text>
+      <Text variant="bodyXSmall" marginTop="m">
         {subText}
       </Text>
     </Box>

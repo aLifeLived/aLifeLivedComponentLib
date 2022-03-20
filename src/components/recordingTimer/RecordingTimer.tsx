@@ -20,7 +20,9 @@ export const RecordingTimer: React.FC<RecordingTimerProps> = ({
 }) => {
   return (
     <Box>
-      <Text textAlign="center">{timerSeconds}</Text>
+      <Text textAlign="center" variant="intro">
+        {timerSeconds}
+      </Text>
       <Box flexDirection="row" alignItems="center">
         {isRecording ? (
           <Animatable.View animation="fadeIn" iterationCount={'infinite'}>
@@ -33,7 +35,7 @@ export const RecordingTimer: React.FC<RecordingTimerProps> = ({
             />
           </Animatable.View>
         ) : null}
-        <Text textAlign="center" variant="default">
+        <Text textAlign="center" variant="body">
           {status}
         </Text>
       </Box>

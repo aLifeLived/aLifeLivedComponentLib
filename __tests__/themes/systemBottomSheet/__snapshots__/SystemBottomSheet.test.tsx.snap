@@ -71,9 +71,9 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
             Object {
               "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIText-Semibold",
               "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 20,
+              "lineHeight": 24,
               "textAlign": "center",
             },
           ]
@@ -166,9 +166,9 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
             Object {
               "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIText-Semibold",
               "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 20,
+              "lineHeight": 24,
               "textAlign": "center",
             },
           ]

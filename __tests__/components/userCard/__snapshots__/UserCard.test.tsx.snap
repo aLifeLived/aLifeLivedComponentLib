@@ -88,9 +88,9 @@ exports[`components >> user card  UserCard with profile image Should render user
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "lineHeight": 24,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
+              "lineHeight": 20,
             },
           ]
         }
@@ -226,9 +226,9 @@ exports[`components >> user card  UserCard without profile image Should render u
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "lineHeight": 24,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
+              "lineHeight": 20,
             },
           ]
         }

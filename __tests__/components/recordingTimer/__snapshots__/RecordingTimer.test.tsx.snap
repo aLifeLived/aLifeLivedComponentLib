@@ -17,7 +17,11 @@ exports[`Components >> Recording timer Buffering state Should successfully rende
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -45,7 +49,8 @@ exports[`Components >> Recording timer Buffering state Should successfully rende
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },
@@ -75,7 +80,11 @@ exports[`Components >> Recording timer Loading state Should successfully render 
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -103,7 +112,8 @@ exports[`Components >> Recording timer Loading state Should successfully render 
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },
@@ -133,7 +143,11 @@ exports[`Components >> Recording timer Playing state Should successfully render 
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -187,7 +201,8 @@ exports[`Components >> Recording timer Playing state Should successfully render 
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },
@@ -217,7 +232,11 @@ exports[`Components >> Recording timer Ready state Should successfully render re
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -245,7 +264,8 @@ exports[`Components >> Recording timer Ready state Should successfully render re
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },
@@ -275,7 +295,11 @@ exports[`Components >> Recording timer Recording state Should successfully rende
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -329,7 +353,8 @@ exports[`Components >> Recording timer Recording state Should successfully rende
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },
@@ -359,7 +384,11 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
     style={
       Array [
         Object {
+          "color": "#282828",
           "display": "flex",
+          "fontFamily": "SFUIText-Semibold",
+          "fontSize": 16,
+          "lineHeight": 24,
           "textAlign": "center",
         },
       ]
@@ -413,7 +442,8 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
           Object {
             "color": "#282828",
             "display": "flex",
-            "fontSize": 16,
+            "fontFamily": "SFUIDisplay-Regular",
+            "fontSize": 18,
             "lineHeight": 20,
             "textAlign": "center",
           },

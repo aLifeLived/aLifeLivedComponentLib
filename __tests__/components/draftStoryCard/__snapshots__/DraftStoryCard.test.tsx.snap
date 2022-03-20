@@ -69,9 +69,9 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "lineHeight": 24,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
+              "lineHeight": 20,
               "marginRight": 16,
               "marginTop": 8,
             },
@@ -106,8 +106,9 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
               Object {
                 "color": "#282828",
                 "display": "flex",
+                "fontFamily": "SFUIDisplay-Regular",
                 "fontSize": 14,
-                "lineHeight": 18,
+                "lineHeight": 20,
               },
             ]
           }
