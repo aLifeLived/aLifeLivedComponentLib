@@ -18,8 +18,7 @@ type TextVariantToken =
   | 'intro'
   | 'body'
   | 'bodySmall'
-  | 'bodyXSmall'
-  | 'default';
+  | 'bodyXSmall';
 
 type TextVariant = {
   fontFamily: ValueOf<typeof FontFamilies>;
@@ -73,12 +72,6 @@ export const textVariants: Record<TextVariantToken, TextVariant> = {
   },
   bodyXSmall: {
     fontSize: 14,
-    lineHeight: 20,
-    color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiDisplayRegular,
-  },
-  default: {
-    fontSize: 18,
     lineHeight: 20,
     color: 'textContrastHigh',
     fontFamily: FontFamilies.sfUiDisplayRegular,
