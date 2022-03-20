@@ -36,9 +36,8 @@ export const TopicCard: React.FC<TopicCardProps> = ({
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
             color="textContrastHigh"
-            variant="h4"
+            variant="body"
             marginTop="s"
-            fontWeight="bold"
             numberOfLines={1}
             marginRight="m"
           >
