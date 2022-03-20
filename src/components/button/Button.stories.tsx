@@ -18,6 +18,7 @@ storiesOf('Button', module)
         isLoading={false}
         isDisabled={false}
         margin="m"
+        color="backgroundContrastXLow"
         backgroundColor="secondary"
       />
 

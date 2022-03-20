@@ -41,12 +41,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
           animating
         />
       ) : (
-        <Text
-          variant="default"
-          fontWeight="600"
-          textAlign="center"
-          color={color}
-        >
+        <Text variant="intro" textAlign="center" color={color}>
           {title}
         </Text>
       )}
