@@ -156,9 +156,10 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
             Object {
               "color": "#A9ABAD",
               "display": "flex",
-              "fontSize": 24,
+              "fontFamily": "SFUIText-Bold",
+              "fontSize": 32,
               "fontWeight": "bold",
-              "lineHeight": 30,
+              "lineHeight": 40,
               "textAlign": "center",
             },
           ]
@@ -172,7 +173,8 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
             Object {
               "color": "#A9ABAD",
               "display": "flex",
-              "fontSize": 16,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
               "lineHeight": 20,
               "marginTop": 16,
               "textAlign": "center",
@@ -225,9 +227,9 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
               Object {
                 "color": "#282828",
                 "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
                 "fontSize": 16,
-                "fontWeight": "600",
-                "lineHeight": 20,
+                "lineHeight": 24,
                 "textAlign": "center",
               },
             ]
@@ -263,9 +265,9 @@ exports[`component >> signupModal Modal is visible Should render signup modal co
               Object {
                 "color": "#282828",
                 "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
                 "fontSize": 16,
-                "fontWeight": "600",
-                "lineHeight": 20,
+                "lineHeight": 24,
                 "textAlign": "center",
               },
             ]

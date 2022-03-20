@@ -70,9 +70,9 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
             Object {
               "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIText-Semibold",
               "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 20,
+              "lineHeight": 24,
               "textAlign": "center",
             },
           ]
@@ -107,9 +107,9 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
             Object {
               "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIText-Semibold",
               "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 20,
+              "lineHeight": 24,
               "textAlign": "center",
             },
           ]
@@ -146,9 +146,9 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
             Object {
               "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIText-Semibold",
               "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 20,
+              "lineHeight": 24,
               "textAlign": "center",
             },
           ]

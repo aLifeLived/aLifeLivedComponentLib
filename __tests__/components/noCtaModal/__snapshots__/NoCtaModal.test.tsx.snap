@@ -156,9 +156,10 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
             Object {
               "color": "#A9ABAD",
               "display": "flex",
-              "fontSize": 24,
+              "fontFamily": "SFUIText-Bold",
+              "fontSize": 32,
               "fontWeight": "bold",
-              "lineHeight": 30,
+              "lineHeight": 40,
               "textAlign": "center",
             },
           ]
@@ -172,7 +173,8 @@ exports[`component >> noCtaModal Modal is visible Should render no cta modal cor
             Object {
               "color": "#A9ABAD",
               "display": "flex",
-              "fontSize": 16,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
               "lineHeight": 20,
               "marginTop": 16,
               "textAlign": "center",

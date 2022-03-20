@@ -50,7 +50,11 @@ exports[`components >> Selector Given the selector has multiple values selected 
         style={
           Array [
             Object {
+              "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
+              "lineHeight": 20,
               "marginBottom": 16,
             },
           ]
@@ -64,8 +68,9 @@ exports[`components >> Selector Given the selector has multiple values selected 
             Object {
               "color": "#7F8183",
               "display": "flex",
-              "fontSize": 14,
-              "lineHeight": 18,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
               "marginBottom": 8,
             },
           ]
@@ -179,7 +184,11 @@ exports[`components >> Selector Given the selector has no values selected Should
         style={
           Array [
             Object {
+              "color": "#282828",
               "display": "flex",
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 18,
+              "lineHeight": 20,
               "marginBottom": 16,
             },
           ]
@@ -193,8 +202,9 @@ exports[`components >> Selector Given the selector has no values selected Should
             Object {
               "color": "#7F8183",
               "display": "flex",
-              "fontSize": 14,
-              "lineHeight": 18,
+              "fontFamily": "SFUIDisplay-Regular",
+              "fontSize": 16,
+              "lineHeight": 20,
               "marginBottom": 8,
             },
           ]

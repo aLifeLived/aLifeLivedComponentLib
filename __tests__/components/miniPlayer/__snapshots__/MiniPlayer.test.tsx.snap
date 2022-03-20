@@ -129,7 +129,9 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -142,8 +144,9 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
@@ -357,7 +360,9 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -370,8 +375,9 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
@@ -585,7 +591,9 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -598,8 +606,9 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
@@ -813,7 +822,9 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -826,8 +837,9 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
@@ -1076,7 +1088,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -1089,8 +1103,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
@@ -1339,7 +1354,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontWeight": "bold",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 18,
+                "lineHeight": 20,
               },
             ]
           }
@@ -1352,8 +1369,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
               Object {
                 "color": "#ffffff",
                 "display": "flex",
-                "fontSize": 14,
-                "lineHeight": 18,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 16,
+                "lineHeight": 20,
                 "marginTop": 8,
               },
             ]
