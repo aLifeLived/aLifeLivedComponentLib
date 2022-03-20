@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '../../../jest/renderUtil';
 
 // Components
-import { SystemKeyboardAvoidingView } from '../../../src/themes/systemKeyboardAvoidingView/systemKeyboardAvoidingView';
+import { SystemKeyboardAvoidingView } from '../../../src/themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
 
 const setup = () => render(<SystemKeyboardAvoidingView flex={1} />);
 
