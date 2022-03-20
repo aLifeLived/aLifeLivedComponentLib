@@ -37,15 +37,15 @@ export const textVariants: Record<TextVariantToken, TextVariant> = {
   },
   h2: {
     fontSize: 32,
-    lineHeight: 30,
+    lineHeight: 40,
     color: 'textContrastHigh',
     fontFamily: FontFamilies.sfUiTextBold,
   },
   h3: {
     fontSize: 24,
-    lineHeight: 24,
+    lineHeight: 28.8,
     color: 'textContrastHigh',
-    fontFamily: FontFamilies.sfUiTextRegular,
+    fontFamily: FontFamilies.sfUiTextBold,
   },
   h4: {
     fontSize: 20,
