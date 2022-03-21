@@ -67,8 +67,8 @@ exports[`components >> onBoardingContent Should match snapshot 1`] = `
             "color": "#282828",
             "display": "flex",
             "fontFamily": "SFUIText-Bold",
-            "fontSize": 32,
-            "lineHeight": 40,
+            "fontSize": 24,
+            "lineHeight": 28.8,
             "marginTop": 40,
           },
         ]
@@ -83,7 +83,7 @@ exports[`components >> onBoardingContent Should match snapshot 1`] = `
             "color": "#282828",
             "display": "flex",
             "fontFamily": "SFUIDisplay-Regular",
-            "fontSize": 18,
+            "fontSize": 14,
             "lineHeight": 20,
             "marginTop": 16,
             "paddingHorizontal": 8,
@@ -128,10 +128,10 @@ exports[`components >> onBoardingContent Should match snapshot 1`] = `
               Object {
                 "color": "#282828",
                 "display": "flex",
-                "fontFamily": "SFUIText-Semibold",
-                "fontSize": 16,
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 14,
                 "fontStyle": "italic",
-                "lineHeight": 24,
+                "lineHeight": 20,
                 "padding": 40,
               },
             ]
