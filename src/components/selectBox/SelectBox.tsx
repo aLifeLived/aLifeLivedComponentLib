@@ -2,49 +2,48 @@ import React, { ReactChild } from 'react';
 
 // Components
 import { Box } from '../../themes/box/Box';
+import { ColorThemeTokens } from '../../themes/palette';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { Text } from '../../themes/text/Text';
 
 type SelectBoxType = {
-  variant: 'horizontal' | 'vertical';
   title: string;
   subText: string;
   isSelected: boolean;
   onPress: () => void;
+  backgroundColor?: ColorThemeTokens;
+  borderColor?: ColorThemeTokens;
   children?: ReactChild;
 };
 
 export const SelectBox: React.FC<SelectBoxType> = ({
-  variant,
   title,
   subText,
   isSelected,
   onPress,
+  backgroundColor,
+  borderColor,
   children,
 }) => {
   return (
     <SystemButton onPress={() => onPress()}>
       <Box
-        flexDirection={variant === 'horizontal' ? 'row' : 'column'}
+        flexDirection="row"
         alignContent="center"
         alignItems="center"
-        borderWidth={1}
-        borderColor="borderColor"
         borderRadius="medium"
-        backgroundColor={isSelected ? 'primary' : 'white'}
+        backgroundColor={isSelected ? 'primaryOverlay' : backgroundColor}
         boxShadow="md"
+        borderWidth={1}
+        borderColor={borderColor ? borderColor : 'transparent'}
       >
         <Box margin="s">{children}</Box>
-        <Box margin="s" alignContent="center" width="80%" flexWrap="nowrap">
-          <Text
-            variant="body"
-            color="textContrastHigh"
-            textAlign={variant === 'horizontal' ? 'left' : 'center'}
-          >
+        <Box margin="s" alignContent="center" width="70%" flexWrap="nowrap">
+          <Text variant="intro" color="textContrastHigh" textAlign="left">
             {title}
           </Text>
           <Text
-            textAlign={variant === 'horizontal' ? 'left' : 'center'}
+            textAlign="left"
             marginTop="s"
             color="textContrastHigh"
             variant="bodyXSmall"
