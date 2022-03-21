@@ -1,5 +1,10 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 
+// Assets
+import Listen from './assets/svg/listen.svg';
+import Record from './assets/svg/record.svg';
+import Preserve from './assets/svg/preserve.svg';
+
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
 import { ThemeProvider } from './themes/ThemeProvider';
@@ -64,4 +69,7 @@ export {
   ThemeCard,
   OnboardingContent,
   SystemKeyboardAvoidingView,
+  Record,
+  Listen,
+  Preserve,
 };

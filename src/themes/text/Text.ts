@@ -1,7 +1,7 @@
 import { createText, ResponsiveValue } from '@shopify/restyle';
 import { ColorThemeTokens } from '../palette';
 import { Theme } from '../theme';
-import { ValueOf } from '../../types/utils';
+import { ValueOf } from '../../ts/utils';
 
 const FontFamilies = {
   sfUiTextBold: 'SFUIText-Bold',

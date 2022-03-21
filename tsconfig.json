@@ -18,7 +18,7 @@
     "outDir": "lib",
     "sourceMap": true
   },
-  "include": ["./src/**/*.tsx"],
+  "include": ["./src/**/*.tsx", "./src/**/*.ts", "./src/ts/custom.d.ts"],
   "exclude": [
     "./node_modules",
     "./__tests__/**/*",
