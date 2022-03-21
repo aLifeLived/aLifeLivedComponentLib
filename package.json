@@ -89,6 +89,7 @@
     "husky": "^7.0.4",
     "jest": "^27.0.6",
     "jest-expo": "^42.1.0",
+    "jest-svg-transformer": "^1.0.0",
     "metro-react-native-babel-preset": "^0.66.2",
     "prettier": "^2.3.2",
     "react": "17.0.1",
