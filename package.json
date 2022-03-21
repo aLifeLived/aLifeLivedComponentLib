@@ -27,7 +27,7 @@
     "copy-assets": "cp -rv src/assets lib/assets/",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "build": "tsc && npm run copy-assets"
+    "build": "rm -r lib && tsc && npm run copy-assets"
   },
   "config": {
     "react-native-storybook-loader": {
