@@ -24,9 +24,10 @@
     "lint:eslint": "eslint src/ --ext .js,.ts,.tsx",
     "lint:types": "tsc",
     "prestorybook": "rnstl",
+    "copy-assets": "cp -rv src/assets lib/assets/",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "build": "tsc"
+    "build": "tsc && npm run copy-assets"
   },
   "config": {
     "react-native-storybook-loader": {

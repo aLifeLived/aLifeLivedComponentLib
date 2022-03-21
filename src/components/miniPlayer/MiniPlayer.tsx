@@ -55,7 +55,7 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
             testID="miniPlayer-avatar"
           />
           <Box marginLeft="s">
-            <Text color="white" variant="body" numberOfLines={1}>
+            <Text variant="body" numberOfLines={1} color="white">
               {title ? title : 'Nothing playing'}
             </Text>
             <Text marginTop="s" variant="bodySmall" color="white">
