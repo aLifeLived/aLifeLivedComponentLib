@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`components >> Select Box Given select box has a variant of horizontal Given select box IS selected and has children Should render snapshot correctly 1`] = `
+exports[`components >> Select Box Given select box IS selected and has children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -23,8 +23,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#67B6A8",
-          "borderColor": "#2828281e",
+          "backgroundColor": "#67B6A849",
+          "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -78,7 +78,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             "display": "flex",
             "flexWrap": "nowrap",
             "margin": 8,
-            "width": "80%",
+            "width": "70%",
           },
           Array [
             Object {},
@@ -92,9 +92,9 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
+              "fontFamily": "SFUIText-Semibold",
+              "fontSize": 16,
+              "lineHeight": 24,
               "textAlign": "left",
             },
           ]
@@ -124,7 +124,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
 </View>
 `;
 
-exports[`components >> Select Box Given select box has a variant of horizontal Given select box IS selected and has no children Should render snapshot correctly 1`] = `
+exports[`components >> Select Box Given select box IS selected and has no children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -147,8 +147,8 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#67B6A8",
-          "borderColor": "#2828281e",
+          "backgroundColor": "#67B6A849",
+          "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -190,7 +190,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             "display": "flex",
             "flexWrap": "nowrap",
             "margin": 8,
-            "width": "80%",
+            "width": "70%",
           },
           Array [
             Object {},
@@ -204,9 +204,9 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
+              "fontFamily": "SFUIText-Semibold",
+              "fontSize": 16,
+              "lineHeight": 24,
               "textAlign": "left",
             },
           ]
@@ -236,7 +236,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
 </View>
 `;
 
-exports[`components >> Select Box Given select box has a variant of horizontal Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
+exports[`components >> Select Box Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -259,8 +259,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
+          "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -314,7 +313,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             "display": "flex",
             "flexWrap": "nowrap",
             "margin": 8,
-            "width": "80%",
+            "width": "70%",
           },
           Array [
             Object {},
@@ -328,9 +327,9 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
+              "fontFamily": "SFUIText-Semibold",
+              "fontSize": 16,
+              "lineHeight": 24,
               "textAlign": "left",
             },
           ]
@@ -360,7 +359,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
 </View>
 `;
 
-exports[`components >> Select Box Given select box has a variant of horizontal Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
+exports[`components >> Select Box Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -383,8 +382,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
+          "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
@@ -426,7 +424,7 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             "display": "flex",
             "flexWrap": "nowrap",
             "margin": 8,
-            "width": "80%",
+            "width": "70%",
           },
           Array [
             Object {},
@@ -440,9 +438,9 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
             Object {
               "color": "#282828",
               "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
+              "fontFamily": "SFUIText-Semibold",
+              "fontSize": 16,
+              "lineHeight": 24,
               "textAlign": "left",
             },
           ]
@@ -461,478 +459,6 @@ exports[`components >> Select Box Given select box has a variant of horizontal G
               "lineHeight": 20,
               "marginTop": 8,
               "textAlign": "left",
-            },
-          ]
-        }
-      >
-        Test sub text
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`components >> Select Box Given select box has a variant of vertical Given select box IS selected and has children Should render snapshot correctly 1`] = `
-<View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#67B6A8",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "column",
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "display": "flex",
-            "margin": 8,
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "display": "flex",
-            },
-          ]
-        }
-      >
-        TEST CHILDREN
-      </Text>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "display": "flex",
-            "flexWrap": "nowrap",
-            "margin": 8,
-            "width": "80%",
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test title
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-              "marginTop": 8,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test sub text
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`components >> Select Box Given select box has a variant of vertical Given select box IS selected and has no children Should render snapshot correctly 1`] = `
-<View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#67B6A8",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "column",
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "display": "flex",
-            "margin": 8,
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    />
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "display": "flex",
-            "flexWrap": "nowrap",
-            "margin": 8,
-            "width": "80%",
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test title
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-              "marginTop": 8,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test sub text
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`components >> Select Box Given select box has a variant of vertical Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
-<View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "column",
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "display": "flex",
-            "margin": 8,
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "display": "flex",
-            },
-          ]
-        }
-      >
-        TEST CHILDREN
-      </Text>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "display": "flex",
-            "flexWrap": "nowrap",
-            "margin": 8,
-            "width": "80%",
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test title
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-              "marginTop": 8,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test sub text
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`components >> Select Box Given select box has a variant of vertical Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
-<View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Object {
-      "opacity": 1,
-    }
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "column",
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "display": "flex",
-            "margin": 8,
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    />
-    <View
-      style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "display": "flex",
-            "flexWrap": "nowrap",
-            "margin": 8,
-            "width": "80%",
-          },
-          Array [
-            Object {},
-          ],
-        ]
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Test title
-      </Text>
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 14,
-              "lineHeight": 20,
-              "marginTop": 8,
-              "textAlign": "center",
             },
           ]
         }
