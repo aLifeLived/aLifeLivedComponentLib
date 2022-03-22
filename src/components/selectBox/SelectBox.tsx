@@ -26,16 +26,16 @@ export const SelectBox: React.FC<SelectBoxType> = ({
   children,
 }) => {
   return (
-    <SystemButton onPress={() => onPress()}>
+    <SystemButton onPress={onPress}>
       <Box
         flexDirection="row"
         alignContent="center"
         alignItems="center"
         borderRadius="medium"
-        backgroundColor={isSelected ? 'primaryOverlay' : backgroundColor}
-        boxShadow="md"
+        backgroundColor={isSelected ? 'primary' : backgroundColor}
         borderWidth={1}
         borderColor={borderColor ? borderColor : 'transparent'}
+        padding="s"
       >
         <Box margin="s">{children}</Box>
         <Box margin="s" alignContent="center" width="70%" flexWrap="nowrap">

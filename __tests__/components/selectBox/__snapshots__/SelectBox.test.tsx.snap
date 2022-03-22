@@ -23,24 +23,16 @@ exports[`components >> Select Box Given select box IS selected and has children 
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#67B6A849",
+          "backgroundColor": "#67B6A8",
           "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
+          "padding": 8,
         },
         Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
+          Object {},
         ],
       ]
     }
@@ -147,24 +139,16 @@ exports[`components >> Select Box Given select box IS selected and has no childr
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#67B6A849",
+          "backgroundColor": "#67B6A8",
           "borderColor": "#00000000",
           "borderRadius": 8,
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
+          "padding": 8,
         },
         Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
+          Object {},
         ],
       ]
     }
@@ -264,18 +248,10 @@ exports[`components >> Select Box Given select box is NOT selected and has child
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
+          "padding": 8,
         },
         Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
+          Object {},
         ],
       ]
     }
@@ -387,18 +363,10 @@ exports[`components >> Select Box Given select box is NOT selected and has no ch
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
+          "padding": 8,
         },
         Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 4,
-              "width": 0,
-            },
-            "shadowOpacity": 0.1,
-            "shadowRadius": 10,
-          },
+          Object {},
         ],
       ]
     }
