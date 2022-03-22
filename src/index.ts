@@ -4,6 +4,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import Listen from './assets/svg/listen.svg';
 import Record from './assets/svg/record.svg';
 import Preserve from './assets/svg/preserve.svg';
+import MyselfRecordSVG from './assets/svg/myself-recording.svg';
+import SomeoneElseRecordSVG from './assets/svg/myself-recording.svg';
 
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
@@ -72,4 +74,6 @@ export {
   Record,
   Listen,
   Preserve,
+  MyselfRecordSVG,
+  SomeoneElseRecordSVG,
 };
