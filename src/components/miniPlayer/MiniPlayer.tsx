@@ -38,10 +38,8 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
         alignItems="center"
         alignContent="center"
         justifyContent="space-between"
-        marginLeft="s"
-        marginRight="s"
-        borderRadius="medium"
-        marginBottom="s"
+        borderTopRightRadius="large"
+        borderTopLeftRadius="large"
         padding="s"
         overflow="hidden"
       >
