@@ -9,7 +9,7 @@ type CardContentProps = {
 
 export const CardContent: React.FC<CardContentProps> = ({ SVG }) => {
   return (
-    <Box alignContent="center" margin="xs">
+    <Box alignContent="center" overflow="hidden" borderRadius="large">
       {SVG}
     </Box>
   );

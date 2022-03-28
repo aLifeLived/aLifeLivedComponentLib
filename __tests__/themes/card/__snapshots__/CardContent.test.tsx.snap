@@ -6,8 +6,9 @@ exports[`src >> themes >> card Should match snapshot and render SVG 1`] = `
     Array [
       Object {
         "alignContent": "center",
+        "borderRadius": 16,
         "display": "flex",
-        "margin": 2,
+        "overflow": "hidden",
       },
       Array [
         Object {},

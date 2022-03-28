@@ -16,6 +16,7 @@ import { CardOverlay } from './CardOverlay';
 
 // UI
 import { Box } from '../box/Box';
+import { SystemScrollView } from '../systemScrollView/SystemScrollView';
 
 storiesOf('Card', module)
   .addDecorator(Story => Story())
@@ -81,7 +82,7 @@ storiesOf('Card', module)
     </Box>
   ))
   .add('Card with overlay text', () => (
-    <Box alignContent="center" flex={1}>
+    <SystemScrollView alignContent="center" flex={1}>
       <Box
         flexDirection="row"
         marginLeft="m"
@@ -133,10 +134,9 @@ storiesOf('Card', module)
             onPress={() => console.log('press')}
             backgroundColor="secondaryOverlay"
           >
-            <CardContent SVG={<LifeStorySVG height={140} width={140} />} />
-            <CardOverlay title="Ancestry" />
+            <CardContent SVG={<LifeStorySVG height={150} width={150} />} />
           </CardContainer>
         </Box>
       </Box>
-    </Box>
+    </SystemScrollView>
   ));
