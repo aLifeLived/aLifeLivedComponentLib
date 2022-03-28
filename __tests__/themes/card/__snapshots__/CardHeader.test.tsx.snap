@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src >> themes >> card Should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-end",
+        "display": "flex",
+        "paddingRight": 16,
+        "paddingTop": 8,
+      },
+      Array [
+        Object {},
+      ],
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#282828",
+          "display": "flex",
+          "fontFamily": "SFUIText-Regular",
+          "fontSize": 20,
+          "lineHeight": 24,
+        },
+      ]
+    }
+  >
+    Test title
+  </Text>
+</View>
+`;
