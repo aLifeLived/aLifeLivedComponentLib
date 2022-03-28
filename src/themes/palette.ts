@@ -48,6 +48,7 @@ export const ColorThemeLight = {
   backgroundContrastMid: palette.grey20,
   backgroundContrastLow: palette.grey15,
   backgroundContrastXLow: palette.white,
+  backgroundXXLow: palette.red05,
   backgroundHighlight: palette.red70,
   backgroundVisible: palette.seeThrew,
 
