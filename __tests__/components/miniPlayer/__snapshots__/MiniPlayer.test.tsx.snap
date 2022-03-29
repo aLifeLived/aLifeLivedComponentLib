@@ -78,8 +78,7 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
             },
             Array [
               Object {
-                "borderRadius": 8,
-                "borderWidth": 1,
+                "borderRadius": 96,
                 "height": 40,
                 "width": 40,
               },
@@ -307,8 +306,7 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
             },
             Array [
               Object {
-                "borderRadius": 8,
-                "borderWidth": 1,
+                "borderRadius": 96,
                 "height": 40,
                 "width": 40,
               },
@@ -536,8 +534,7 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
             },
             Array [
               Object {
-                "borderRadius": 8,
-                "borderWidth": 1,
+                "borderRadius": 96,
                 "height": 40,
                 "width": 40,
               },
@@ -765,8 +762,7 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
             },
             Array [
               Object {
-                "borderRadius": 8,
-                "borderWidth": 1,
+                "borderRadius": 96,
                 "height": 40,
                 "width": 40,
               },
@@ -991,7 +987,7 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
           Array [
             Object {
               "alignItems": "center",
-              "borderRadius": 8,
+              "borderRadius": 96,
               "borderWidth": 1,
               "display": "flex",
               "height": 40,
@@ -1255,7 +1251,7 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
           Array [
             Object {
               "alignItems": "center",
-              "borderRadius": 8,
+              "borderRadius": 96,
               "borderWidth": 1,
               "display": "flex",
               "height": 40,

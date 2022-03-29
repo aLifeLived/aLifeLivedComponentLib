@@ -49,6 +49,7 @@ exports[`components >> user card  UserCard with profile image Should render user
       }
     >
       <FastImageView
+        iconBorderRadius="xXXlarge"
         resizeMode="cover"
         source={
           Object {
@@ -135,6 +136,7 @@ exports[`components >> user card  UserCard without profile image Should render u
     }
   >
     <View
+      iconBorderRadius="xXXlarge"
       style={
         Array [
           Object {

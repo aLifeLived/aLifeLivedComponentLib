@@ -362,6 +362,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
         }
       >
         <FastImageView
+          iconBorderRadius="xXXlarge"
           resizeMode="cover"
           source={
             Object {
@@ -818,6 +819,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
         }
       >
         <FastImageView
+          iconBorderRadius="xXXlarge"
           resizeMode="cover"
           source={
             Object {
@@ -1258,6 +1260,7 @@ exports[`components >> story card  Story card with NO profile image and render i
       }
     >
       <View
+        iconBorderRadius="xXXlarge"
         style={
           Array [
             Object {
@@ -1767,6 +1770,7 @@ exports[`components >> story card  Story card with profile image Should render s
         }
       >
         <FastImageView
+          iconBorderRadius="xXXlarge"
           resizeMode="cover"
           source={
             Object {

@@ -46,10 +46,9 @@ export const MiniPlayer: React.FC<MiniPlayerTypes> = ({
         <Box flexDirection="row" width="75%" alignItems="center">
           <Avatar
             source={{ uri: avatar, priority: 'normal' }}
-            variant="squareAvatar"
+            variant="roundAvatar"
             height={40}
             width={40}
-            iconBorderRadius="medium"
             testID="miniPlayer-avatar"
           />
           <Box marginLeft="s">
