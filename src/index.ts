@@ -5,7 +5,7 @@ import Listen from './assets/svg/listen.svg';
 import Record from './assets/svg/record.svg';
 import Preserve from './assets/svg/preserve.svg';
 import MyselfRecordSVG from './assets/svg/myself-recording.svg';
-import SomeoneElseRecordSVG from './assets/svg/myself-recording.svg';
+import SomeoneElseRecordSVG from './assets/svg/someone-else-recording.svg';
 import CovidThemeSVG from './assets/svg/covid-theme.svg';
 import DraftsSVG from './assets/svg/drafts.svg';
 import LifeStoryThemeSVG from './assets/svg/life-story-theme.svg';
