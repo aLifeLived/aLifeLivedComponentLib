@@ -19,7 +19,6 @@ export const UserCard: React.FC<UserCardProps> = ({
     <SystemButton onPress={() => onPress()} width="100%">
       <Box flexDirection="row" alignItems="center">
         <Avatar
-          iconBorderRadius="xXXlarge"
           iconHeight={50}
           iconWidth={50}
           source={{ uri: avatarUrl, priority: 'high' }}

@@ -18,13 +18,6 @@ import FastImage, { FastImageProps } from 'react-native-fast-image';
 import { Theme } from '../theme';
 
 export const imageVariants = {
-  squareAvatar: {
-    width: 50,
-    height: 50,
-    borderRadius: 'medium',
-    border: 'red',
-    borderWidth: 1,
-  },
   roundAvatar: {
     width: 50,
     height: 50,

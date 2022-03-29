@@ -10,8 +10,7 @@ const setup = (
     uri: string;
     priority: Priority;
   },
-  variant: 'roundAvatar' | 'squareAvatar',
-  iconBorderRadius?: 'medium' | 'xXXlarge',
+  variant: 'roundAvatar',
   iconHeight = 50,
   iconWidth = 50,
   iconSize = 30
@@ -22,7 +21,6 @@ const setup = (
       source={source}
       resizeMode="center"
       variant={variant}
-      iconBorderRadius={iconBorderRadius}
       iconHeight={iconHeight}
       iconWidth={iconWidth}
       iconSize={iconSize}
@@ -47,27 +45,7 @@ describe('components >> avatar ', () => {
     test('Should render icon correctly when no source', () => {
       const { toJSON } = setup(
         { uri: null, priority: 'normal' },
-        'roundAvatar',
-        'xXXlarge'
-      );
-      expect(toJSON()).toMatchSnapshot();
-    });
-  });
-
-  describe('Square avatar', () => {
-    test('Should render square avatar correctly', () => {
-      const { toJSON } = setup(
-        { uri: 'https://picsum.photos/id/237/200/300', priority: 'normal' },
-        'squareAvatar'
-      );
-      expect(toJSON()).toMatchSnapshot();
-    });
-
-    test('Should render icon correctly when no source', () => {
-      const { toJSON } = setup(
-        { uri: null, priority: 'normal' },
-        'squareAvatar',
-        'medium'
+        'roundAvatar'
       );
       expect(toJSON()).toMatchSnapshot();
     });

@@ -6,6 +6,11 @@ import Record from './assets/svg/record.svg';
 import Preserve from './assets/svg/preserve.svg';
 import MyselfRecordSVG from './assets/svg/myself-recording.svg';
 import SomeoneElseRecordSVG from './assets/svg/myself-recording.svg';
+import CovidThemeSVG from './assets/svg/covid-theme.svg';
+import DraftsSVG from './assets/svg/drafts.svg';
+import LifeStoryThemeSVG from './assets/svg/life-story-theme.svg';
+import MyStoriesSVG from './assets/svg/my-stories.svg';
+import TravelThemeSVG from './assets/svg/travel-theme.svg';
 
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
@@ -84,4 +89,9 @@ export {
   CardHeader,
   CardContent,
   CardOverlay,
+  CovidThemeSVG,
+  DraftsSVG,
+  LifeStoryThemeSVG,
+  MyStoriesSVG,
+  TravelThemeSVG,
 };
