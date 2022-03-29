@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src >> themes >> card Should match snapshot and render SVG 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "borderRadius": 16,
+        "display": "flex",
+        "overflow": "hidden",
+      },
+      Array [
+        Object {},
+      ],
+    ]
+  }
+>
+  <svg
+    data-file-name="SvgCovidTheme"
+  />
+</View>
+`;

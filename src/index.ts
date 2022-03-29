@@ -33,12 +33,16 @@ import { OnboardingContent } from './components/onboardingContent/OnboardingCont
 import { Box } from './themes/box/Box';
 import { Text } from './themes/text/Text';
 import { iconList } from './themes/systemIcon/IconList';
+import { useTheme } from './themes/hooks/useTheme';
 import { BlurLayout } from './themes/systemBlurLayout/SystemBlurLayout';
+import { CardContainer } from './themes/card/CardContainer';
+import { CardHeader } from './themes/card/CardHeader';
+import { CardOverlay } from './themes/card/CardOverlay';
+import { CardContent } from './themes/card/CardContent';
 import { SystemFlatList } from './themes/systemFlatList/SystemFlatList';
+import { SystemPressable } from './themes/systemPressable/SystemPressable';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
 import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
-import { SystemPressable } from './themes/systemPressable/SystemPressable';
-import { useTheme } from './themes/hooks/useTheme';
 
 library.add(iconList);
 
@@ -76,4 +80,8 @@ export {
   Preserve,
   MyselfRecordSVG,
   SomeoneElseRecordSVG,
+  CardContainer,
+  CardHeader,
+  CardContent,
+  CardOverlay,
 };

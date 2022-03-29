@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src >> themes >> card Should match snapshot 1`] = `
+<View
+  bottom={0}
+  left={0}
+  position="absolute"
+  right={0}
+  style={
+    Array [
+      Array [
+        Object {
+          "backgroundColor": "#00B5CD",
+          "borderRadius": 16,
+          "overflow": "hidden",
+          "padding": 8,
+        },
+      ],
+      Object {
+        "backgroundColor": "transparent",
+      },
+    ]
+  }
+>
+  <ViewManagerAdapter_ExpoBlurView
+    proxiedProperties={
+      Object {
+        "intensity": 80,
+        "tint": "dark",
+      }
+    }
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#F1ECE5",
+          "display": "flex",
+          "fontFamily": "SFUIText-Regular",
+          "fontSize": 20,
+          "lineHeight": 24,
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Test title
+  </Text>
+</View>
+`;

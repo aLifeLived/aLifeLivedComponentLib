@@ -3,13 +3,17 @@ import { TouchableWithoutFeedback } from 'react-native';
 // Components
 import { Box } from '../box/Box';
 
-type Props = {
+type ModalProps = {
   onClose: () => void;
   isVisible: boolean;
   children: React.ReactNode;
 };
 
-export const Modal = ({ onClose, isVisible = false, children }: Props) => {
+export const Modal: React.FC<ModalProps> = ({
+  onClose,
+  isVisible = false,
+  children,
+}) => {
   return isVisible ? (
     <TouchableWithoutFeedback onPress={() => onClose()}>
       <Box
