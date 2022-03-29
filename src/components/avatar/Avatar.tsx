@@ -8,7 +8,6 @@ import {
 import { Icon } from '../icon/Icon';
 
 type AvatarProps = {
-  iconBorderRadius?: 'xXXlarge' | 'medium';
   resizeMode?: ResizeMode;
   iconWidth?: number;
   iconHeight?: number;
@@ -23,7 +22,6 @@ export const Avatar: React.FC<AvatarProps & StyledImageProps> = ({
   source,
   resizeMode = 'cover',
   variant,
-  iconBorderRadius,
   iconWidth,
   iconHeight,
   iconSize,
@@ -35,7 +33,7 @@ export const Avatar: React.FC<AvatarProps & StyledImageProps> = ({
       padding="m"
       width={iconWidth}
       height={iconHeight}
-      borderRadius={iconBorderRadius}
+      borderRadius="xXXlarge"
       alignItems="center"
       justifyContent="center"
       {...rest}
