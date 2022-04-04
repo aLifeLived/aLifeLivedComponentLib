@@ -18,18 +18,17 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   onPress,
 }) => {
   return (
-    <SystemButton onPress={() => onPress()}>
+    <SystemButton onPress={onPress}>
       <Box
         borderColor="borderColor"
         backgroundColor="backgroundContrastXLow"
         borderWidth={1}
         borderRadius="medium"
-        margin="m"
         flexDirection="row"
         alignContent="center"
         alignItems="center"
         justifyContent="space-between"
-        boxShadow="md"
+        boxShadow="sm"
       >
         <Box marginLeft="s" marginBottom="s" width="80%">
           <Text
