@@ -8,12 +8,16 @@ import { SystemButton } from '../systemButton/SystemButton';
 type CardContainerProps = {
   onPress: () => void;
   backgroundColor?: ColorThemeTokens;
+  accessibilityLabel?: string;
+  testID?: string;
   children: ReactNode;
 };
 
 export const CardContainer: React.FC<CardContainerProps> = ({
   onPress,
   backgroundColor = 'backgroundXXLow',
+  accessibilityLabel,
+  testID,
   children,
 }) => {
   return (
@@ -22,6 +26,8 @@ export const CardContainer: React.FC<CardContainerProps> = ({
       alignContent="space-between"
       borderRadius="large"
       backgroundColor={backgroundColor}
+      accessibilityLabel={accessibilityLabel}
+      testID={testID}
     >
       <Box>{children}</Box>
     </SystemButton>

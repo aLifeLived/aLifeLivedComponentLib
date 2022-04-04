@@ -16,7 +16,6 @@ import TravelThemeSVG from './assets/svg/travel-theme.svg';
 import { HelpCard } from './components/helpCard/HelpCard';
 import { ThemeProvider } from './themes/ThemeProvider';
 import { RecordingTimer } from './components/recordingTimer/RecordingTimer';
-import { SignupModal } from './components/signupModal/SignupModal';
 import { NoCtaModal } from './components/noCtaModal/NoCtaModal';
 import { EditAndDeleteBottomSheet } from './components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet';
 import { Icon } from './components/icon/Icon';
@@ -73,7 +72,6 @@ export {
   Text,
   RecordingTimer,
   TopicCard,
-  SignupModal,
   NoCtaModal,
   EditAndDeleteBottomSheet,
   DraftStoryCard,

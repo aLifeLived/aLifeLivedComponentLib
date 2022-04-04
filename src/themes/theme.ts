@@ -31,6 +31,13 @@ export const createTheme = () =>
       xXXlarge: 96,
     },
     shadows: {
+      sm: {
+        shadowColor: 'primaryContrast',
+        shadowOpacity: 0.05,
+        shadowOffset: { width: 0, height: 3 },
+        shadowRadius: 10,
+        elevation: 2,
+      },
       md: {
         shadowColor: 'primaryContrast',
         shadowOpacity: 0.1,
