@@ -30,17 +30,16 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 16,
         },
         Array [
           Object {
             "elevation": 2,
             "shadowColor": "#282828",
             "shadowOffset": Object {
-              "height": 4,
+              "height": 3,
               "width": 0,
             },
-            "shadowOpacity": 0.1,
+            "shadowOpacity": 0.05,
             "shadowRadius": 10,
           },
         ],
