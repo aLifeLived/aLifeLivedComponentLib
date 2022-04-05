@@ -17,7 +17,6 @@ function loadStories() {
   require('../components/recordingTimer/RecordingTimer.stories');
   require('../components/selectBox/SelectBox.stories');
   require('../components/selector/Selector.stories');
-  require('../components/signupModal/SignupModal.stories');
   require('../components/storyCard/StoryCard.stories');
   require('../components/themeCard/ThemeCard.stories');
   require('../components/topicCard/TopicCard.stories');
@@ -43,7 +42,6 @@ const stories = [
   '../components/recordingTimer/RecordingTimer.stories',
   '../components/selectBox/SelectBox.stories',
   '../components/selector/Selector.stories',
-  '../components/signupModal/SignupModal.stories',
   '../components/storyCard/StoryCard.stories',
   '../components/themeCard/ThemeCard.stories',
   '../components/topicCard/TopicCard.stories',

@@ -37,6 +37,7 @@ storiesOf('Icon', module)
       <Icon icon="plus-circle" margin="s" color="primary" />
       <Icon icon="eye" margin="s" color="primary" />
       <Icon icon="eye-slash" margin="s" color="primary" />
+      <Icon icon="pencil-alt" margin="s" color="primary" />
     </>
   ))
   .add('Pressable icons', () => (

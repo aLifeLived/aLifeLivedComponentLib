@@ -22,6 +22,7 @@ import {
   faEyeSlash,
   faEye,
   faUsers,
+  faPencilAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faBookmark as farBookmark,
@@ -33,6 +34,7 @@ import {
 export const iconList = {
   farBookmark,
   faUsers,
+  faPencilAlt,
   farHeart,
   farClock,
   faCheckSquare,
