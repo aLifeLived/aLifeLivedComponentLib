@@ -1,5 +1,284 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`components >> draft story card  Given user has progressed through 50% of recording Should render progress bar of half way 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#2828281e",
+          "borderRadius": 8,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "overflow": "hidden",
+          "paddingBottom": 8,
+        },
+        Array [
+          Object {
+            "elevation": 2,
+            "shadowColor": "#282828",
+            "shadowOffset": Object {
+              "height": 3,
+              "width": 0,
+            },
+            "shadowOpacity": 0.05,
+            "shadowRadius": 10,
+          },
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "marginBottom": 8,
+            "marginLeft": 8,
+            "paddingTop": 8,
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#EFEFEF",
+              "borderRadius": 16,
+              "display": "flex",
+              "marginRight": 16,
+              "padding": 8,
+            },
+            Array [
+              Object {},
+            ],
+          ]
+        }
+        testID="pencil-icon"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={16}
+          bbWidth={16}
+          fill="#67B6A8"
+          focusable={false}
+          height={16}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          secondaryFill={null}
+          secondaryOpacity={0.4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {},
+              Object {
+                "flex": 0,
+                "height": 16,
+                "width": 16,
+              },
+            ]
+          }
+          vbHeight={512}
+          vbWidth={512}
+          width={16}
+        >
+          <RNSVGGroup
+            fill={4284987048}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"
+              fill={4284987048}
+              fillOpacity={1}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+            },
+            Array [
+              Object {},
+            ],
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          This is a test topic
+        </Text>
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIDisplay-Regular",
+                "fontSize": 14,
+                "lineHeight": 20,
+              },
+            ]
+          }
+        >
+          Test Title
+        </Text>
+      </View>
+    </View>
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight={20}
+      bbWidth={20}
+      fill="#67B6A8"
+      focusable={false}
+      height={20}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      secondaryFill={null}
+      secondaryOpacity={0.4}
+      size={20}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "marginRight": 16,
+          },
+          Object {
+            "flex": 0,
+            "height": 20,
+            "width": 20,
+          },
+        ]
+      }
+      vbHeight={512}
+      vbWidth={320}
+      width={20}
+    >
+      <RNSVGGroup
+        fill={4284987048}
+        propList={
+          Array [
+            "fill",
+          ]
+        }
+      >
+        <RNSVGPath
+          d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+          fill={4284987048}
+          fillOpacity={1}
+          propList={
+            Array [
+              "fill",
+              "fillOpacity",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D94E69",
+            "bottom": 0,
+            "display": "flex",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CBCBCB",
+              "borderRadius": 4,
+              "height": 3.5,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#67B6A8",
+                "borderRadius": 1.75,
+                "flex": 1,
+                "width": "0%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`components >> draft story card  Should match snapshot correctly 1`] = `
 <View
   accessible={true}
@@ -30,6 +309,8 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "overflow": "hidden",
+          "paddingBottom": 8,
         },
         Array [
           Object {
@@ -50,10 +331,12 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       style={
         Array [
           Object {
+            "alignItems": "center",
             "display": "flex",
+            "flexDirection": "row",
             "marginBottom": 8,
             "marginLeft": 8,
-            "width": "80%",
+            "paddingTop": 8,
           },
           Array [
             Object {},
@@ -61,36 +344,80 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
         ]
       }
     >
-      <Text
-        numberOfLines={1}
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIDisplay-Regular",
-              "fontSize": 18,
-              "lineHeight": 20,
-              "marginRight": 16,
-              "marginTop": 8,
-            },
-          ]
-        }
-      >
-        Test Title
-      </Text>
       <View
         style={
           Array [
             Object {
-              "alignSelf": "flex-start",
-              "backgroundColor": "#67B6A8",
-              "borderRadius": 8,
+              "backgroundColor": "#EFEFEF",
+              "borderRadius": 16,
               "display": "flex",
-              "marginTop": 8,
-              "padding": 2,
-              "paddingLeft": 8,
-              "paddingRight": 8,
+              "marginRight": 16,
+              "padding": 8,
+            },
+            Array [
+              Object {},
+            ],
+          ]
+        }
+        testID="pencil-icon"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={16}
+          bbWidth={16}
+          fill="#67B6A8"
+          focusable={false}
+          height={16}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          secondaryFill={null}
+          secondaryOpacity={0.4}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              Object {},
+              Object {
+                "flex": 0,
+                "height": 16,
+                "width": 16,
+              },
+            ]
+          }
+          vbHeight={512}
+          vbWidth={512}
+          width={16}
+        >
+          <RNSVGGroup
+            fill={4284987048}
+            propList={
+              Array [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"
+              fill={4284987048}
+              fillOpacity={1}
+              propList={
+                Array [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
             },
             Array [
               Object {},
@@ -105,6 +432,22 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
               Object {
                 "color": "#282828",
                 "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
+                "fontSize": 16,
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          This is a test topic
+        </Text>
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
                 "fontFamily": "SFUIDisplay-Regular",
                 "fontSize": 14,
                 "lineHeight": 20,
@@ -112,7 +455,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
             ]
           }
         >
-          This is a test topic
+          Test Title
         </Text>
       </View>
     </View>
@@ -120,7 +463,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       align="xMidYMid"
       bbHeight={20}
       bbWidth={20}
-      fill="#282828"
+      fill="#67B6A8"
       focusable={false}
       height={20}
       meetOrSlice={0}
@@ -150,7 +493,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       width={20}
     >
       <RNSVGGroup
-        fill={4280821800}
+        fill={4284987048}
         propList={
           Array [
             "fill",
@@ -159,7 +502,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
       >
         <RNSVGPath
           d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
-          fill={4280821800}
+          fill={4284987048}
           fillOpacity={1}
           propList={
             Array [
@@ -170,6 +513,47 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
         />
       </RNSVGGroup>
     </RNSVGSvgView>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D94E69",
+            "bottom": 0,
+            "display": "flex",
+            "position": "absolute",
+            "width": "100%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#CBCBCB",
+              "borderRadius": 4,
+              "height": 3.5,
+              "overflow": "hidden",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#67B6A8",
+                "borderRadius": 1.75,
+                "flex": 1,
+                "width": "0%",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
   </View>
 </View>
 `;

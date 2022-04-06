@@ -11,14 +11,14 @@ import { useTheme } from '../../themes/hooks/useTheme';
 type DraftStoryCardProps = {
   title: string;
   topicTitle: string;
-  storyProgress: number;
+  recordingProgress: number;
   onPress: () => void;
 };
 
 export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   title,
   topicTitle,
-  storyProgress,
+  recordingProgress,
   onPress,
 }) => {
   const theme = useTheme();
@@ -49,6 +49,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             marginRight="m"
             backgroundColor="backgroundContrastLow"
             borderRadius="large"
+            testID="pencil-icon"
           >
             <Icon icon="pencil-alt" color="primary" />
           </Box>
@@ -74,7 +75,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
           backgroundColor="textError"
         >
           <ProgressBar
-            progress={storyProgress}
+            progress={recordingProgress}
             backgroundColor={theme.colors.primary}
             trackColor={theme.colors.backgroundContrastMid}
             height={3.5}
