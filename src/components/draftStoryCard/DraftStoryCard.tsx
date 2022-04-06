@@ -1,23 +1,27 @@
 import React from 'react';
 import ProgressBar from 'react-native-animated-progress';
+
 // UI
 import { Box } from '../../themes/box/Box';
 import { Text } from '../../themes/text/Text';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { Icon } from '../icon/Icon';
-import { SystemProgressBar } from '../../themes/systemProgressBar/SystemProgressBar';
+import { useTheme } from '../../themes/hooks/useTheme';
 
 type DraftStoryCardProps = {
   title: string;
   topicTitle: string;
+  storyProgress: number;
   onPress: () => void;
 };
 
 export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   title,
   topicTitle,
+  storyProgress,
   onPress,
 }) => {
+  const theme = useTheme();
   return (
     <SystemButton onPress={onPress}>
       <Box
@@ -28,41 +32,52 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
         flexDirection="row"
         alignContent="center"
         alignItems="center"
-        justifyContent="space-around"
+        justifyContent="space-between"
         boxShadow="sm"
         paddingBottom="s"
-        overflow={'hidden'}
+        overflow="hidden"
       >
         <Box
           marginLeft="s"
-          marginRight="s"
-          backgroundColor="backgroundContrastLow"
-          padding="s"
-          borderRadius="large"
+          marginBottom="s"
+          flexDirection="row"
+          paddingTop="s"
+          alignItems="center"
         >
-          <Icon icon="pencil-alt" color="primary" />
-        </Box>
-        <Box marginLeft="s" marginBottom="s" width="80%">
-          <Text
-            color="textContrastHigh"
-            variant="intro"
-            marginTop="s"
-            numberOfLines={1}
+          <Box
+            padding="s"
             marginRight="m"
+            backgroundColor="backgroundContrastLow"
+            borderRadius="large"
           >
-            {topicTitle}
-          </Text>
+            <Icon icon="pencil-alt" color="primary" />
+          </Box>
+          <Box>
+            <Text color="textContrastHigh" variant="intro" numberOfLines={1}>
+              {topicTitle}
+            </Text>
 
-          <Text variant="bodyXSmall" color="textContrastHigh" numberOfLines={1}>
-            {title}
-          </Text>
+            <Text
+              variant="bodyXSmall"
+              color="textContrastHigh"
+              numberOfLines={1}
+            >
+              {title}
+            </Text>
+          </Box>
         </Box>
         <Icon icon="chevron-right" color="primary" size={20} marginRight="m" />
-        <Box width="100%" position="absolute" bottom={0}>
-          <SystemProgressBar
-            progress={100}
-            backgroundColor="primary"
-            height={4}
+        <Box
+          width="100%"
+          position="absolute"
+          bottom={0}
+          backgroundColor="textError"
+        >
+          <ProgressBar
+            progress={storyProgress}
+            backgroundColor={theme.colors.primary}
+            trackColor={theme.colors.backgroundContrastMid}
+            height={3.5}
           />
         </Box>
       </Box>
