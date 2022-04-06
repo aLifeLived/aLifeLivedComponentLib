@@ -8,8 +8,8 @@ const onPress = jest.fn();
 const defaultTitle = 'Test Title';
 const defaultTopicTitle = 'This is a test topic';
 
-const setup = (storyProgress = 0) => {
-  const utils = render(
+const setup = (storyProgress = 0) =>
+  render(
     <DraftStoryCard
       recordingProgress={storyProgress}
       title={defaultTitle}
@@ -17,11 +17,6 @@ const setup = (storyProgress = 0) => {
       onPress={onPress}
     />
   );
-
-  return {
-    ...utils,
-  };
-};
 
 describe('components >> draft story card ', () => {
   beforeEach(() => onPress.mockClear());
