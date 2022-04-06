@@ -8,19 +8,15 @@ const onPress = jest.fn();
 const defaultTitle = 'Test Title';
 const defaultTopicTitle = 'This is a test topic';
 
-const setup = () => {
-  const utils = render(
+const setup = (storyProgress = 0) =>
+  render(
     <DraftStoryCard
+      recordingProgress={storyProgress}
       title={defaultTitle}
       topicTitle={defaultTopicTitle}
       onPress={onPress}
     />
   );
-
-  return {
-    ...utils,
-  };
-};
 
 describe('components >> draft story card ', () => {
   beforeEach(() => onPress.mockClear());
@@ -39,5 +35,17 @@ describe('components >> draft story card ', () => {
     const { getByText } = setup();
     fireEvent.press(getByText(defaultTitle));
     expect(onPress).toBeCalledTimes(1);
+  });
+
+  test('Should find pencil icon', () => {
+    const { getByTestId } = setup();
+    expect(getByTestId('pencil-icon')).toBeDefined();
+  });
+
+  describe('Given user has progressed through 50% of recording', () => {
+    test('Should render progress bar of half way', () => {
+      const { toJSON } = setup(50);
+      expect(toJSON()).toMatchSnapshot();
+    });
   });
 });
