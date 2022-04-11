@@ -44,118 +44,178 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
     }
   >
     <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 8,
-          "marginBottom": 8,
-          "opacity": 1,
-          "padding": 16,
-          "width": "90%",
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "marginLeft": 16,
+            "marginRight": 16,
+            "width": "100%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
       }
     >
-      <Text
+      <View
         style={
           Array [
             Object {
-              "color": "#282828",
               "display": "flex",
-              "fontFamily": "SFUIText-Semibold",
-              "fontSize": 16,
-              "lineHeight": 24,
-              "textAlign": "center",
+              "marginLeft": 16,
+              "marginRight": 16,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
-        Edit story
-      </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 8,
+              "marginBottom": 8,
+              "opacity": 1,
+              "padding": 16,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#282828",
+                  "display": "flex",
+                  "fontFamily": "SFUIText-Semibold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            EDIT STORY
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "display": "flex",
+              "marginLeft": 16,
+              "marginRight": 16,
+            },
+            Array [
+              Object {},
+            ],
+          ]
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#D94E69",
+              "borderRadius": 8,
+              "opacity": 1,
+              "padding": 16,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#282828",
+                  "display": "flex",
+                  "fontFamily": "SFUIText-Semibold",
+                  "fontSize": 16,
+                  "lineHeight": 24,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            DELETE STORY
+          </Text>
+        </View>
+      </View>
     </View>
     <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
-        Object {
-          "backgroundColor": "#D94E69",
-          "borderRadius": 8,
-          "opacity": 1,
-          "padding": 16,
-          "width": "90%",
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "marginBottom": 24,
+            "marginTop": 24,
+            "width": "90%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
       }
     >
-      <Text
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIText-Semibold",
-              "fontSize": 16,
-              "lineHeight": 24,
-              "textAlign": "center",
-            },
-          ]
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "100%",
+          }
         }
       >
-        Delete story
-      </Text>
-    </View>
-    <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 8,
-          "marginBottom": 24,
-          "marginTop": 24,
-          "opacity": 1,
-          "padding": 16,
-          "width": "90%",
-        }
-      }
-    >
-      <Text
-        style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIText-Semibold",
-              "fontSize": 16,
-              "lineHeight": 24,
-              "textAlign": "center",
-            },
-          ]
-        }
-      >
-        Close
-      </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          CLOSE
+        </Text>
+      </View>
     </View>
   </View>
 </View>

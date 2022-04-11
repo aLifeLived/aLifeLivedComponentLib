@@ -15,18 +15,21 @@ export const EditAndDeleteBottomSheet: React.FC<EditAndDeleteBottomSheetTypes> =
     return (
       <SystemBottomSheet isVisible={isVisible} onClose={() => onClose()}>
         <Box width="100%" marginLeft="m" marginRight="m">
-          <Button
-            title="Edit story"
-            onPress={() => onEditStoryPress()}
-            marginBottom="s"
-            backgroundColor="backgroundContrastXLow"
-          />
-          <Button
-            title="Delete story"
-            onPress={() => onRemoveStoryPress()}
-            backgroundColor="backgroundError"
-            color="textContrastHigh"
-          />
+          <Box marginLeft="m" marginRight="m">
+            <Button
+              title="Edit story"
+              onPress={() => onEditStoryPress()}
+              marginBottom="s"
+              backgroundColor="backgroundContrastXLow"
+            />
+          </Box>
+          <Box marginLeft="m" marginRight="m">
+            <Button
+              title="Delete story"
+              onPress={() => onRemoveStoryPress()}
+              backgroundColor="backgroundError"
+            />
+          </Box>
         </Box>
       </SystemBottomSheet>
     );

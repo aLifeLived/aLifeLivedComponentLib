@@ -23,7 +23,7 @@ describe('themes >> systemBottomSheet', () => {
           {}
         </SystemBottomSheet>
       );
-      expect(getByText('Close')).not.toBeNull();
+      expect(getByText('CLOSE')).not.toBeNull();
     });
 
     test('Should fire onClose()', () => {
@@ -33,7 +33,7 @@ describe('themes >> systemBottomSheet', () => {
         </SystemBottomSheet>
       );
 
-      fireEvent.press(getByText('Close'));
+      fireEvent.press(getByText('CLOSE'));
       expect(mockOnClose).toBeCalledTimes(1);
     });
   });
@@ -74,7 +74,7 @@ describe('themes >> systemBottomSheet', () => {
           {}
         </SystemBottomSheet>
       );
-      expect(getByText('Close')).not.toBeNull();
+      expect(getByText('CLOSE')).not.toBeNull();
     });
 
     test('Should fire onClose() with children', () => {
@@ -84,7 +84,7 @@ describe('themes >> systemBottomSheet', () => {
         </SystemBottomSheet>
       );
 
-      fireEvent.press(getByText('Close'));
+      fireEvent.press(getByText('CLOSE'));
       expect(mockOnClose).toBeCalledTimes(1);
     });
   });

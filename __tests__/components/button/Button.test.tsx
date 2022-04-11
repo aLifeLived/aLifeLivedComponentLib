@@ -31,12 +31,12 @@ describe('components >> button ', () => {
 
     test('Should render title', () => {
       const { getByText } = setup({ isDisabled: false, isLoading: false });
-      expect(getByText('Test button')).not.toBeNull();
+      expect(getByText('TEST BUTTON')).not.toBeNull();
     });
 
     test('Should fire on press', () => {
       const { getByText } = setup({ isDisabled: false, isLoading: false });
-      fireEvent.press(getByText('Test button'));
+      fireEvent.press(getByText('TEST BUTTON'));
       expect(mockOnPress).toBeCalledTimes(1);
     });
   });
@@ -50,12 +50,12 @@ describe('components >> button ', () => {
 
     test('Should find title', () => {
       const { getByText } = setup({ isDisabled: true, isLoading: false });
-      expect(getByText('Test button')).toBeDefined();
+      expect(getByText('TEST BUTTON')).toBeDefined();
     });
 
     test('Should not be able to fire on press action', () => {
       const { getByText } = setup({ isDisabled: true, isLoading: false });
-      fireEvent.press(getByText('Test button'));
+      fireEvent.press(getByText('TEST BUTTON'));
       expect(mockOnPress).toBeCalledTimes(0);
     });
   });
@@ -69,7 +69,7 @@ describe('components >> button ', () => {
 
     test('Should NOT render title', () => {
       const { queryByText } = setup({ isDisabled: false, isLoading: true });
-      expect(queryByText('Test button')).toBeNull();
+      expect(queryByText('TEST BUTTON')).toBeNull();
     });
 
     test('Should NOT fire on press', () => {
