@@ -29,7 +29,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
       onPress={() => onPress()}
       padding="m"
       borderRadius="medium"
-      width="90%"
+      width="100%"
       disabled={isDisabled || isLoading}
       {...rest}
     >
@@ -42,7 +42,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
         />
       ) : (
         <Text variant="intro" textAlign="center" color={color}>
-          {title}
+          {title.toUpperCase()}
         </Text>
       )}
     </SystemButton>
