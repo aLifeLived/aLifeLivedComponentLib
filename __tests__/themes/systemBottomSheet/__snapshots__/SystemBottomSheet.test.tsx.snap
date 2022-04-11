@@ -44,43 +44,57 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
     }
   >
     <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 8,
-          "marginBottom": 24,
-          "marginTop": 24,
-          "opacity": 1,
-          "padding": 16,
-          "width": "90%",
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "marginBottom": 24,
+            "marginTop": 24,
+            "width": "90%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
       }
     >
-      <Text
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIText-Semibold",
-              "fontSize": 16,
-              "lineHeight": 24,
-              "textAlign": "center",
-            },
-          ]
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "100%",
+          }
         }
       >
-        Close
-      </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          CLOSE
+        </Text>
+      </View>
     </View>
   </View>
 </View>
@@ -139,43 +153,57 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
       Hi there
     </Text>
     <View
-      accessible={true}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 8,
-          "marginBottom": 24,
-          "marginTop": 24,
-          "opacity": 1,
-          "padding": 16,
-          "width": "90%",
-        }
+        Array [
+          Object {
+            "display": "flex",
+            "marginBottom": 24,
+            "marginTop": 24,
+            "width": "90%",
+          },
+          Array [
+            Object {},
+          ],
+        ]
       }
     >
-      <Text
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "color": "#282828",
-              "display": "flex",
-              "fontFamily": "SFUIText-Semibold",
-              "fontSize": 16,
-              "lineHeight": 24,
-              "textAlign": "center",
-            },
-          ]
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 8,
+            "opacity": 1,
+            "padding": 16,
+            "width": "100%",
+          }
         }
       >
-        Close
-      </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIText-Semibold",
+                "fontSize": 16,
+                "lineHeight": 24,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          CLOSE
+        </Text>
+      </View>
     </View>
   </View>
 </View>

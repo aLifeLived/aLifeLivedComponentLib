@@ -12,32 +12,31 @@ storiesOf('Button', module)
   .addDecorator(Story => <CenterView>{Story()}</CenterView>)
   .add('Default button', () => (
     <Box width="100%" alignItems="center">
-      <Button
-        title="Test button that has a long title"
-        onPress={action('Button on press fired')}
-        isLoading={false}
-        isDisabled={false}
-        margin="m"
-        color="backgroundContrastXLow"
-        backgroundColor="secondary"
-      />
-
-      <Button
-        title="Loading button"
-        onPress={action('Button on press')}
-        isLoading={true}
-        isDisabled={false}
-        margin="m"
-        width="90%"
-      />
-
-      <Button
-        title="Disabled button"
-        onPress={action('Button on press')}
-        isLoading={false}
-        isDisabled={true}
-        margin="m"
-        width="90%"
-      />
+      <Box width="90%" margin="m">
+        <Button
+          title="Test button that has a long long title"
+          onPress={action('Button on press fired')}
+          isLoading={false}
+          isDisabled={false}
+          color="backgroundContrastXLow"
+          backgroundColor="secondary"
+        />
+      </Box>
+      <Box width="90%" margin="m">
+        <Button
+          title="Loading button"
+          onPress={action('Button on press')}
+          isLoading={true}
+          isDisabled={false}
+        />
+      </Box>
+      <Box width="90%" margin="m">
+        <Button
+          title="Disabled button"
+          onPress={action('Button on press')}
+          isLoading={false}
+          isDisabled={true}
+        />
+      </Box>
     </Box>
   ));

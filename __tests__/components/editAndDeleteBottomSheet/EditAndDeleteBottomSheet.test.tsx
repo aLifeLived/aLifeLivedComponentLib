@@ -29,8 +29,8 @@ describe('components >> EditAndDeleteBottomSheet', () => {
           onEditStoryPress={mockEditStoryPress}
         />
       );
-      expect(getByText('Edit story')).not.toBeNull();
-      expect(getByText('Delete story')).not.toBeNull();
+      expect(getByText('EDIT STORY')).not.toBeNull();
+      expect(getByText('DELETE STORY')).not.toBeNull();
     });
 
     test('Should fire onRemoveStoryPress()', () => {
@@ -43,7 +43,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
         />
       );
 
-      fireEvent.press(getByText('Delete story'));
+      fireEvent.press(getByText('DELETE STORY'));
       expect(mockRemoveStoryPress).toBeCalledTimes(1);
     });
 
@@ -57,7 +57,7 @@ describe('components >> EditAndDeleteBottomSheet', () => {
         />
       );
 
-      fireEvent.press(getByText('Edit story'));
+      fireEvent.press(getByText('EDIT STORY'));
       expect(mockEditStoryPress).toBeCalledTimes(1);
     });
   });

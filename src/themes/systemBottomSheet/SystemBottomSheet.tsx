@@ -35,14 +35,13 @@ export const SystemBottomSheet: React.FC<BottomSheetType> = ({
         paddingTop="l"
       >
         {children}
-        <Button
-          title="Close"
-          onPress={() => onClose()}
-          backgroundColor="backgroundContrastXLow"
-          color="textContrastHigh"
-          marginTop="l"
-          marginBottom="l"
-        />
+        <Box width="90%" marginTop="l" marginBottom="l">
+          <Button
+            title="Close"
+            onPress={() => onClose()}
+            backgroundColor="backgroundContrastXLow"
+          />
+        </Box>
       </Box>
     </Box>
   ) : null;

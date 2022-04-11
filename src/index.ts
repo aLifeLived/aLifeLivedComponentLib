@@ -11,6 +11,7 @@ import DraftsSVG from './assets/svg/drafts.svg';
 import LifeStoryThemeSVG from './assets/svg/life-story-theme.svg';
 import MyStoriesSVG from './assets/svg/my-stories.svg';
 import TravelThemeSVG from './assets/svg/travel-theme.svg';
+import SessionChecklistSVG from './assets/svg/session-checklist.svg';
 
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
@@ -92,4 +93,5 @@ export {
   LifeStoryThemeSVG,
   MyStoriesSVG,
   TravelThemeSVG,
+  SessionChecklistSVG,
 };

@@ -17,7 +17,7 @@ exports[`components >> button  Disabled button Should render basic button correc
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
-      "width": "90%",
+      "width": "100%",
     }
   }
 >
@@ -35,7 +35,7 @@ exports[`components >> button  Disabled button Should render basic button correc
       ]
     }
   >
-    Test button
+    TEST BUTTON
   </Text>
 </View>
 `;
@@ -57,7 +57,7 @@ exports[`components >> button  Enabled button Should render basic button correct
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
-      "width": "90%",
+      "width": "100%",
     }
   }
 >
@@ -75,7 +75,7 @@ exports[`components >> button  Enabled button Should render basic button correct
       ]
     }
   >
-    Test button
+    TEST BUTTON
   </Text>
 </View>
 `;
@@ -97,7 +97,7 @@ exports[`components >> button  Loading button Should render button in loading st
       "borderRadius": 8,
       "opacity": 1,
       "padding": 16,
-      "width": "90%",
+      "width": "100%",
     }
   }
 >
