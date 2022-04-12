@@ -7,7 +7,6 @@ import { Icon } from '../icon/Icon';
 type TopicCardProps = {
   title: string;
   hasUserCompleted: boolean;
-  description: string;
   duration: number;
   onPress: () => void;
 };
@@ -15,7 +14,6 @@ type TopicCardProps = {
 export const TopicCard: React.FC<TopicCardProps> = ({
   title,
   hasUserCompleted,
-  description,
   duration,
   onPress,
 }) => {
@@ -25,44 +23,44 @@ export const TopicCard: React.FC<TopicCardProps> = ({
         borderColor="borderColor"
         backgroundColor="white"
         borderWidth={1}
-        borderRadius="medium"
-        margin="m"
-        flexDirection="row"
-        alignContent="center"
-        alignItems="center"
-        justifyContent="space-between"
+        borderRadius="large"
         boxShadow="md"
+        padding="m"
       >
-        <Box marginLeft="s" marginBottom="s" width="80%">
-          <Text
-            color="textContrastHigh"
-            variant="body"
-            marginTop="s"
-            numberOfLines={1}
-            marginRight="m"
-          >
-            {title}
-          </Text>
-          <Text marginTop="s" variant="bodyXSmall" numberOfLines={1}>
-            {description}
-          </Text>
-          <Box flexDirection="row" marginTop="s" alignItems="center">
-            <Icon icon={['far', 'clock']} testID="clock-icon" />
-            <Text color="primary" variant="bodyXSmall" marginLeft="s">
-              {duration} mins
+        <Box
+          flexDirection="row"
+          justifyContent="space-between"
+          marginTop="s"
+          marginRight="s"
+        >
+          <Box marginRight="m" width="75%">
+            <Text color="textContrastHigh" variant="body" numberOfLines={1}>
+              {title}
             </Text>
           </Box>
+          <Box>
+            {hasUserCompleted ? (
+              <Icon
+                icon={['fas', 'check-circle']}
+                color="primary"
+                size={20}
+                testID="checked-icon"
+              />
+            ) : (
+              <Box flexDirection="row" alignItems="center">
+                <Icon
+                  icon={['far', 'clock']}
+                  testID="clock-icon"
+                  color="textContrastXLow"
+                  marginRight="s"
+                />
+                <Text variant="bodyXSmall" color="textContrastXLow">
+                  {duration} mins
+                </Text>
+              </Box>
+            )}
+          </Box>
         </Box>
-
-        {hasUserCompleted && (
-          <Icon
-            icon={['fas', 'check-circle']}
-            color="primary"
-            marginRight="m"
-            size={20}
-            testID="checked-icon"
-          />
-        )}
       </Box>
     </SystemButton>
   );
