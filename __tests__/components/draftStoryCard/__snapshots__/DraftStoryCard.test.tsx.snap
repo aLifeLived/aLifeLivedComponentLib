@@ -180,60 +180,85 @@ exports[`components >> draft story card  Given user has progressed through 50% o
         </Text>
       </View>
     </View>
-    <RNSVGSvgView
-      align="xMidYMid"
-      bbHeight={20}
-      bbWidth={20}
-      fill="#67B6A8"
-      focusable={false}
-      height={20}
-      meetOrSlice={0}
-      minX={0}
-      minY={0}
-      secondaryFill={null}
-      secondaryOpacity={0.4}
-      size={20}
+    <View
+      accessibilityLabel="Draft story more options"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
-            "borderWidth": 0,
-          },
-          Object {
-            "marginRight": 16,
-          },
-          Object {
-            "flex": 0,
-            "height": 20,
-            "width": 20,
+            "paddingBottom": 16,
+            "paddingTop": 16,
           },
         ]
       }
-      vbHeight={512}
-      vbWidth={320}
-      width={20}
     >
-      <RNSVGGroup
-        fill={4284987048}
-        propList={
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={20}
+        bbWidth={20}
+        fill="#67B6A8"
+        focusable={false}
+        height={20}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={20}
+        style={
           Array [
-            "fill",
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "marginRight": 16,
+            },
+            Object {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
           ]
         }
+        testID="ellipsis-icon"
+        vbHeight={512}
+        vbWidth={192}
+        width={20}
       >
-        <RNSVGPath
-          d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+        <RNSVGGroup
           fill={4284987048}
-          fillOpacity={1}
           propList={
             Array [
               "fill",
-              "fillOpacity",
             ]
           }
-        />
-      </RNSVGGroup>
-    </RNSVGSvgView>
+        >
+          <RNSVGPath
+            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+            fill={4284987048}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
     <View
       style={
         Array [
@@ -459,60 +484,85 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
         </Text>
       </View>
     </View>
-    <RNSVGSvgView
-      align="xMidYMid"
-      bbHeight={20}
-      bbWidth={20}
-      fill="#67B6A8"
-      focusable={false}
-      height={20}
-      meetOrSlice={0}
-      minX={0}
-      minY={0}
-      secondaryFill={null}
-      secondaryOpacity={0.4}
-      size={20}
+    <View
+      accessibilityLabel="Draft story more options"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
-            "borderWidth": 0,
-          },
-          Object {
-            "marginRight": 16,
-          },
-          Object {
-            "flex": 0,
-            "height": 20,
-            "width": 20,
+            "paddingBottom": 16,
+            "paddingTop": 16,
           },
         ]
       }
-      vbHeight={512}
-      vbWidth={320}
-      width={20}
     >
-      <RNSVGGroup
-        fill={4284987048}
-        propList={
+      <RNSVGSvgView
+        align="xMidYMid"
+        bbHeight={20}
+        bbWidth={20}
+        fill="#67B6A8"
+        focusable={false}
+        height={20}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        secondaryFill={null}
+        secondaryOpacity={0.4}
+        size={20}
+        style={
           Array [
-            "fill",
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "marginRight": 16,
+            },
+            Object {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
           ]
         }
+        testID="ellipsis-icon"
+        vbHeight={512}
+        vbWidth={192}
+        width={20}
       >
-        <RNSVGPath
-          d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+        <RNSVGGroup
           fill={4284987048}
-          fillOpacity={1}
           propList={
             Array [
               "fill",
-              "fillOpacity",
             ]
           }
-        />
-      </RNSVGGroup>
-    </RNSVGSvgView>
+        >
+          <RNSVGPath
+            d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+            fill={4284987048}
+            fillOpacity={1}
+            propList={
+              Array [
+                "fill",
+                "fillOpacity",
+              ]
+            }
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
     <View
       style={
         Array [

@@ -15,6 +15,7 @@ storiesOf('Draft story card', module)
         title={text('Title', 'This is a test title')}
         topicTitle={text('Topic Title', 'Life story')}
         onPress={action('On press fired')}
+        onEllipsisPress={action('On ellipsis press')}
         recordingProgress={number('Story progress', 10)}
       />
     </Box>

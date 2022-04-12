@@ -5,12 +5,14 @@ import { render, fireEvent } from './../../../jest/renderUtil';
 import { DraftStoryCard } from '../../../src/components/draftStoryCard/DraftStoryCard';
 
 const onPress = jest.fn();
+const onEllipsisPress = jest.fn();
 const defaultTitle = 'Test Title';
 const defaultTopicTitle = 'This is a test topic';
 
 const setup = (storyProgress = 0) =>
   render(
     <DraftStoryCard
+      onEllipsisPress={onEllipsisPress}
       recordingProgress={storyProgress}
       title={defaultTitle}
       topicTitle={defaultTopicTitle}
@@ -40,6 +42,14 @@ describe('components >> draft story card ', () => {
   test('Should find pencil icon', () => {
     const { getByTestId } = setup();
     expect(getByTestId('pencil-icon')).toBeDefined();
+  });
+
+  describe('Given user wants to delete draft', () => {
+    test('Should fire onEllipsisPress', () => {
+      const { getByTestId } = setup();
+      fireEvent.press(getByTestId('ellipsis-icon'));
+      expect(onEllipsisPress).toBeCalledTimes(1);
+    });
   });
 
   describe('Given user has progressed through 50% of recording', () => {
