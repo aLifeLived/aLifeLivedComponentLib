@@ -7,12 +7,14 @@ import { Text } from '../../themes/text/Text';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
 import { Icon } from '../icon/Icon';
 import { useTheme } from '../../themes/hooks/useTheme';
+import { SystemPressable } from '../../themes/systemPressable/SystemPressable';
 
 type DraftStoryCardProps = {
   title: string;
   topicTitle: string;
   recordingProgress: number;
   onPress: () => void;
+  onEllipsisPress: () => void;
 };
 
 export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
@@ -20,6 +22,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   topicTitle,
   recordingProgress,
   onPress,
+  onEllipsisPress,
 }) => {
   const theme = useTheme();
   return (
@@ -67,7 +70,20 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             </Text>
           </Box>
         </Box>
-        <Icon icon="chevron-right" color="primary" size={20} marginRight="m" />
+        <SystemPressable
+          onPress={onEllipsisPress}
+          paddingTop="m"
+          paddingBottom="m"
+          accessibilityLabel="Draft story more options"
+        >
+          <Icon
+            icon="ellipsis-v"
+            color="primary"
+            size={20}
+            marginRight="m"
+            testID="ellipsis-icon"
+          />
+        </SystemPressable>
         <Box
           width="100%"
           position="absolute"

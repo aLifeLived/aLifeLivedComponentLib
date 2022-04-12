@@ -46,6 +46,12 @@ storiesOf('Icon', module)
       <Icon icon="pause" margin="s" onPress={action('Pause icon pressed')} />
       <Icon icon="times" margin="s" onPress={action('Times icon pressed')} />
       <Icon
+        margin="s"
+        color="secondary"
+        icon="ellipsis-v"
+        onPress={action('Ellipsis icon pressed')}
+      />
+      <Icon
         icon={['far', 'heart']}
         margin="s"
         color="secondary"
