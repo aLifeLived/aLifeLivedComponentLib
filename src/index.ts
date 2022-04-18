@@ -47,6 +47,7 @@ import { CardContent } from './themes/card/CardContent';
 import { SystemFlatList } from './themes/systemFlatList/SystemFlatList';
 import { SystemPressable } from './themes/systemPressable/SystemPressable';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
+import { SystemBottomSheet } from './themes/systemBottomSheet/SystemBottomSheet';
 import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
 
 library.add(iconList);
@@ -94,4 +95,5 @@ export {
   MyStoriesSVG,
   TravelThemeSVG,
   SessionChecklistSVG,
+  SystemBottomSheet,
 };
