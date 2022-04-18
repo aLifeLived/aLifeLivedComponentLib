@@ -43,20 +43,13 @@ storiesOf('Theme card', module)
     <Box flex={1} backgroundColor="white">
       <FlatList
         data={data}
-        numColumns={1}
+        numColumns={2}
         keyExtractor={item => item.id}
         renderItem={() => (
-          <Box margin="m">
+          <Box margin="m" width="40%">
             <ThemeCard
               title={text('Title', 'A Life Lived')}
-              imageUrl={text(
-                'Image Url',
-                'https://picsum.photos/id/237/200/300'
-              )}
-              subText={text(
-                'Sub Text',
-                'This is a topic about your life story'
-              )}
+              imageUrl="https://picsum.photos/id/237/200/300"
               onPress={action('On press fired')}
             />
           </Box>
