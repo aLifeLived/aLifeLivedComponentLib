@@ -14,7 +14,7 @@ type DraftStoryCardProps = {
   topicTitle: string;
   recordingProgress: number;
   onPress: () => void;
-  onEllipsisPress: () => void;
+  onEllipsisPress?: () => void;
 };
 
 export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
