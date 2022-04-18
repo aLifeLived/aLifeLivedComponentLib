@@ -36,10 +36,8 @@ exports[`components >> theme card  Should match snapshot correctly 1`] = `
       style={
         Array [
           Object {
-            "alignSelf": "flex-end",
             "display": "flex",
-            "paddingRight": 16,
-            "paddingTop": 8,
+            "marginLeft": 8,
           },
           Array [
             Object {},
@@ -47,21 +45,37 @@ exports[`components >> theme card  Should match snapshot correctly 1`] = `
         ]
       }
     >
-      <Text
+      <View
         style={
           Array [
             Object {
-              "color": "#282828",
+              "alignSelf": "flex-end",
               "display": "flex",
-              "fontFamily": "SFUIText-Regular",
-              "fontSize": 20,
-              "lineHeight": 24,
+              "paddingRight": 16,
+              "paddingTop": 8,
             },
+            Array [
+              Object {},
+            ],
           ]
         }
       >
-        Test Title
-      </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#282828",
+                "display": "flex",
+                "fontFamily": "SFUIText-Regular",
+                "fontSize": 20,
+                "lineHeight": 24,
+              },
+            ]
+          }
+        >
+          Test Title
+        </Text>
+      </View>
     </View>
     <View
       style={
