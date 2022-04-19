@@ -11,12 +11,24 @@ storiesOf('Draft story card', module)
   .addDecorator(Story => Story())
   .add('Default draft story card', () => (
     <Box margin="m">
-      <DraftStoryCard
-        title={text('Title', 'This is a test title')}
-        topicTitle={text('Topic Title', 'Life story')}
-        onPress={action('On press fired')}
-        onEllipsisPress={action('On ellipsis press')}
-        recordingProgress={number('Story progress', 10)}
-      />
+      <Box margin="m">
+        <DraftStoryCard
+          title={text('Title', 'This is a test title')}
+          topicTitle={text('Topic Title', 'Life story')}
+          onPress={action('On press fired')}
+          shouldDisplayEllipsis={true}
+          onEllipsisPress={action('On ellipsis press')}
+          recordingProgress={number('Story progress', 10)}
+        />
+      </Box>
+      <Box margin="m">
+        <DraftStoryCard
+          title={text('Title', 'This is a test title')}
+          topicTitle={text('Topic Title', 'Life story')}
+          onPress={action('On press fired')}
+          shouldDisplayEllipsis={false}
+          recordingProgress={number('Story progress', 10)}
+        />
+      </Box>
     </Box>
   ));

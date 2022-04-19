@@ -13,6 +13,7 @@ type DraftStoryCardProps = {
   title: string;
   topicTitle: string;
   recordingProgress: number;
+  shouldDisplayEllipsis?: boolean;
   onPress: () => void;
   onEllipsisPress?: () => void;
 };
@@ -21,6 +22,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   title,
   topicTitle,
   recordingProgress,
+  shouldDisplayEllipsis,
   onPress,
   onEllipsisPress,
 }) => {
@@ -70,20 +72,22 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             </Text>
           </Box>
         </Box>
-        <SystemPressable
-          onPress={onEllipsisPress}
-          paddingTop="m"
-          paddingBottom="m"
-          accessibilityLabel="Draft story more options"
-        >
-          <Icon
-            icon="ellipsis-v"
-            color="primary"
-            size={20}
-            marginRight="m"
-            testID="ellipsis-icon"
-          />
-        </SystemPressable>
+        {shouldDisplayEllipsis ? (
+          <SystemPressable
+            onPress={onEllipsisPress}
+            paddingTop="m"
+            paddingBottom="m"
+            accessibilityLabel="Draft story more options"
+          >
+            <Icon
+              icon="ellipsis-v"
+              color="primary"
+              size={20}
+              marginRight="m"
+              testID="ellipsis-icon"
+            />
+          </SystemPressable>
+        ) : null}
         <Box
           width="100%"
           position="absolute"

@@ -9,10 +9,11 @@ const onEllipsisPress = jest.fn();
 const defaultTitle = 'Test Title';
 const defaultTopicTitle = 'This is a test topic';
 
-const setup = (storyProgress = 0) =>
+const setup = (storyProgress = 0, shouldDisplayEllipsis = true) =>
   render(
     <DraftStoryCard
       onEllipsisPress={onEllipsisPress}
+      shouldDisplayEllipsis={shouldDisplayEllipsis}
       recordingProgress={storyProgress}
       title={defaultTitle}
       topicTitle={defaultTopicTitle}
@@ -56,6 +57,25 @@ describe('components >> draft story card ', () => {
     test('Should render progress bar of half way', () => {
       const { toJSON } = setup(50);
       expect(toJSON()).toMatchSnapshot();
+    });
+  });
+
+  describe('Given ellipsis is NOT displayed', () => {
+    test('Should NOT render ellipsis icon if FALSE', () => {
+      const { queryByTestId } = setup(0, false);
+      expect(queryByTestId('ellipsis-icon')).toBeNull();
+    });
+
+    test('Should NOT render ellipsis icon if NULL', () => {
+      const { queryByTestId } = setup(0, null);
+      expect(queryByTestId('ellipsis-icon')).toBeNull();
+    });
+  });
+
+  describe('Given ellipsis icon SHOULD be displayed', () => {
+    test('Should render icon', () => {
+      const { getByTestId } = setup(0, true);
+      expect(getByTestId('ellipsis-icon')).toBeDefined();
     });
   });
 });
