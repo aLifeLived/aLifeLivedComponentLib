@@ -24,22 +24,28 @@ import {
   faUsers,
   faPencilAlt,
   faEllipsisV,
+  faCog,
+  faFolder,
+  faCheck,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faBookmark as farBookmark,
   faHeart as farHeart,
   faClock as farClock,
   faCircle,
+  faTrashAlt,
 } from '@fortawesome/free-regular-svg-icons';
 
 export const iconList = {
   farBookmark,
   faUsers,
+  faTrashAlt,
   faPencilAlt,
   farHeart,
   farClock,
   faCheckSquare,
   faCoffee,
+  faCheck,
   faHome,
   faChevronLeft,
   faMicrophone,
@@ -62,5 +68,7 @@ export const iconList = {
   faEyeSlash,
   faEye,
   faEllipsisV,
+  faCog,
+  faFolder,
 };
 export type Icons = keyof typeof iconList;
