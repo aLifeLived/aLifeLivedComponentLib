@@ -5,12 +5,14 @@ import AnimatedLottieView from 'lottie-react-native';
 
 type RecorderButtonProps = {
   isRecording: boolean;
+  testID: string;
   onRecorderPress: () => void;
 };
 
 export const RecorderButton: React.FC<RecorderButtonProps> = ({
   isRecording,
   onRecorderPress,
+  testID,
 }) => {
   const lottieRef = useRef<AnimatedLottieView>(null);
 
@@ -21,7 +23,7 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
   );
 
   return (
-    <TouchableWithoutFeedback onPress={onRecorderPress}>
+    <TouchableWithoutFeedback onPress={onRecorderPress} testID={testID}>
       <SystemAnimatedLottieBox
         ref={lottieRef}
         source={require('../../assets/lottie/record-button.json')}
