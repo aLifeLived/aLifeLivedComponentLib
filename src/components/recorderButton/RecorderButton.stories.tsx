@@ -24,6 +24,6 @@ const RecorderButtonComponent = () => {
   );
 };
 
-storiesOf('Recorder Button', module)
+storiesOf('Recording', module)
   .addDecorator(Story => Story())
-  .add('Ideal state', () => <RecorderButtonComponent />);
+  .add('Recording button', () => <RecorderButtonComponent />);

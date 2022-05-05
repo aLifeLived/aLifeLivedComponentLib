@@ -6,7 +6,7 @@ import { action } from '@storybook/addon-actions';
 import { TopicCard } from './TopicCard';
 import { Box } from '../../themes/box/Box';
 
-storiesOf('Topic card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default topic card', () => (
     <Box>

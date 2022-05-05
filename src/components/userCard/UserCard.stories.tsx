@@ -35,7 +35,7 @@ const data = [
   },
 ];
 
-storiesOf('User card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default user card', () => (
     <Box flex={1} alignContent="center" alignItems="flex-start">

@@ -18,7 +18,7 @@ import { CardOverlay } from './CardOverlay';
 import { Box } from '../box/Box';
 import { SystemScrollView } from '../systemScrollView/SystemScrollView';
 
-storiesOf('Card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Card with headers', () => (
     <Box flex={1}>

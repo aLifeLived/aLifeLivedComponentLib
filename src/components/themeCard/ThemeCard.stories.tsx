@@ -37,7 +37,7 @@ const data = [
   },
 ];
 
-storiesOf('Theme card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default theme card in list', () => (
     <Box flex={1} backgroundColor="white">
