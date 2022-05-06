@@ -9,22 +9,24 @@ import { Box } from '../../themes/box/Box';
 
 type RecorderActionBarProps = {
   playerState: 'recording' | 'ideal' | 'paused';
+  recordButtonTestID?: string;
+  leftIconTestID?: string;
+  rightIconTestID?: string;
+  isLoading?: boolean;
   onLeftIconPress: () => void;
   onRightIconPress: () => void;
   onRecorderPress: () => void;
-  recordButtonTestId: string;
-  leftIconTestId: string;
-  rightIconTestId: string;
 };
 
 export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
-  onRecorderPress,
   playerState,
+  leftIconTestID,
+  rightIconTestID,
+  recordButtonTestID,
+  isLoading,
+  onRecorderPress,
   onLeftIconPress,
   onRightIconPress,
-  leftIconTestId,
-  rightIconTestId,
-  recordButtonTestId,
 }) => {
   return (
     <Box
@@ -35,47 +37,28 @@ export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
       width="100%"
     >
       <Box>
-        {playerState === 'ideal' ? (
-          <Icon
-            icon="folder"
-            size={30}
-            color="primary"
-            testID={leftIconTestId}
-            onPress={onLeftIconPress}
-          />
-        ) : (
-          <Icon
-            icon={['far', 'trash-alt']}
-            size={30}
-            color="primary"
-            testID={leftIconTestId}
-            onPress={onLeftIconPress}
-          />
-        )}
+        <Icon
+          icon={playerState === 'ideal' ? 'folder' : ['far', 'trash-alt']}
+          size={30}
+          color="primary"
+          testID={leftIconTestID}
+          onPress={onLeftIconPress}
+        />
       </Box>
       <RecorderButton
+        isLoading={isLoading}
         onRecorderPress={onRecorderPress}
-        testID={recordButtonTestId}
+        testID={recordButtonTestID}
         isRecording={playerState === 'recording'}
       />
       <Box>
-        {playerState === 'ideal' ? (
-          <Icon
-            icon="cog"
-            size={30}
-            color="primary"
-            testID={rightIconTestId}
-            onPress={onRightIconPress}
-          />
-        ) : (
-          <Icon
-            icon="check"
-            size={30}
-            color="primary"
-            testID={rightIconTestId}
-            onPress={onLeftIconPress}
-          />
-        )}
+        <Icon
+          icon={playerState === 'ideal' ? 'cog' : 'check'}
+          size={30}
+          color="primary"
+          testID={rightIconTestID}
+          onPress={onRightIconPress}
+        />
       </Box>
     </Box>
   );
