@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react-native';
 // Component
 import { HelpCard } from './HelpCard';
 
-storiesOf('Help Card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('with text', () => (
     <HelpCard title="Help me!" subText="This is the sub text" />

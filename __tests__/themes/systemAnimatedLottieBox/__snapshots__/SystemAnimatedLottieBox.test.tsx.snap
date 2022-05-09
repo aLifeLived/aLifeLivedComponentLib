@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`themes >> systemAnimatedLottieBox >> SystemAnimatedLottieBox Should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      },
+      Array [
+        Object {},
+      ],
+    ]
+  }
+>
+  <View
+    autoPlay={false}
+    cacheComposition={true}
+    enableMergePathsAndroidForKitKatAndAbove={false}
+    forwardedRef={[Function]}
+    loop={true}
+    onAnimationFinish={[Function]}
+    onLayout={[Function]}
+    progress={0}
+    resizeMode="contain"
+    sourceName="./../../../src/assets/lottie/record-button.json"
+    speed={1}
+    style={
+      Object {
+        "bottom": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+</View>
+`;

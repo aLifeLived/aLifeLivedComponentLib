@@ -1,5 +1,4 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react-native';
 
 // Component
@@ -29,8 +28,6 @@ storiesOf('Icon', module)
       <Icon icon="times" margin="s" />
       <Icon icon={['far', 'heart']} margin="s" color="secondary" />
       <Icon icon={['fas', 'heart']} margin="s" color="secondary" />
-      <Icon icon={['far', 'bookmark']} margin="s" />
-      <Icon icon={['fas', 'bookmark']} margin="s" />
       <Icon icon="search" margin="s" />
       <Icon icon="exclamation-circle" margin="s" color="secondary" />
       <Icon icon="check-circle" margin="s" color="primary" />
@@ -38,46 +35,15 @@ storiesOf('Icon', module)
       <Icon icon="eye" margin="s" color="primary" />
       <Icon icon="eye-slash" margin="s" color="primary" />
       <Icon icon="pencil-alt" margin="s" color="primary" />
-    </>
-  ))
-  .add('Pressable icons', () => (
-    <>
-      <Icon icon="play" margin="s" onPress={action('Play icon pressed')} />
-      <Icon icon="pause" margin="s" onPress={action('Pause icon pressed')} />
-      <Icon icon="times" margin="s" onPress={action('Times icon pressed')} />
-      <Icon
-        margin="s"
-        color="secondary"
-        icon="ellipsis-v"
-        onPress={action('Ellipsis icon pressed')}
-      />
-      <Icon
-        icon={['far', 'heart']}
-        margin="s"
-        color="secondary"
-        onPress={action('Heart icon pressed')}
-      />
-      <Icon
-        icon={['fas', 'heart']}
-        margin="s"
-        color="secondary"
-        onPress={action('Heart icon pressed')}
-      />
-      <Icon
-        icon={['far', 'bookmark']}
-        margin="s"
-        onPress={action('Bookmark icon pressed')}
-      />
-      <Icon
-        icon={['fas', 'bookmark']}
-        margin="s"
-        onPress={action('Bookmark icon pressed')}
-      />
-      <Icon
-        icon="plus-circle"
-        margin="s"
-        color="primary"
-        onPress={action('Plus icon pressed')}
-      />
+      <Icon icon="play" margin="s" />
+      <Icon icon="pause" margin="s" />
+      <Icon icon="cog" margin="s" />
+      <Icon icon="folder" margin="s" />
+      <Icon icon="check" margin="s" />
+      <Icon icon={['far', 'trash-alt']} margin="s" />
+      <Icon margin="s" color="secondary" icon="ellipsis-v" />
+      <Icon icon={['far', 'bookmark']} margin="s" />
+      <Icon icon={['fas', 'bookmark']} margin="s" />
+      <Icon icon="plus-circle" margin="s" color="primary" />
     </>
   ));

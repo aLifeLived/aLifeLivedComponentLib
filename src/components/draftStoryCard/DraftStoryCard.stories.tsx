@@ -7,7 +7,7 @@ import { action } from '@storybook/addon-actions';
 import { DraftStoryCard } from './DraftStoryCard';
 import { Box } from '../../themes/box/Box';
 
-storiesOf('Draft story card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default draft story card', () => (
     <Box margin="m">

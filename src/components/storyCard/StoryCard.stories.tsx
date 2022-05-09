@@ -35,7 +35,7 @@ const storyData = [
   },
 ];
 
-storiesOf('Story card', module)
+storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default story card', () => (
     <Box flex={1} backgroundColor="white" padding="s">
