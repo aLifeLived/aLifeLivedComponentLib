@@ -33,6 +33,7 @@ import { Input } from './components/input/Input';
 import { UserCardSkeleton } from './components/userCard/UserCardSkeleton';
 import { SelectBox } from './components/selectBox/SelectBox';
 import { OnboardingContent } from './components/onboardingContent/OnboardingContent';
+import { MyRecordingCard } from './components/myRecordingCard/MyRecordingCard';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -96,4 +97,5 @@ export {
   TravelThemeSVG,
   SessionChecklistSVG,
   SystemBottomSheet,
+  MyRecordingCard,
 };
