@@ -12,6 +12,7 @@ function loadStories() {
   require('../components/icon/Icon.stories');
   require('../components/input/Input.stories');
   require('../components/miniPlayer/MiniPlayer.stories');
+  require('../components/myRecordingCard/MyRecordingCard.stories');
   require('../components/noCtaModal/NoCtaModal.stories');
   require('../components/onboardingContent/OnboardingContent.stories');
   require('../components/recorderActionBar/RecorderActionBar.stories');
@@ -39,6 +40,7 @@ const stories = [
   '../components/icon/Icon.stories',
   '../components/input/Input.stories',
   '../components/miniPlayer/MiniPlayer.stories',
+  '../components/myRecordingCard/MyRecordingCard.stories',
   '../components/noCtaModal/NoCtaModal.stories',
   '../components/onboardingContent/OnboardingContent.stories',
   '../components/recorderActionBar/RecorderActionBar.stories',
