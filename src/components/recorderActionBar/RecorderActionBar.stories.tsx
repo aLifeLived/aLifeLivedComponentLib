@@ -24,9 +24,9 @@ const RecorderActionBarComponent = () => {
         playerState={playerState}
         onLeftIconPress={() => setPlayerState('ideal')}
         onRightIconPress={() => setPlayerState('ideal')}
-        leftIconTestId="leftIconTestId"
-        rightIconTestId="rightIconTestId"
-        recordButtonTestId="recordingButtonTestId"
+        leftIconTestID="leftIconTestId"
+        rightIconTestID="rightIconTestId"
+        recordButtonTestID="recordingButtonTestId"
         onRecorderPress={() =>
           playerState === 'recording'
             ? setPlayerState('paused')
