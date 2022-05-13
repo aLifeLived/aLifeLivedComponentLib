@@ -25,14 +25,12 @@ export const TopicCard: React.FC<TopicCardProps> = ({
         borderWidth={1}
         borderRadius="large"
         boxShadow="md"
-        padding="m"
+        paddingLeft="m"
+        paddingRight="m"
+        paddingTop="l"
+        paddingBottom="l"
       >
-        <Box
-          flexDirection="row"
-          justifyContent="space-between"
-          marginTop="s"
-          marginRight="s"
-        >
+        <Box flexDirection="row" justifyContent="space-between" marginRight="s">
           <Box marginRight="m" width="75%">
             <Text color="textContrastHigh" variant="body" numberOfLines={1}>
               {title}
