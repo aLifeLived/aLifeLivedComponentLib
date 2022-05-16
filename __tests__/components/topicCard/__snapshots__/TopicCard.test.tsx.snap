@@ -26,7 +26,10 @@ exports[`components >> topic card  User HAS completed Should render component co
           "borderRadius": 16,
           "borderWidth": 1,
           "display": "flex",
-          "padding": 16,
+          "paddingBottom": 24,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 24,
         },
         Array [
           Object {
@@ -51,7 +54,6 @@ exports[`components >> topic card  User HAS completed Should render component co
             "flexDirection": "row",
             "justifyContent": "space-between",
             "marginRight": 8,
-            "marginTop": 8,
           },
           Array [
             Object {},
@@ -187,7 +189,10 @@ exports[`components >> topic card  User has NOT completed Should render componen
           "borderRadius": 16,
           "borderWidth": 1,
           "display": "flex",
-          "padding": 16,
+          "paddingBottom": 24,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 24,
         },
         Array [
           Object {
@@ -212,7 +217,6 @@ exports[`components >> topic card  User has NOT completed Should render componen
             "flexDirection": "row",
             "justifyContent": "space-between",
             "marginRight": 8,
-            "marginTop": 8,
           },
           Array [
             Object {},
