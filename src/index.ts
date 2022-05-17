@@ -34,6 +34,7 @@ import { UserCardSkeleton } from './components/userCard/UserCardSkeleton';
 import { SelectBox } from './components/selectBox/SelectBox';
 import { OnboardingContent } from './components/onboardingContent/OnboardingContent';
 import { MyRecordingCard } from './components/myRecordingCard/MyRecordingCard';
+import { RecorderActionBar } from './components/recorderActionBar/RecorderActionBar';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -98,4 +99,5 @@ export {
   SessionChecklistSVG,
   SystemBottomSheet,
   MyRecordingCard,
+  RecorderActionBar,
 };

@@ -5,6 +5,7 @@ import AnimatedLottieView from 'lottie-react-native';
 
 type RecorderButtonProps = {
   isRecording: boolean;
+  isRecordingPaused: boolean;
   testID?: string;
   isLoading?: boolean;
   onRecorderPress: () => void;
@@ -12,6 +13,7 @@ type RecorderButtonProps = {
 
 export const RecorderButton: React.FC<RecorderButtonProps> = ({
   isRecording,
+  isRecordingPaused,
   onRecorderPress,
   isLoading,
   testID,
@@ -20,8 +22,10 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
 
   useMemo(
     () =>
-      !isRecording ? lottieRef?.current?.reset() : lottieRef?.current?.play(),
-    [isRecording]
+      !isRecording || isRecordingPaused
+        ? lottieRef?.current?.reset()
+        : lottieRef?.current?.play(),
+    [isRecording, isRecordingPaused]
   );
 
   return (
