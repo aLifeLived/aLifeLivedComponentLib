@@ -8,10 +8,12 @@ import { Icon } from '../icon/Icon';
 import { Box } from '../../themes/box/Box';
 
 type RecorderActionBarProps = {
-  playerState: 'recording' | 'ideal' | 'paused';
   recordButtonTestID?: string;
   leftIconTestID?: string;
   rightIconTestID?: string;
+  isIdeal: boolean;
+  isRecording: boolean;
+  isRecordingPaused: boolean;
   isLoading?: boolean;
   onLeftIconPress: () => void;
   onRightIconPress: () => void;
@@ -19,7 +21,9 @@ type RecorderActionBarProps = {
 };
 
 export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
-  playerState,
+  isIdeal,
+  isRecording,
+  isRecordingPaused,
   leftIconTestID,
   rightIconTestID,
   recordButtonTestID,
@@ -38,7 +42,7 @@ export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
     >
       <Box>
         <Icon
-          icon={playerState === 'ideal' ? 'folder' : ['far', 'trash-alt']}
+          icon={isIdeal ? 'folder' : ['far', 'trash-alt']}
           size={30}
           color="primary"
           testID={leftIconTestID}
@@ -49,11 +53,12 @@ export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
         isLoading={isLoading}
         onRecorderPress={onRecorderPress}
         testID={recordButtonTestID}
-        isRecording={playerState === 'recording'}
+        isRecording={isRecording}
+        isRecordingPaused={isRecordingPaused}
       />
       <Box>
         <Icon
-          icon={playerState === 'ideal' ? 'cog' : 'check'}
+          icon={isIdeal ? 'cog' : 'check'}
           size={30}
           color="primary"
           testID={rightIconTestID}

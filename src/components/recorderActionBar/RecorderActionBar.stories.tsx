@@ -6,9 +6,8 @@ import { RecorderActionBar } from './RecorderActionBar';
 import { Box } from '../../themes/box/Box';
 
 const RecorderActionBarComponent = () => {
-  const [playerState, setPlayerState] = useState<
-    'recording' | 'ideal' | 'paused'
-  >('ideal');
+  const [isRecording, setIsRecording] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
   return (
     <Box
       flex={1}
@@ -17,20 +16,20 @@ const RecorderActionBarComponent = () => {
       alignItems="center"
       paddingBottom="m"
       backgroundColor={
-        playerState === 'ideal' ? 'white' : 'backgroundContrastHigh'
+        !isRecording && !isPaused ? 'white' : 'backgroundContrastHigh'
       }
     >
       <RecorderActionBar
-        playerState={playerState}
-        onLeftIconPress={() => setPlayerState('ideal')}
-        onRightIconPress={() => setPlayerState('ideal')}
+        isIdeal={!isRecording && !isPaused}
+        isRecording={isRecording}
+        isRecordingPaused={isPaused}
+        onLeftIconPress={() => (setIsRecording(false), setIsPaused(false))}
+        onRightIconPress={() => (setIsRecording(false), setIsPaused(false))}
         leftIconTestID="leftIconTestId"
         rightIconTestID="rightIconTestId"
         recordButtonTestID="recordingButtonTestId"
         onRecorderPress={() =>
-          playerState === 'recording'
-            ? setPlayerState('paused')
-            : setPlayerState('recording')
+          isRecording ? setIsPaused(true) : setIsRecording(true)
         }
       />
     </Box>
