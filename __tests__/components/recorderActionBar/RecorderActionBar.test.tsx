@@ -13,15 +13,16 @@ const rightIconTestID = 'test-right-icon-id';
 const recordButtonTestID = 'test-record-button-id';
 
 const setup = ({
-  playerState = 'ideal',
+  isIdeal = false,
+  isRecording = false,
+  isPaused = false,
   isLoading = false,
-}: {
-  playerState?: 'recording' | 'ideal' | 'paused';
-  isLoading?: boolean;
 }) =>
   render(
     <RecorderActionBar
-      playerState={playerState}
+      isIdeal={isIdeal}
+      isRecording={isRecording}
+      isRecordingPaused={isPaused}
       isLoading={isLoading}
       recordButtonTestID={recordButtonTestID}
       leftIconTestID={leftIconTestID}
@@ -64,40 +65,41 @@ describe('Components >> RecorderActionBar', () => {
   describe('Given user IS recording', () => {
     describe('AND app is NOT loading', () => {
       test('Should find and press left icon', () => {
-        const { getByTestId } = setup({});
+        const { getByTestId } = setup({ isRecording: true });
         fireEvent.press(getByTestId(leftIconTestID));
         expect(onLeftIconPressMock).toBeCalledTimes(1);
       });
 
       test('Should find and press right icon', () => {
-        const { getByTestId } = setup({});
+        const { getByTestId } = setup({ isRecording: true });
         fireEvent.press(getByTestId(rightIconTestID));
         expect(onRightIconPressMock).toBeCalledTimes(1);
       });
 
-      test('Should find and press recording button', () => {
-        const { getByTestId } = setup({});
+      test('Should find and press stop button', () => {
+        const { getByTestId } = setup({ isRecording: true });
         fireEvent.press(getByTestId(recordButtonTestID));
         expect(onRecorderPressMock).toBeCalledTimes(1);
       });
     });
   });
+
   describe('Given user IS paused', () => {
     describe('AND app is NOT recording', () => {
       test('Should find and press left icon', () => {
-        const { getByTestId } = setup({});
+        const { getByTestId } = setup({ isPaused: true });
         fireEvent.press(getByTestId(leftIconTestID));
         expect(onLeftIconPressMock).toBeCalledTimes(1);
       });
 
       test('Should find and press right icon', () => {
-        const { getByTestId } = setup({});
+        const { getByTestId } = setup({ isPaused: true });
         fireEvent.press(getByTestId(rightIconTestID));
         expect(onRightIconPressMock).toBeCalledTimes(1);
       });
 
       test('Should find and press recording button', () => {
-        const { getByTestId } = setup({});
+        const { getByTestId } = setup({ isPaused: true });
         fireEvent.press(getByTestId(recordButtonTestID));
         expect(onRecorderPressMock).toBeCalledTimes(1);
       });
