@@ -51,10 +51,14 @@ import { SystemPressable } from './themes/systemPressable/SystemPressable';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
 import { SystemBottomSheet } from './themes/systemBottomSheet/SystemBottomSheet';
 import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
+import { SystemAnimatedLottieBox } from './themes/systemAnimatedLottieBox/SystemAnimatedLottieBox';
+import { SystemAnimatableBox } from './themes/systemAnimatableBox/SystemAnimatableBox';
 
 library.add(iconList);
 
 export {
+  SystemAnimatableBox,
+  SystemAnimatedLottieBox,
   SystemPressable,
   StoryCard,
   UserCardSkeleton,
