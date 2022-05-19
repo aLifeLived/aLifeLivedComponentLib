@@ -1,6 +1,6 @@
 {
   "name": "@alifelived/react-native-component-lib",
-  "version": "2.3.7",
+  "version": "2.3.9",
   "description": "A component library for a life lived react native",
   "author": {
     "name": "max_ckelly",
@@ -24,10 +24,10 @@
     "lint:eslint": "eslint src/ --ext .js,.ts,.tsx",
     "lint:types": "tsc",
     "prestorybook": "rnstl",
-    "copy-assets": "cp -rv src/assets lib/assets/",
+    "copy-assets": "cp -rv src/assets/* lib/assets/",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "build": "rm -r lib ; npm run lint && npm test && tsc && npm run copy-assets"
+    "build": "rm -r lib ; npm run lint && npm test && npm run copy-assets"
   },
   "config": {
     "react-native-storybook-loader": {
