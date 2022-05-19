@@ -12,6 +12,7 @@ import LifeStoryThemeSVG from './assets/svg/life-story-theme.svg';
 import MyStoriesSVG from './assets/svg/my-stories.svg';
 import TravelThemeSVG from './assets/svg/travel-theme.svg';
 import SessionChecklistSVG from './assets/svg/session-checklist.svg';
+import LoadingAnimation from './assets/lottie/loading.json';
 
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
@@ -58,6 +59,7 @@ library.add(iconList);
 
 export {
   SystemAnimatableBox,
+  LoadingAnimation,
   SystemAnimatedLottieBox,
   SystemPressable,
   StoryCard,
