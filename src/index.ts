@@ -12,6 +12,7 @@ import LifeStoryThemeSVG from './assets/svg/life-story-theme.svg';
 import MyStoriesSVG from './assets/svg/my-stories.svg';
 import TravelThemeSVG from './assets/svg/travel-theme.svg';
 import SessionChecklistSVG from './assets/svg/session-checklist.svg';
+import LoadingAnimation from './assets/lottie/loading.json';
 
 // Components
 import { HelpCard } from './components/helpCard/HelpCard';
@@ -51,10 +52,15 @@ import { SystemPressable } from './themes/systemPressable/SystemPressable';
 import { SystemScrollView } from './themes/systemScrollView/SystemScrollView';
 import { SystemBottomSheet } from './themes/systemBottomSheet/SystemBottomSheet';
 import { SystemKeyboardAvoidingView } from './themes/systemKeyboardAvoidingView/SystemKeyboardAvoidingView';
+import { SystemAnimatedLottieBox } from './themes/systemAnimatedLottieBox/SystemAnimatedLottieBox';
+import { SystemAnimatableBox } from './themes/systemAnimatableBox/SystemAnimatableBox';
 
 library.add(iconList);
 
 export {
+  SystemAnimatableBox,
+  LoadingAnimation,
+  SystemAnimatedLottieBox,
   SystemPressable,
   StoryCard,
   UserCardSkeleton,
