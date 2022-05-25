@@ -27,6 +27,10 @@ import {
   faCog,
   faFolder,
   faCheck,
+  faLightbulb,
+  faQuestionCircle,
+  faDownload,
+  faArrowAltCircleRight,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faBookmark as farBookmark,
@@ -37,11 +41,15 @@ import {
 } from '@fortawesome/free-regular-svg-icons';
 
 export const iconList = {
+  faQuestionCircle,
+  faDownload,
+  faArrowAltCircleRight,
   farBookmark,
   faUsers,
   faTrashAlt,
   faPencilAlt,
   farHeart,
+  faLightbulb,
   farClock,
   faCheckSquare,
   faCoffee,

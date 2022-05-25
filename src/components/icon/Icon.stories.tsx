@@ -17,6 +17,10 @@ storiesOf('Icon', module)
       <Icon icon="chevron-down" margin="s" />
       <Icon icon="chevron-right" margin="s" />
       <Icon icon="home" margin="s" />
+      <Icon icon="lightbulb" margin="s" />
+      <Icon icon="question-circle" margin="s" />
+      <Icon icon="download" margin="s" />
+      <Icon icon="arrow-alt-circle-right" margin="s" />
       <Icon icon="microphone" margin="s" />
       <Icon icon="assistive-listening-systems" margin="s" />
       <Icon icon={['far', 'clock']} margin="s" />
