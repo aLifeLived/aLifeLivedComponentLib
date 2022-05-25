@@ -6,6 +6,7 @@
 function loadStories() {
   require('../components/avatar/Avatar.stories');
   require('../components/button/Button.stories');
+  require('../components/directionButton/DirectionButton.stories');
   require('../components/draftStoryCard/DraftStoryCard.stories');
   require('../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories');
   require('../components/helpCard/HelpCard.stories');
@@ -34,6 +35,7 @@ function loadStories() {
 const stories = [
   '../components/avatar/Avatar.stories',
   '../components/button/Button.stories',
+  '../components/directionButton/DirectionButton.stories',
   '../components/draftStoryCard/DraftStoryCard.stories',
   '../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories',
   '../components/helpCard/HelpCard.stories',

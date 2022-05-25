@@ -36,6 +36,7 @@ import { SelectBox } from './components/selectBox/SelectBox';
 import { OnboardingContent } from './components/onboardingContent/OnboardingContent';
 import { MyRecordingCard } from './components/myRecordingCard/MyRecordingCard';
 import { RecorderActionBar } from './components/recorderActionBar/RecorderActionBar';
+import { DirectionButton } from './components/directionButton/DirectionButton';
 
 // UI
 import { Box } from './themes/box/Box';
@@ -65,6 +66,7 @@ export {
   StoryCard,
   UserCardSkeleton,
   SelectBox,
+  DirectionButton,
   Button,
   Selector,
   UserCard,
