@@ -14,6 +14,7 @@ type DraftStoryCardProps = {
   topicTitle: string;
   recordingProgress: number;
   shouldDisplayEllipsis?: boolean;
+  ellipsisTestID?: string;
   onPress: () => void;
   onEllipsisPress?: () => void;
 };
@@ -23,6 +24,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
   topicTitle,
   recordingProgress,
   shouldDisplayEllipsis,
+  ellipsisTestID,
   onPress,
   onEllipsisPress,
 }) => {
@@ -74,6 +76,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
         </Box>
         {shouldDisplayEllipsis ? (
           <SystemPressable
+            testID={ellipsisTestID}
             onPress={onEllipsisPress}
             paddingTop="m"
             paddingBottom="m"
