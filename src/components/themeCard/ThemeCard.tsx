@@ -8,16 +8,18 @@ import { Box } from '../../themes/box/Box';
 type ThemeCardProps = {
   title: string;
   imageUrl: string;
+  testID?: string;
   onPress: () => void;
 };
 
 export const ThemeCard: React.FC<ThemeCardProps> = ({
   title,
   imageUrl,
+  testID,
   onPress,
 }) => {
   return (
-    <CardContainer onPress={onPress}>
+    <CardContainer onPress={onPress} testID={testID}>
       <Box marginLeft="s">
         <CardHeader title={title} />
       </Box>
