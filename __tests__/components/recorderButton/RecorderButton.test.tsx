@@ -6,12 +6,20 @@ import { RecorderButton } from '../../../src/components/recorderButton/RecorderB
 
 const onRecorderPressMock = jest.fn();
 const testID = 'recorder-test-id';
-const setup = ({ isRecording = false, isLoading = false }) =>
+const loaderTestID = 'loader-test-id';
+
+const setup = ({
+  isRecording = false,
+  isLoading = false,
+  isRecordingPaused = false,
+}) =>
   render(
     <RecorderButton
       isLoading={isLoading}
       isRecording={isRecording}
+      isRecordingPaused={isRecordingPaused}
       testID={testID}
+      loaderTestID={loaderTestID}
       onRecorderPress={onRecorderPressMock}
     />
   );
@@ -28,19 +36,6 @@ describe('Components >> RecorderButton', () => {
 
       test('Should match snapshot', () => {
         const { toJSON } = setup({});
-        expect(toJSON()).toMatchSnapshot();
-      });
-    });
-
-    describe('AND app IS loading', () => {
-      test('Should trigger onRecording press', () => {
-        const { getByTestId } = setup({ isLoading: true });
-        fireEvent.press(getByTestId(testID));
-        expect(onRecorderPressMock).toBeCalledTimes(0);
-      });
-
-      test('Should match snapshot', () => {
-        const { toJSON } = setup({ isLoading: true });
         expect(toJSON()).toMatchSnapshot();
       });
     });
@@ -63,8 +58,7 @@ describe('Components >> RecorderButton', () => {
     describe('AND app IS loading', () => {
       test('Should trigger onRecording press', () => {
         const { getByTestId } = setup({ isLoading: true, isRecording: true });
-        fireEvent.press(getByTestId(testID));
-        expect(onRecorderPressMock).toBeCalledTimes(0);
+        expect(getByTestId(loaderTestID)).toBeDefined();
       });
 
       test('Should match snapshot', () => {

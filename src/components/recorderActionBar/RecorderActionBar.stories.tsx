@@ -1,5 +1,5 @@
 /* eslint-disable no-sequences */
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { storiesOf } from '@storybook/react-native';
 
 // Component
@@ -8,7 +8,23 @@ import { Box } from '../../themes/box/Box';
 
 const RecorderActionBarComponent = () => {
   const [isRecording, setIsRecording] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
+
+  const triggerLoadingStateAndThenPause = useCallback(() => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+      setIsPaused(true);
+      setIsRecording(false);
+    }, 3000);
+  }, []);
+
+  const startRecording = useCallback(() => {
+    setIsRecording(true);
+    setIsPaused(false);
+  }, []);
+
   return (
     <Box
       flex={1}
@@ -29,8 +45,9 @@ const RecorderActionBarComponent = () => {
         leftIconTestID="leftIconTestId"
         rightIconTestID="rightIconTestId"
         recordButtonTestID="recordingButtonTestId"
+        isLoading={isLoading}
         onRecorderPress={() =>
-          isRecording ? setIsPaused(true) : setIsRecording(true)
+          isRecording ? triggerLoadingStateAndThenPause() : startRecording()
         }
       />
     </Box>
