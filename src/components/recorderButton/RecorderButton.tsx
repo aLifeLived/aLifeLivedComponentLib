@@ -1,12 +1,17 @@
 import React, { useMemo, useRef } from 'react';
 import { TouchableWithoutFeedback } from 'react-native';
 import { SystemAnimatedLottieBox } from '../../themes/systemAnimatedLottieBox/SystemAnimatedLottieBox';
+import { Loader } from '../loader/Loader';
 import AnimatedLottieView from 'lottie-react-native';
+
+// UI
+import { Box } from '../../themes/box/Box';
 
 type RecorderButtonProps = {
   isRecording: boolean;
   isRecordingPaused: boolean;
   testID?: string;
+  loaderTestID?: string;
   isLoading?: boolean;
   onRecorderPress: () => void;
 };
@@ -17,6 +22,7 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
   onRecorderPress,
   isLoading,
   testID,
+  loaderTestID,
 }) => {
   const lottieRef = useRef<AnimatedLottieView>(null);
 
@@ -28,7 +34,17 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
     [isRecording, isRecordingPaused]
   );
 
-  return (
+  return isLoading ? (
+    <Box
+      width={100}
+      height={100}
+      alignContent="center"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <Loader testID={loaderTestID} />
+    </Box>
+  ) : (
     <TouchableWithoutFeedback
       onPress={onRecorderPress}
       testID={testID}

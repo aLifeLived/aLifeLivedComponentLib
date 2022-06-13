@@ -11,6 +11,7 @@ const onRightIconPressMock = jest.fn();
 const leftIconTestID = 'test-left-icon-id';
 const rightIconTestID = 'test-right-icon-id';
 const recordButtonTestID = 'test-record-button-id';
+const loadingSpinnerTestID = 'loader-test-id';
 
 const setup = ({
   isIdeal = false,
@@ -27,6 +28,7 @@ const setup = ({
       recordButtonTestID={recordButtonTestID}
       leftIconTestID={leftIconTestID}
       rightIconTestID={rightIconTestID}
+      loaderTestID="loader-test-id"
       onRecorderPress={onRecorderPressMock}
       onRightIconPress={onRightIconPressMock}
       onLeftIconPress={onLeftIconPressMock}
@@ -103,6 +105,30 @@ describe('Components >> RecorderActionBar', () => {
         fireEvent.press(getByTestId(recordButtonTestID));
         expect(onRecorderPressMock).toBeCalledTimes(1);
       });
+    });
+  });
+
+  describe('Given user has finished recording and app is loading', () => {
+    test('Should NOT find recording button', () => {
+      const { queryByTestId } = setup({ isLoading: true });
+      expect(queryByTestId(recordButtonTestID)).toBeNull();
+    });
+
+    test('Should render loading spinner', () => {
+      const { getByTestId } = setup({ isLoading: true });
+      expect(getByTestId(loadingSpinnerTestID)).toBeDefined();
+    });
+
+    test('Should disable right icon press', () => {
+      const { getByTestId } = setup({ isLoading: true });
+      fireEvent.press(getByTestId(rightIconTestID));
+      expect(onRightIconPressMock).toBeCalledTimes(0);
+    });
+
+    test('Should disable left icon press', () => {
+      const { getByTestId } = setup({ isLoading: true });
+      fireEvent.press(getByTestId(leftIconTestID));
+      expect(onLeftIconPressMock).toBeCalledTimes(0);
     });
   });
 });

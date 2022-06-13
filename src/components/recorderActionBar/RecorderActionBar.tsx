@@ -6,11 +6,13 @@ import { RecorderButton } from '../recorderButton/RecorderButton';
 // UI
 import { Icon } from '../icon/Icon';
 import { Box } from '../../themes/box/Box';
+import { SystemPressable } from '../../themes/systemPressable/SystemPressable';
 
 type RecorderActionBarProps = {
   recordButtonTestID?: string;
   leftIconTestID?: string;
   rightIconTestID?: string;
+  loaderTestID?: string;
   isIdeal: boolean;
   isRecording: boolean;
   isRecordingPaused: boolean;
@@ -26,6 +28,7 @@ export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
   isRecordingPaused,
   leftIconTestID,
   rightIconTestID,
+  loaderTestID,
   recordButtonTestID,
   isLoading,
   onRecorderPress,
@@ -40,31 +43,32 @@ export const RecorderActionBar: React.FC<RecorderActionBarProps> = ({
       justifyContent="space-around"
       width="100%"
     >
-      <Box>
+      <SystemPressable
+        onPress={onLeftIconPress}
+        testID={leftIconTestID}
+        disabled={isLoading}
+      >
         <Icon
           icon={isIdeal ? 'folder' : ['far', 'trash-alt']}
           size={30}
           color="primary"
-          testID={leftIconTestID}
-          onPress={onLeftIconPress}
         />
-      </Box>
+      </SystemPressable>
       <RecorderButton
         isLoading={isLoading}
         onRecorderPress={onRecorderPress}
         testID={recordButtonTestID}
         isRecording={isRecording}
         isRecordingPaused={isRecordingPaused}
+        loaderTestID={loaderTestID}
       />
-      <Box>
-        <Icon
-          icon={isIdeal ? 'cog' : 'check'}
-          size={30}
-          color="primary"
-          testID={rightIconTestID}
-          onPress={onRightIconPress}
-        />
-      </Box>
+      <SystemPressable
+        onPress={onRightIconPress}
+        testID={rightIconTestID}
+        disabled={isLoading}
+      >
+        <Icon icon={isIdeal ? 'cog' : 'check'} size={30} color="primary" />
+      </SystemPressable>
     </Box>
   );
 };
