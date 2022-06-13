@@ -9,6 +9,7 @@ function loadStories() {
   require('../components/directionButton/DirectionButton.stories');
   require('../components/draftStoryCard/DraftStoryCard.stories');
   require('../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories');
+  require('../components/faqCard/FaqCard.stories');
   require('../components/helpCard/HelpCard.stories');
   require('../components/icon/Icon.stories');
   require('../components/input/Input.stories');
@@ -38,6 +39,7 @@ const stories = [
   '../components/directionButton/DirectionButton.stories',
   '../components/draftStoryCard/DraftStoryCard.stories',
   '../components/editAndDeleteBottomSheet/EditAndDeleteBottomSheet.stories',
+  '../components/faqCard/FaqCard.stories',
   '../components/helpCard/HelpCard.stories',
   '../components/icon/Icon.stories',
   '../components/input/Input.stories',
