@@ -2,50 +2,50 @@
 
 exports[`components >> draft story card  Given user has progressed through 50% of recording Should render progress bar of half way 1`] = `
 <View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#282828",
+          "shadowOffset": Object {
+            "height": 3,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
   }
 >
   <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "overflow": "hidden",
-          "paddingBottom": 8,
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 3,
-              "width": 0,
-            },
-            "shadowOpacity": 0.05,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "borderColor": "#2828281e",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "opacity": 1,
+        "overflow": "hidden",
+        "paddingBottom": 8,
+      }
     }
   >
     <View
@@ -306,50 +306,50 @@ exports[`components >> draft story card  Given user has progressed through 50% o
 
 exports[`components >> draft story card  Should match snapshot correctly 1`] = `
 <View
-  accessible={true}
-  focusable={true}
-  onClick={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "display": "flex",
+      },
+      Array [
+        Object {
+          "elevation": 2,
+          "shadowColor": "#282828",
+          "shadowOffset": Object {
+            "height": 3,
+            "width": 0,
+          },
+          "shadowOpacity": 0.05,
+          "shadowRadius": 10,
+        },
+      ],
+    ]
   }
 >
   <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#ffffff",
-          "borderColor": "#2828281e",
-          "borderRadius": 8,
-          "borderWidth": 1,
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "overflow": "hidden",
-          "paddingBottom": 8,
-        },
-        Array [
-          Object {
-            "elevation": 2,
-            "shadowColor": "#282828",
-            "shadowOffset": Object {
-              "height": 3,
-              "width": 0,
-            },
-            "shadowOpacity": 0.05,
-            "shadowRadius": 10,
-          },
-        ],
-      ]
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "borderColor": "#2828281e",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "opacity": 1,
+        "overflow": "hidden",
+        "paddingBottom": 8,
+      }
     }
   >
     <View

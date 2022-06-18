@@ -30,8 +30,9 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
 }) => {
   const theme = useTheme();
   return (
-    <SystemButton onPress={onPress}>
-      <Box
+    <Box boxShadow="sm">
+      <SystemButton
+        onPress={onPress}
         borderColor="borderColor"
         backgroundColor="backgroundContrastXLow"
         borderWidth={1}
@@ -40,7 +41,6 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
         alignContent="center"
         alignItems="center"
         justifyContent="space-between"
-        boxShadow="sm"
         paddingBottom="s"
         overflow="hidden"
       >
@@ -104,7 +104,7 @@ export const DraftStoryCard: React.FC<DraftStoryCardProps> = ({
             height={3.5}
           />
         </Box>
-      </Box>
-    </SystemButton>
+      </SystemButton>
+    </Box>
   );
 };
