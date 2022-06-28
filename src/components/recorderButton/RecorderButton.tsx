@@ -36,8 +36,8 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
 
   return isLoading ? (
     <Box
-      width={100}
-      height={100}
+      width={110}
+      height={110}
       alignContent="center"
       alignItems="center"
       justifyContent="center"
@@ -55,8 +55,8 @@ export const RecorderButton: React.FC<RecorderButtonProps> = ({
         source={require('../../assets/lottie/record-button.json')}
         loop={false}
         autoPlay={false}
-        width={100}
-        height={100}
+        width={115}
+        height={115}
       />
     </TouchableWithoutFeedback>
   );
