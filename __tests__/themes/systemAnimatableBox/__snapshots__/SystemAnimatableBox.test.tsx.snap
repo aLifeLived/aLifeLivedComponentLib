@@ -2,6 +2,7 @@
 
 exports[`themes >> systemAnimatableBox >> SystemAnimatableBox Should match snapshot 1`] = `
 <View
+  collapsable={false}
   forwardedRef={[Function]}
   style={Object {}}
 />

@@ -3,7 +3,7 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
@@ -22,7 +22,7 @@
   "exclude": [
     "./node_modules",
     "./__tests__/**/*",
-    "./jest/jestSetup.ts",
+    "jest/jestSetup.js",
     "./src/**/*.stories.tsx",
     "./src/storybook"
   ]

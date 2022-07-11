@@ -83,6 +83,7 @@ describe('src >> components >> myRecordingCard', () => {
         const { toJSON } = setup({ isLoading: false, isAudioPlaying: true });
         expect(toJSON()).toMatchSnapshot();
       });
+
       test('Should find title', () => {
         const { getByText } = setup({
           isLoading: false,

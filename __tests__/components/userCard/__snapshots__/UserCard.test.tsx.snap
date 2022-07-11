@@ -3,6 +3,7 @@
 exports[`components >> user card  UserCard with profile image Should render user card correctly with profile image 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -105,6 +106,7 @@ exports[`components >> user card  UserCard with profile image Should render user
 exports[`components >> user card  UserCard without profile image Should render user card correctly with no profile image 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

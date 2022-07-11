@@ -3,6 +3,7 @@
 exports[`src >> themes >> card Given background has been passed in as prop Should match snapshot 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -50,6 +51,7 @@ exports[`src >> themes >> card Given background has been passed in as prop Shoul
 exports[`src >> themes >> card Given no background has been passed in as prop Should match snapshot 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

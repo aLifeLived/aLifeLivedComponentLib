@@ -21,6 +21,7 @@ exports[`themes >> systemAnimatedLottieBox >> SystemAnimatedLottieBox Should mat
   <View
     autoPlay={false}
     cacheComposition={true}
+    collapsable={false}
     enableMergePathsAndroidForKitKatAndAbove={false}
     forwardedRef={[Function]}
     loop={true}

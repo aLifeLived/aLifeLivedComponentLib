@@ -2,7 +2,13 @@
 
 exports[`components >> button  Disabled button Should render basic button correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -42,7 +48,13 @@ exports[`components >> button  Disabled button Should render basic button correc
 
 exports[`components >> button  Enabled button Should render basic button correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -82,7 +94,13 @@ exports[`components >> button  Enabled button Should render basic button correct
 
 exports[`components >> button  Loading button Should render button in loading state 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

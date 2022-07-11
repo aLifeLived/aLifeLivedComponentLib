@@ -6,8 +6,8 @@ import { iconList } from '../src/themes/systemIcon/IconList';
 
 library.add(iconList);
 
-function render(ui, { ...renderOptions } = {}) {
-  function Wrapper({ children }) {
+function render(ui: any, { ...renderOptions } = {}) {
+  function Wrapper({ children }: { children: any }) {
     return <ThemeProvider>{children}</ThemeProvider>;
   }
 

@@ -20,6 +20,7 @@ exports[`src >> components >> loader Should match snapshot 1`] = `
   <View
     autoPlay={true}
     cacheComposition={true}
+    collapsable={false}
     enableMergePathsAndroidForKitKatAndAbove={false}
     forwardedRef={[Function]}
     loop={true}

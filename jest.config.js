@@ -5,7 +5,7 @@ module.exports = {
   testMatch: ['<rootDir>/__tests__/**/*.test.{js,jsx,ts,tsx}'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {
-    '^.+\\.svg$': 'jest-svg-transformer',
+    '\\.svg$': '<rootDir>/jest-svg-transformer.js',
   },
   transformIgnorePatterns: [
     'node_modules/(?!(jest-)?@react-native|@react-navigation|react-native|react-native-button|expo(nent)?|@expo(nent)?/.*|expo-av|@sentry/react-native|@ngrx|(?!deck.gl)|ng-dynamic)',

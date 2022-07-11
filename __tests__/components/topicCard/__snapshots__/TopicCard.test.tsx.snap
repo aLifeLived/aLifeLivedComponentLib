@@ -3,6 +3,7 @@
 exports[`components >> topic card  User HAS completed Should render component correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -166,6 +167,7 @@ exports[`components >> topic card  User HAS completed Should render component co
 exports[`components >> topic card  User has NOT completed Should render component correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

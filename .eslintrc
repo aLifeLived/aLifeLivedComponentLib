@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "extends": ["@react-native-community", "prettier"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "react-hooks/exhaustive-deps": 0,
+    "no-shadow": 0,
+    "no-sequences": 0,
+    "linebreak-style": "off",
+    "react-native/no-inline-styles": 0,
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  },
+  "parser": "babel-eslint",
+  "overrides": [
+    {
+      "files": ["**/*.d.ts", "**/*.ts", "**/*.tsx"],
+      "extends": [
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaFeatures": { "jsx": true },
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+      },
+      "plugins": ["@typescript-eslint", "jest"],
+      "rules": {
+        "import/no-named-default": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "operator-linebreak": "off",
+        "@typescript-eslint/no-empty-function": "off"
+      }
+    }
+  ]
+}

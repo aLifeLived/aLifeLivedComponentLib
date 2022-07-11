@@ -8,6 +8,9 @@ exports[`src >> themes >> card Should match snapshot 1`] = `
   right={0}
   style={
     Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
       Array [
         Object {
           "backgroundColor": "#00B5CD",
@@ -16,9 +19,6 @@ exports[`src >> themes >> card Should match snapshot 1`] = `
           "padding": 8,
         },
       ],
-      Object {
-        "backgroundColor": "transparent",
-      },
     ]
   }
 >
