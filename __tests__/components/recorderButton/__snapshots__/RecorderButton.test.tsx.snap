@@ -37,6 +37,7 @@ exports[`Components >> RecorderButton Given user IS recording AND app IS loading
     <View
       autoPlay={true}
       cacheComposition={true}
+      collapsable={false}
       enableMergePathsAndroidForKitKatAndAbove={false}
       forwardedRef={[Function]}
       loop={true}
@@ -77,9 +78,15 @@ exports[`Components >> RecorderButton Given user IS recording AND app is NOT loa
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
     accessible={true}
     autoPlay={false}
     cacheComposition={true}
+    collapsable={false}
     enableMergePathsAndroidForKitKatAndAbove={false}
     focusable={true}
     forwardedRef={[Function]}
@@ -127,9 +134,15 @@ exports[`Components >> RecorderButton Given user is NOT recording AND app is NOT
   }
 >
   <View
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
     accessible={true}
     autoPlay={false}
     cacheComposition={true}
+    collapsable={false}
     enableMergePathsAndroidForKitKatAndAbove={false}
     focusable={true}
     forwardedRef={[Function]}

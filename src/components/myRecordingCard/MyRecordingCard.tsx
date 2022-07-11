@@ -44,7 +44,11 @@ export const MyRecordingCard: React.FC<MyRecordingProps> = ({
   }, [isLoading, isAudioPlaying]);
 
   return (
-    <SystemButton onPress={onMediaPress} disabled={isLoading}>
+    <SystemButton
+      onPress={onMediaPress}
+      disabled={isLoading}
+      accessibilityState={{ disabled: isLoading, selected: isAudioPlaying }}
+    >
       <Box
         flexDirection="row"
         alignContent="center"

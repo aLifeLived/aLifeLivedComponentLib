@@ -2,6 +2,7 @@
 
 exports[`themes >> Loading Skeleton >> UserCardSkeleton Given User card Should match snapshot 1`] = `
 <View
+  collapsable={false}
   forwardedRef={[Function]}
   style={
     Object {

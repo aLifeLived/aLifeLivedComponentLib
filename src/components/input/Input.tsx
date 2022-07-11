@@ -63,9 +63,11 @@ export const Input: React.FC<InputProps & StyledInputProps> = ({
           variant={variant}
           flex={1}
           onFocus={handleOnFocus}
+          allowFontScaling={true}
           onBlur={handleOnBlur}
           placeholderTextColor={colors.textContrastLow}
           borderColor={isFocused ? handleBorderColor(variant) : 'transparent'}
+          underlineColorAndroid="transparent"
           {...rest}
         />
         {endAdornmentComponent ? (

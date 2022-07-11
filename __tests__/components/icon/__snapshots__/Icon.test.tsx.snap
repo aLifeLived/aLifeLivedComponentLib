@@ -3,6 +3,7 @@
 exports[`component >> Icon Button icon Should render icon with button 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

@@ -3,6 +3,7 @@
 exports[`components >> theme card  Should match snapshot correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

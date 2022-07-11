@@ -1,4 +1,3 @@
-/* eslint-disable no-sequences */
 import React, { useCallback, useState } from 'react';
 import { storiesOf } from '@storybook/react-native';
 

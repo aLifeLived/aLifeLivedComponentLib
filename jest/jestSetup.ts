@@ -1,2 +1,2 @@
 /* eslint-disable no-undef */
-jest.useFakeTimers('legacy'); // Stops reference error from appearing
+jest.useFakeTimers({ legacyFakeTimers: true }); // Stops reference error from appearing

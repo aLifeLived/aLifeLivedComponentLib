@@ -3,6 +3,7 @@
 exports[`components >> Select Box Given select box IS selected and has children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -119,6 +120,7 @@ exports[`components >> Select Box Given select box IS selected and has children 
 exports[`components >> Select Box Given select box IS selected and has no children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -223,6 +225,7 @@ exports[`components >> Select Box Given select box IS selected and has no childr
 exports[`components >> Select Box Given select box is NOT selected and has children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -338,6 +341,7 @@ exports[`components >> Select Box Given select box is NOT selected and has child
 exports[`components >> Select Box Given select box is NOT selected and has no children Should render snapshot correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

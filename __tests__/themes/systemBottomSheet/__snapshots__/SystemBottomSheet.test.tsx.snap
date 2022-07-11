@@ -60,6 +60,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet box with no
     >
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -169,6 +170,7 @@ exports[`themes >> systemBottomSheet Should render systemBottomSheet with childr
     >
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}

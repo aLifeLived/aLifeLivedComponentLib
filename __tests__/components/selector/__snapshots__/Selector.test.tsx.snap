@@ -3,6 +3,7 @@
 exports[`components >> Selector Given the selector has multiple values selected Should match snapshot 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -137,6 +138,7 @@ exports[`components >> Selector Given the selector has multiple values selected 
 exports[`components >> Selector Given the selector has no values selected Should match snapshot 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

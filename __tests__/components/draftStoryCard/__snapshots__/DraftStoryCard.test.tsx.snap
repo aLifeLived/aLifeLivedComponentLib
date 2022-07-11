@@ -24,6 +24,7 @@ exports[`components >> draft story card  Given user has progressed through 50% o
 >
   <View
     accessible={true}
+    collapsable={false}
     focusable={true}
     onClick={[Function]}
     onResponderGrant={[Function]}
@@ -277,6 +278,7 @@ exports[`components >> draft story card  Given user has progressed through 50% o
     >
       <View>
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "#CBCBCB",
@@ -288,6 +290,7 @@ exports[`components >> draft story card  Given user has progressed through 50% o
           }
         >
           <View
+            collapsable={false}
             style={
               Object {
                 "backgroundColor": "#67B6A8",
@@ -328,6 +331,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
 >
   <View
     accessible={true}
+    collapsable={false}
     focusable={true}
     onClick={[Function]}
     onResponderGrant={[Function]}
@@ -581,6 +585,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
     >
       <View>
         <View
+          collapsable={false}
           style={
             Object {
               "backgroundColor": "#CBCBCB",
@@ -592,6 +597,7 @@ exports[`components >> draft story card  Should match snapshot correctly 1`] = `
           }
         >
           <View
+            collapsable={false}
             style={
               Object {
                 "backgroundColor": "#67B6A8",

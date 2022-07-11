@@ -13,10 +13,10 @@ import {
   SpacingProps,
 } from '@shopify/restyle';
 import React from 'react';
-import { BlurProps, BlurView } from 'expo-blur';
+import { BlurView, BlurViewProps } from 'expo-blur';
 import { Theme } from '../theme';
 
-export type StyledBlurViewProps = BlurProps &
+export type StyledBlurViewProps = BlurViewProps &
   SpacingProps<Theme> &
   LayoutProps<Theme> &
   BorderProps<Theme> &

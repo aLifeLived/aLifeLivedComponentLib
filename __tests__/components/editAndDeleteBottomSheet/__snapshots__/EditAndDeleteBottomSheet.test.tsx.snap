@@ -74,6 +74,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
       >
         <View
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -127,6 +128,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
       >
         <View
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -181,6 +183,7 @@ exports[`components >> EditAndDeleteBottomSheet Bottom sheet visible Should rend
     >
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}

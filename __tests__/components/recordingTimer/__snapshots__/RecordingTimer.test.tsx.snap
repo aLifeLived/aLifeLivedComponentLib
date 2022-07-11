@@ -170,6 +170,7 @@ exports[`Components >> Recording timer Playing state Should successfully render 
     }
   >
     <View
+      collapsable={false}
       forwardedRef={[Function]}
       style={
         Object {
@@ -322,6 +323,7 @@ exports[`Components >> Recording timer Recording state Should successfully rende
     }
   >
     <View
+      collapsable={false}
       forwardedRef={[Function]}
       style={
         Object {
@@ -411,6 +413,7 @@ exports[`Components >> Recording timer Stopped state Should successfully render 
     }
   >
     <View
+      collapsable={false}
       forwardedRef={[Function]}
       style={
         Object {

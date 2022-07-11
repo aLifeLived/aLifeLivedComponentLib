@@ -2,7 +2,13 @@
 
 exports[`components >> directionButton  Given direction button has a left icon Should render direction button correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -194,7 +200,13 @@ exports[`components >> directionButton  Given direction button has a left icon S
 
 exports[`components >> directionButton  Given direction button is enabled Should render direction button correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}

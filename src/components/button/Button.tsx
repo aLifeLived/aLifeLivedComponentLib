@@ -39,6 +39,7 @@ export const Button: React.FC<IButtonProps & StyledOpacityProps> = ({
           color="white"
           testID="QBYQCQ-button-spinner"
           animating
+          hidesWhenStopped={true}
         />
       ) : (
         <Text variant="intro" textAlign="center" color={color}>

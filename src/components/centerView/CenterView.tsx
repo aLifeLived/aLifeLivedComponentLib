@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import PropTypes from 'prop-types';
 import { View } from 'react-native';
 import style from './style';
 
-export const CenterView = ({ children }: any) => {
+export const CenterView = ({ children }: { children: ReactElement }) => {
   return <View style={style.main}>{children}</View>;
 };
 

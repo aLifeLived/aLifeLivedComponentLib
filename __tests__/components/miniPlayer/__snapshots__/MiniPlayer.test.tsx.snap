@@ -2,7 +2,13 @@
 
 exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should render component correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -20,6 +26,9 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -32,9 +41,6 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -154,7 +160,13 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -230,7 +242,13 @@ exports[`component >> miniPlayer Mini player DISABLED and NOT PLAYING Should ren
 
 exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render component correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -248,6 +266,9 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -260,9 +281,6 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -382,7 +400,13 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -458,7 +482,13 @@ exports[`component >> miniPlayer Mini player DISABLED and PLAYING Should render 
 
 exports[`component >> miniPlayer Mini player NOT PLAYING Should render component correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -476,6 +506,9 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -488,9 +521,6 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -610,7 +640,13 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -686,7 +722,13 @@ exports[`component >> miniPlayer Mini player NOT PLAYING Should render component
 
 exports[`component >> miniPlayer Mini player PLAYING Should render component correctly 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -704,6 +746,9 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -716,9 +761,6 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -838,7 +880,13 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -914,7 +962,13 @@ exports[`component >> miniPlayer Mini player PLAYING Should render component cor
 
 exports[`component >> miniPlayer Mini player with NO profile image while NOT PLAYING Should render component correctly NOT PLAYING 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -932,6 +986,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -944,9 +1001,6 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -1102,7 +1156,13 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -1178,7 +1238,13 @@ exports[`component >> miniPlayer Mini player with NO profile image while NOT PLA
 
 exports[`component >> miniPlayer Mini player with NO profile image while PLAYING Should render component correctly NOT PLAYING 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -1196,6 +1262,9 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
   <View
     style={
       Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
         Array [
           Object {
             "alignContent": "center",
@@ -1208,9 +1277,6 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
             "padding": 8,
           },
         ],
-        Object {
-          "backgroundColor": "transparent",
-        },
       ]
     }
   >
@@ -1366,7 +1432,13 @@ exports[`component >> miniPlayer Mini player with NO profile image while PLAYING
       </View>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}

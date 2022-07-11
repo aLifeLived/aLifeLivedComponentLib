@@ -15,7 +15,7 @@ import React from 'react';
 import { FlatListProps, FlatList } from 'react-native';
 import { Theme } from '../theme';
 
-export type StyledOpacityProps = FlatListProps<any> &
+export type StyledOpacityProps = FlatListProps<unknown> &
   SpacingProps<Theme> &
   BoxProps<Theme> &
   BorderProps<Theme> &

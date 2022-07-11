@@ -3,6 +3,7 @@
 exports[`components >> story card  Story card IS liked and IS bookmarked  Should render story card correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -208,6 +209,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
         >
           <View
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -382,6 +384,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
       </View>
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -459,6 +462,7 @@ exports[`components >> story card  Story card IS liked and IS bookmarked  Should
 exports[`components >> story card  Story card NOT liked and NOT bookmarked Should render story card  1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -664,6 +668,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
         >
           <View
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -838,6 +843,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
       </View>
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -915,6 +921,7 @@ exports[`components >> story card  Story card NOT liked and NOT bookmarked Shoul
 exports[`components >> story card  Story card with NO profile image and render icon Should render story card correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -1120,6 +1127,7 @@ exports[`components >> story card  Story card with NO profile image and render i
         >
           <View
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -1331,6 +1339,7 @@ exports[`components >> story card  Story card with NO profile image and render i
       </View>
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -1408,6 +1417,7 @@ exports[`components >> story card  Story card with NO profile image and render i
 exports[`components >> story card  Story card with profile image Should render story card correctly 1`] = `
 <View
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -1613,6 +1623,7 @@ exports[`components >> story card  Story card with profile image Should render s
         >
           <View
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -1787,6 +1798,7 @@ exports[`components >> story card  Story card with profile image Should render s
       </View>
       <View
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}

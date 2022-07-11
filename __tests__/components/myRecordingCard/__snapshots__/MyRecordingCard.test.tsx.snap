@@ -2,7 +2,14 @@
 
 exports[`src >> components >> myRecordingCard Given a user is listening back to existing recordings AND the user has not clicked on any recordings Should render component that is NOT in loading state and NOT playing audio 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+      "selected": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -148,7 +155,13 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
       </Text>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -224,7 +237,14 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
 
 exports[`src >> components >> myRecordingCard Given a user is listening back to existing recordings AND the user presses on a recording card Should render component that IS loading 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": true,
+      "selected": false,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -319,6 +339,7 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
           <View
             autoPlay={true}
             cacheComposition={true}
+            collapsable={false}
             enableMergePathsAndroidForKitKatAndAbove={false}
             forwardedRef={[Function]}
             loop={true}
@@ -355,7 +376,13 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
       </Text>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
@@ -431,7 +458,14 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
 
 exports[`src >> components >> myRecordingCard Given a user is listening back to existing recordings AND the user starts listening to a recording Should render component that IS playing 1`] = `
 <View
+  accessibilityState={
+    Object {
+      "disabled": false,
+      "selected": true,
+    }
+  }
   accessible={true}
+  collapsable={false}
   focusable={true}
   onClick={[Function]}
   onResponderGrant={[Function]}
@@ -526,6 +560,7 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
           <View
             autoPlay={true}
             cacheComposition={true}
+            collapsable={false}
             enableMergePathsAndroidForKitKatAndAbove={false}
             forwardedRef={[Function]}
             loop={true}
@@ -562,7 +597,13 @@ exports[`src >> components >> myRecordingCard Given a user is listening back to 
       </Text>
     </View>
     <View
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
       accessible={true}
+      collapsable={false}
       focusable={true}
       onClick={[Function]}
       onResponderGrant={[Function]}
