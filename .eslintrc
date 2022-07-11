@@ -25,6 +25,7 @@
         "prettier",
         "prettier/@typescript-eslint"
       ],
+      "excludedFiles": ["./src/**/*.stories.tsx", "./src/storybook/*"],
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
         "ecmaFeatures": { "jsx": true },
