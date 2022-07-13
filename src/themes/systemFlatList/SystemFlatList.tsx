@@ -15,7 +15,8 @@ import React from 'react';
 import { FlatListProps, FlatList } from 'react-native';
 import { Theme } from '../theme';
 
-export type StyledOpacityProps = FlatListProps<unknown> &
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type StyledOpacityProps = FlatListProps<any> &
   SpacingProps<Theme> &
   BoxProps<Theme> &
   BorderProps<Theme> &
