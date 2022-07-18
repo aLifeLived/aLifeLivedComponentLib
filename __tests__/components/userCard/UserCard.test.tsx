@@ -7,15 +7,16 @@ import { UserCard } from '../../../src/components/userCard/UserCard';
 const onPress = jest.fn();
 const username = 'testUsername';
 let avatarUrl = '';
-const setup = () => {
-  const utils = render(
-    <UserCard username={username} avatarUrl={avatarUrl} onPress={onPress} />
+const setup = (isUserSelected = false) =>
+  render(
+    <UserCard
+      username={username}
+      avatarUrl={avatarUrl}
+      onPress={onPress}
+      isUserSelected={isUserSelected}
+      testID="user-card-test-id"
+    />
   );
-
-  return {
-    ...utils,
-  };
-};
 
 describe('components >> user card ', () => {
   beforeEach(() => onPress.mockClear());

@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { storiesOf } from '@storybook/react-native';
-import { action } from '@storybook/addon-actions';
 
 // Component
 import { UserCard } from './UserCard';
@@ -10,14 +9,14 @@ import { SystemFlatList } from '../../themes/systemFlatList/SystemFlatList';
 
 const data = [
   {
-    id: '5f92cdce0cf217478ba93163',
+    id: '5f92cdce0cf217478ba931',
     username: 'johnSmithWithAReallyReallyLongNameSoLOng',
     avatarImageMediaAsset: {
       url: 'https://picsum.photos/id/237/200/300',
     },
   },
   {
-    id: '5f92cdce0cf217478ba93263',
+    id: '5f92cdce0cf217478',
     username: 'johnSmith',
     avatarImageMediaAsset: null,
   },
@@ -35,6 +34,20 @@ const data = [
   },
 ];
 
+const MyUserCardComponent = ({ item }: any) => {
+  const [isUserSelected, setIsUserSelected] = useState(false);
+
+  return (
+    <Box marginTop="m" width="100%" paddingLeft="s">
+      <UserCard
+        isUserSelected={isUserSelected}
+        onPress={() => setIsUserSelected(!isUserSelected)}
+        username={item.username}
+        avatarUrl={item.avatarImageMediaAsset?.url}
+      />
+    </Box>
+  );
+};
 storiesOf('Cards', module)
   .addDecorator(Story => Story())
   .add('Default user card', () => (
@@ -43,15 +56,7 @@ storiesOf('Cards', module)
         data={data}
         width="100%"
         keyExtractor={item => item.id}
-        renderItem={({ item }) => (
-          <Box marginTop="m" width="100%" paddingLeft="s">
-            <UserCard
-              onPress={action('On press fired')}
-              username={item.username}
-              avatarUrl={item.avatarImageMediaAsset?.url}
-            />
-          </Box>
-        )}
+        renderItem={({ item }) => <MyUserCardComponent item={item} />}
       />
     </Box>
   ))
