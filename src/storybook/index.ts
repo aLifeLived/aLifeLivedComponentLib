@@ -1,5 +1,5 @@
 // if you use expo remove this line
-import { AppRegistry } from 'react-native';
+import { AppRegistry, LogBox } from 'react-native';
 
 import {
   getStorybookUI,
@@ -18,6 +18,13 @@ addDecorator(ThemeDecorator);
 configure(() => {
   loadStories();
 }, module);
+
+// TO BE REMOVED WHEN WE UPDATE TO 0.69 REACT NATIVE
+LogBox.ignoreLogs([
+  'ViewPropTypes will be removed',
+  'ColorPropType will be removed',
+  'EventEmitter.removeListener',
+]);
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
 // To find allowed options for getStorybookUI
