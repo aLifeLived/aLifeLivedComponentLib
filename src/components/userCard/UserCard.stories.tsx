@@ -11,6 +11,7 @@ const data = [
   {
     id: '5f92cdce0cf217478ba931',
     username: 'johnSmithWithAReallyReallyLongNameSoLOng',
+    isUserSelected: true,
     avatarImageMediaAsset: {
       url: 'https://picsum.photos/id/237/200/300',
     },
@@ -18,11 +19,13 @@ const data = [
   {
     id: '5f92cdce0cf217478',
     username: 'johnSmith',
+    isUserSelected: false,
     avatarImageMediaAsset: null,
   },
   {
     id: '5f92cdce0cf217478ba93663',
     username: 'johnSmith',
+    isUserSelected: false,
     avatarImageMediaAsset: {
       url: 'https://picsum.photos/id/237/200/300',
     },
@@ -31,11 +34,12 @@ const data = [
     id: '5f92cdce0cf217478ba93561',
     username: 'johnSmith',
     avatarImageMediaAsset: null,
+    isUserSelected: true,
   },
 ];
 
 const MyUserCardComponent = ({ item }: any) => {
-  const [isUserSelected, setIsUserSelected] = useState(false);
+  const [isUserSelected, setIsUserSelected] = useState(item.isUserSelected);
 
   return (
     <Box marginTop="m" width="100%" paddingLeft="s">
