@@ -25,7 +25,7 @@ export const UserCard: React.FC<UserCardProps> = ({
 
   useEffect(
     () =>
-      isUserSelected
+      !isUserSelected
         ? lottieRef?.current?.play(100, 0)
         : lottieRef?.current?.play(0, 100),
     [isUserSelected]
