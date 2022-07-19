@@ -1,4 +1,4 @@
-import React, { useMemo, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Avatar } from '../avatar/Avatar';
 import { Box } from '../../themes/box/Box';
 import { SystemButton } from '../../themes/systemButton/SystemButton';
@@ -22,7 +22,8 @@ export const UserCard: React.FC<UserCardProps> = ({
   onPress,
 }) => {
   const lottieRef = useRef<AnimatedLottieView>(null);
-  useMemo(
+
+  useEffect(
     () =>
       isUserSelected
         ? lottieRef?.current?.play(100, 0)

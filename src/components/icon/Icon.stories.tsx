@@ -49,5 +49,7 @@ storiesOf('Icon', module)
       <Icon icon={['far', 'bookmark']} margin="s" />
       <Icon icon={['fas', 'bookmark']} margin="s" />
       <Icon icon="plus-circle" margin="s" color="primary" />
+      <Icon icon="globe-americas" margin="s" color="primary" />
+      <Icon icon="lock" margin="s" color="primary" />
     </>
   ));

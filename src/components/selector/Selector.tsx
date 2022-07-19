@@ -11,6 +11,7 @@ type SelectorContainerProps = {
   title: string;
   selectedValue: string[];
   selectedValuePlaceholderValue: string;
+  testID?: string;
 };
 
 export const Selector = ({
@@ -18,9 +19,10 @@ export const Selector = ({
   title,
   selectedValue,
   selectedValuePlaceholderValue,
+  testID,
 }: SelectorContainerProps) => {
   return (
-    <SystemButton onPress={() => onPress()}>
+    <SystemButton onPress={() => onPress()} testID={testID}>
       <Box
         flexDirection="row"
         justifyContent="space-between"
